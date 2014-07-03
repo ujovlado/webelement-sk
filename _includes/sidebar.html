@@ -1,0 +1,33 @@
+<div class="inner">
+
+    <div class="logo">
+        <a href="{{ '/' | prepend: site.baseurl }}" title="WebElement"><img src="{{ "/images/logo.png" | prepend: site.baseurl }}" alt="Logo"></a>
+    </div>
+
+    <form action="{{ '/vyhladavanie' | prepend: site.baseurl }}" method="get">
+        <input class="search" name="q" type="text">
+        <input value="Hľadaj" type="submit">
+    </form>
+
+    <ul class="main-menu">
+        <li><i class="fa fa-home"></i> <a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
+        <li><i class="fa fa-book"></i> <a href="{{ '/event' | prepend: site.baseurl }}">Prednášky</a></li>
+        <li><i class="fa fa-user"></i> <a href="{{ '/recnici' | prepend: site.baseurl }}">Rečníci</a></li>
+        <li><i class="fa fa-bullhorn"></i> <a href="{{ '/pod-prednasat' | prepend: site.baseurl  }}">Poď prednášať!</a></li>
+        <li><i class="fa fa-briefcase"></i> <a href="{{ '/praca' | prepend: site.baseurl }}">Práca</a></li>
+        <li><i class="fa fa-group"></i> <a href="{{ '/podobne-stretnutia' | prepend: site.baseurl }}">Podobné stretnutia</a></li>
+        <li><i class="fa fa-rss"></i> <a href="{{ '/feed/rss' | prepend: site.baseurl }}">RSS</a> </li>
+    </ul>
+
+    <h3>Sociálno</h3>
+
+    <ul class="menu social">
+        <li><i class="fa fa-twitter"></i> {{ site.links.twitter }}</li>
+        <li><i class="fa fa-facebook-square"></i> {{ site.links.facebook }}</li>
+        <li><i class="fa fa-calendar"></i> {{ site.links.meetup }}</li>
+        <li><i class="fa fa-github"></i> {{ site.links.github }}</li>
+        <li><i class="fa fa-youtube"></i> {{ site.links.youtube }}</li>
+        <li><i class="fa fa-flickr"></i> {{ site.links.flickr }}</li>
+    </ul>
+
+</div>

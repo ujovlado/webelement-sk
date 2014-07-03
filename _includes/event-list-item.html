@@ -1,0 +1,5 @@
+<li>
+  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  <span class="label gray">{{ post.date | date: "%d.%m.%Y" }}</span>
+  {% if post.hasVideo %}<span class="label red">VIDEO</span>{% endif %}
+</li>

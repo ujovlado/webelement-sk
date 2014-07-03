@@ -1,0 +1,28 @@
+
+title: WebElement
+email: kontakt@webelement.sk
+
+description: "Stretnutie web developerov v Bratislave a Prešove, prednášky, prezentácie"
+baseurl: ""
+url: "http://www.webelement.sk"
+
+links:
+  github: '<a href="https://github.com/webelement">Github</a>'
+  twitter: '<a href="https://twitter.com/webelement">Twitter</a>'
+  facebook: '<a href="https://facebook.com/groups/webelement">Facebook</a>'
+  youtube: '<a href="https://www.youtube.com/channel/UC7ytCGu5KVT7yq5tSMSqHow">Youtube</a>'
+  flickr: '<a href="https://www.flickr.com/groups/webelement">Flickr</a>'
+  meetup: '<a href="http://meetup.com/webelement/">Meetup</a>'
+
+timezone: "Europe/Bratislava"
+
+markdown: kramdown
+permalink: /event/:title/
+exclude:
+  - bower.json
+  - vendor/fontawesome/less
+  - vendor/fontawesome/scss
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
