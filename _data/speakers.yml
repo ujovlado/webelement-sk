@@ -129,6 +129,14 @@
   events:
     - 2014-01-10-webelement-3-presov
 
+- name: Michal Poremba
+  twitter:
+  id: michal-poremba
+  about:
+  image:
+  events:
+    - 2014-06-06-webelement-6-presov
+
 - name: Ondrej Svitek
   twitter: knizkar
   id: ondrej-svitek
