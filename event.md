@@ -2,6 +2,8 @@
 title: Prednášky
 permalink: /event/
 layout: page
+redirect_from:
+  - /archive/
 ---
 
 Zoznam všetkých prednášok, ktoré odzneli na WebElemente od novembra 2011.

@@ -2,6 +2,9 @@
 layout: page
 title: O webe, kontakt
 permalink: /o/
+redirect_from:
+  - /kontakt/
+  - /o-webelemente/
 ---
 
 Tento web vznikol spolu a akciou WebElement a primárne slúži ako úložisko odprezentovaných tém.
