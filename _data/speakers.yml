@@ -104,6 +104,14 @@
   events:
     - 2012-06-07-webelement-8
 
+- name: Martin Sústrik
+  twitter: sustrik
+  id: martin-sustrik
+  about: "Creator of ZeroMQ, now working on nanomsg"
+  image: /images/speakers/sustrik_normal.png
+  events:
+    - 2014-06-19-webelement-29
+
 - name: Matej Nemček
   twitter: yangwao
   id: matej-nemcek
