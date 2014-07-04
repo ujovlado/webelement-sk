@@ -4,7 +4,7 @@ email: kontakt@webelement.sk
 
 description: "Stretnutie web developerov v Bratislave a Prešove, prednášky, prezentácie"
 baseurl: ""
-url: "http://www.webelement.sk"
+url: "http://webelement.sk"
 
 links:
   github: '<a href="https://github.com/webelement">Github</a>'
