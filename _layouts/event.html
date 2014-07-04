@@ -22,14 +22,9 @@ layout: default
     {% assign escapedUrl = page.url | prepend: site.baseurl | prepend: site.url | url_escape %}
     {% assign escapedTitle = page.title | url_escape | replace: "#", "%23" %}
     Zdieľať na:
-    <i class="fa fa-twitter"></i>
-    <a href="https://twitter.com/intent/tweet?text={{ escapedTitle }}&url={{ escapedUrl }}&via=webelement" title="Zdieľaj na Twitter">Twitter</a>
-
-    <i class="fa fa-facebook"></i>
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ escapedUrl }}" title="Zdieľaj na Facebook">Facebook</a>
-
-    <i class="fa fa-google-plus"></i>
-    <a href="https://plus.google.com/share?url={{ escapedUrl }}"  title="Zdieľaj na Google+">Google+</a>
+    <a class="twitter" href="https://twitter.com/intent/tweet?text={{ escapedTitle }}&url={{ escapedUrl }}&via=webelement" title="Zdieľaj na Twitter"><i class="fa fa-twitter"></i> Twitter</a>
+    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ escapedUrl }}" title="Zdieľaj na Facebook"><i class="fa fa-facebook"></i> Facebook</a>
+    <a class="google-plus" href="https://plus.google.com/share?url={{ escapedUrl }}"  title="Zdieľaj na Google+"><i class="fa fa-google-plus"></i> Google+</a>
   </div>
 
   <div class="item event navigation">
