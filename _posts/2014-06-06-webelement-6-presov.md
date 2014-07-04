@@ -1,7 +1,7 @@
 ---
 title: "WebElement #6 Prešov: Michal Poremba - Optimalizácia servera a aplikácie pre veľký počet požiadaviek"
 layout: event
-hasVideo: true
+hasVideo: false
 facebookId: 816510788359328
 ---
 
