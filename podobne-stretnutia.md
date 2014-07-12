@@ -58,7 +58,7 @@ Pár odkazov na stretnutia podobného druhu v Bratislave.
 
         </td>
     </tr>
-    </table>
+</table>
 
 A tiež pár v Brne.
 
@@ -113,4 +113,4 @@ A tiež pár v Brne.
     </tr>
 </table>
 
-Robíš programátorské stretnutia a nie si v zozname? Napíš, pridáme.
+Robíš programátorské stretnutia a nie si v zozname? [Pridaj sa!](https://github.com/webelement/webelement.github.io/)
