@@ -4,6 +4,8 @@ layout: event
 hasVideo: true
 facebookId: 266667876805161
 meetupId: 133132902
+redirect_from:
+  - /e/22/
 ---
 
 
