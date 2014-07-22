@@ -183,6 +183,16 @@ p.counters {
     background-color: #dd4b39;
 }
 
+/*ad*/
+.ad {
+    width: 660px;
+    text-align: center;
+    margin: 0 0 1em;
+}
+.ad a {
+    background: transparent;
+}
+
 /*footer*/
 
 .footer {

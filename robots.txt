@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: /images/speakers/
 Disallow: /images/similar/
+Disallow: /images/ad/
 Disallow: /images/grid.png
 
 Sitemap: http://webelement.sk/sitemap.xml
