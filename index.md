@@ -1,9 +1,8 @@
 ---
 layout: page
 class: index
+title: WebElement
 ---
-
-# WebElement
 
 WebElement je pravidelné stretnutie ľudí zaujímajúcich sa o weby a technológie s webmi spojené.
 
