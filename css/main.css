@@ -238,3 +238,8 @@ span.label.red {
     background: transparent;
 }
 
+/* font awesome */
+
+.fa-2x {
+    font-size: 2em;
+}
