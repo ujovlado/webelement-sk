@@ -9,7 +9,7 @@ WebElement je pravidelné stretnutie ľudí zaujímajúcich sa o weby a technol�
 <table>
     <tr>
         <td class="about-icon">
-            <i class="fa fa-calendar fa-2x"></i><br>
+            <i class="fa icon-calendar fa-2x"></i><br>
             Kedy?
         </td>
         <td>
@@ -21,7 +21,7 @@ WebElement je pravidelné stretnutie ľudí zaujímajúcich sa o weby a technol�
     </tr>
     <tr>
         <td class="about-icon">
-            <i class="fa fa-map-marker fa-2x"></i><br>
+            <i class="fa icon-location fa-2x"></i><br>
             Kde?
         </td>
         <td>
@@ -33,7 +33,7 @@ WebElement je pravidelné stretnutie ľudí zaujímajúcich sa o weby a technol�
     </tr>
     <tr>
         <td class="about-icon">
-            <i class="fa fa-group fa-2x"></i><br>
+            <i class="fa icon-users fa-2x"></i><br>
             Kto?
         </td>
         <td>

@@ -238,3 +238,14 @@ span.label.red {
     background: transparent;
 }
 
+/* font awesome */
+
+.fa {
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-2x {
+    font-size: 2em;
+}

@@ -20,8 +20,6 @@ markdown: kramdown
 permalink: /event/:title/
 exclude:
   - bower.json
-  - vendor/fontawesome/less
-  - vendor/fontawesome/scss
   - README.md
 
 gems:

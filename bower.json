@@ -7,8 +7,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "fontawesome": "~4.1.0"
-  }
+  ]
 }
