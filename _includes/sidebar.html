@@ -14,7 +14,7 @@
         <li><i class="fa icon-book"></i> <a href="{{ '/event' | prepend: site.baseurl }}">Prednášky</a></li>
         <li><i class="fa icon-user"></i> <a href="{{ '/recnici' | prepend: site.baseurl }}">Rečníci</a></li>
         <li><i class="fa icon-megaphone"></i> <a href="{{ '/pod-prednasat' | prepend: site.baseurl  }}">Poď prednášať!</a></li>
-        <li><i class="fa icon-briefcase"></i> <a href="{{ '/praca' | prepend: site.baseurl }}">Práca</a></li>
+        <li><i class="fa icon-briefcase"></i> <a href="{{ '/praca' | prepend: site.baseurl }}">Práca{% if site.data.jobs %} ({{ site.data.jobs | size }}){% endif %}</a></li>
         <li><i class="fa icon-users"></i> <a href="{{ '/podobne-stretnutia' | prepend: site.baseurl }}">Podobné stretnutia</a></li>
         <li><i class="fa icon-rss"></i> <a href="{{ '/feed/rss' | prepend: site.baseurl }}">RSS</a> </li>
     </ul>
