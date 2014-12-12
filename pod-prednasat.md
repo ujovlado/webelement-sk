@@ -14,4 +14,4 @@ Poď prednášať, ak:
 Dojdi! Radi si ťa vypočujeme.
 
 Pridaj sa do Facebook skupiny, napíš e-mail alebo príď na pivo, dohodneme sa a môžeš prednášať kľudne
-na niektorom z nalsedujúcich stretnutí.
+na niektorom z nasledujúcich stretnutí.
