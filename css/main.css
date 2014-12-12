@@ -210,8 +210,9 @@ p.counters {
 span.label {
     font-size: .8em;
     text-transform: uppercase;
-    /*font-weight: 700;*/
+    font-weight: 400;
     padding: 0 .4em;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
 }
 span.label.gray {
     background-color: #eee;
