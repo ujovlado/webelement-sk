@@ -4,6 +4,7 @@
   about: "I like computers and opensource code. PHP developer at @sygicOfficial."
   image: /images/speakers/new_POPE-6PRpCNdY_normal.jpeg
   events:
+    - 2014-12-11-webelement-30
     - 2014-04-03-webelement-28
     - 2014-03-06-webelement-27
     - 2013-05-09-webelement-19-ba-adam-stipak-phpstorm
@@ -189,6 +190,14 @@ cinemaniac"
   events:
     - 2013-08-08-webelement-22-bratislava-peter-slivka-uvod-do-aws
 
+- name: Tibor Soviš
+  twitter: tiso
+  id: tibor-sovis
+  about: "sKoRo KRitiK"
+  image: /images/speakers/tiso-icq_normal.jpg
+  events:
+    - 2014-12-11-webelement-30
+
 - name: Tomáš Čorej
   twitter: tomas_corej
   id: tomas-corej
@@ -211,6 +220,7 @@ cinemaniac"
   about: "programátor, geek, troška blogér http://t.co/PdEYvqK5ME, typografia, CSS, @webelement, ..."
   image: /images/speakers/ujovlado-n1322130728_30169157_9465_normal.jpg
   events:
+    - 2014-12-11-webelement-30
     - 2014-02-06-webelement-26
     - 2013-10-17-webelement-24
     - 2013-02-07-webelement-16-ba-vladimir-kriska
