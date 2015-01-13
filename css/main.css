@@ -183,16 +183,6 @@ p.counters {
     background-color: #dd4b39;
 }
 
-.event .no-content {
-    height: 26em;
-    text-align: center;
-    color: #aaa;
-    font-style: italic;
-}
-.event .no-content p {
-    line-height: 26em;
-}
-
 /*ad*/
 .ad {
     width: 660px;
