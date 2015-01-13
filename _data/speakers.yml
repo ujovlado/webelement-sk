@@ -13,7 +13,7 @@
 - name: Andrej Had
   twitter: andrejhad
   id: andrej-had
-  about: ""
+  about:
   image: /images/speakers/andrejhad-8badaee47ee77e941a948d948a4f9d6a_normal.png
   events:
     - 2013-06-06-webelement-20-sygic-andrej-had-ondrej-svitek-git
@@ -21,7 +21,7 @@
 - name: Gregor Raýman
   twitter: gregor_rayman
   id: gregor-rayman
-  about: ""
+  about:
   image: /images/speakers/gregor_rayman-gregor-rayman_normal.jpg
   events:
     - 2013-10-17-webelement-24
@@ -60,6 +60,7 @@
   about: "Facilitator, brainstorming, like creativity, marketing, internet, e-commerce, new projects, fun, astronomy, vine, coffee, ghost movies and stories"
   image: /images/speakers/JozefVerbovsky-bbef619f5e1260751d3ea73154cb3d0e_normal.jpeg
   events:
+    - 2014-10-23-webelement-8-presov
     - 2014-01-10-webelement-3-presov
 
 - name: Lukáš Šabľa
@@ -79,6 +80,14 @@
     - 2013-09-05-webelement-23-marek-lichtner-hackovanie-dani-a-odvodov-pre-web-developerov
     - 2012-05-10-webelement-7
 
+- name: Marek Zapach
+  twitter:
+  id: marek-zapach
+  about:
+  image:
+  events:
+    - 2014-10-23-webelement-8-presov
+
 - name: Marián Gargalovič
   twitter: 
   id: marian-gargalovic
@@ -87,12 +96,21 @@
   events:
     - 2014-02-20-webelement-4-presov
 
+- name: Martin Krupa
+  twitter: martinkrupa
+  id: martin-krupa
+  about: "internet, web, ecommerce, usability, UX, UCD, IA, CMS, startup"
+  image: /images/speakers/krupa_avatar_normal.jpg
+  events:
+    - 2014-04-17-webelement-5-presov
+
 - name: Martin Rázus
   twitter: martinrazus
   id: martin-razus
   about: "Relentless optimist, web developer, trying to realize hundreds of ideas at one time"
   image: /images/speakers/martinrazus-twitter_normal.JPG
   events:
+    - 2014-08-14-webelement-7-presov
     - 2013-02-04-webelement-2-po-martin-razus
     - 2012-12-13-webelement-1-po-martin-razus
     - 2012-11-08-webelement-0-po-martin-razus-zend-framework-a-jeho-vyuzitie-v-praxi
@@ -100,7 +118,7 @@
 - name: Martin Strýček
   twitter: martin_strycek
   id: martin-strycek
-  about: ""
+  about:
   image: /images/speakers/martin_strycek-223149_10150237309840518_572300517_7973249_3239506_n_1__normal.jpg
   events:
     - 2012-06-07-webelement-8
@@ -125,7 +143,7 @@
 - name: Matúš Duchoň
   twitter: MatusDuchon
   id: matus-duchon
-  about: ""
+  about:
   image: /images/speakers/MatusDuchon-a182c889e858bf4ddf85eba960e52511_normal.jpeg
   events:
     - 2014-02-20-webelement-4-presov
@@ -146,10 +164,26 @@
   events:
     - 2014-06-06-webelement-6-presov
 
+- name: Miroslav Ďumbala
+  twitter:
+  id: miroslav-dumbala
+  about:
+  image:
+  events:
+    - 2014-08-14-webelement-7-presov
+
+- name: Miroslav Trnka
+  twitter:
+  id: miroslav-trnka
+  about:
+  image:
+  events:
+    - 2014-12-10-webelement-special-presov
+
 - name: Ondrej Svitek
   twitter: knizkar
   id: ondrej-svitek
-  about: ""
+  about:
   image: /images/speakers/knizkar-default_profile_6_normal.png
   events:
     - 2013-06-06-webelement-20-sygic-andrej-had-ondrej-svitek-git
@@ -201,7 +235,7 @@ cinemaniac"
 - name: Tomáš Čorej
   twitter: tomas_corej
   id: tomas-corej
-  about: ""
+  about:
   image: /images/speakers/tomas_corej-leme_normal.jpg
   events:
     - 2012-07-12-webelement-9

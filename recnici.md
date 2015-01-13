@@ -5,7 +5,7 @@ permalink: /recnici/
 class: speakers
 ---
 
-Vďaka patrí všetkým, čo boli prednášať! Info o rečníkoch je stiahnuté z ich Twitteru.
+Vďaka patrí všetkým, ktorí boli prednášať! Info o rečníkoch je stiahnuté z ich Twitteru.
 
 {% for speaker in site.data.speakers %}
 <div class="speaker">

@@ -221,6 +221,9 @@ span.label.red {
     background-color: #cc181e;
     color: #fff;
 }
+span.no-content {
+    color: #999;
+}
 
 
 .text-right {
