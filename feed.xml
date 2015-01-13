@@ -12,7 +12,8 @@ permalink: /feed/rss/index.xml
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:20 %}
+    {% if post.noContent != true %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
@@ -26,6 +27,7 @@ permalink: /feed/rss/index.xml
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
       </item>
+    {% endif %}
     {% endfor %}
   </channel>
 </rss>
