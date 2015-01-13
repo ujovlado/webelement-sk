@@ -71,6 +71,14 @@
   events:
     - 2013-01-10-webelement-15-lukas-sabla-vim
 
+- name: Marek Dlugoš
+  twitter:
+  id: marek-dlugos
+  about:
+  image:
+  events:
+    - 2014-08-14-webelement-7-presov
+
 - name: Marek Lichtner
   twitter: mareklichtner
   id: marek-lichtner
