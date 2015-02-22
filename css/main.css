@@ -2433,6 +2433,7 @@ a:focus {
   min-height: 25em;
 }
 .content .event .meta {
+  margin: 2em 0;
   text-align: center;
   text-transform: uppercase;
 }
