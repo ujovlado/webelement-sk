@@ -2,24 +2,36 @@
 <html>
 {% include head.html %}
 <body>
-<div class="page">
-
-  <div class="container">
-
-    {% include ad.html %}
-
-    <div class="content">
-      {{ content }}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="part header">
+        {% include header.html %}
+      </div>
+      <div class="part menu">
+      {% include menu.html %}
+      </div>
+      <div class="part content">
+        {{ content }}
+      </div>
+      <div class="part menu">
+        {% include menu.html %}
+      </div>
     </div>
-
-    <div class="sidebar">
-      {% include sidebar.html %}
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+      <div class="part search">
+        {% include search.html %}
+      </div>
     </div>
-
-    {% include footer.html %}
-
+    <div class="col-sm-12">
+      <div class="part social">
+        {% include social.html %}
+      </div>
+      <div class="part footer">
+        {% include footer.html %}
+      </div>
+    </div>
   </div>
-
 </div>
 {% include analytics.html %}
 </body>

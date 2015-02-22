@@ -1,10 +1,10 @@
 <li>
   {% if post.noContent == true %}
-  <span class="no-content">{{ post.title | replace_first: ':', '</strong>:' | prepend: '<strong>' }}</span>
-  <span class="label gray no-content">{{ post.date | date: "%d.%m.%Y" }}</span>
+  <span class="text-muted">{{ post.title | replace_first: ':', '</strong>:' | prepend: '<strong>' }}</span>
+  <span class="label label-date text-muted">{{ post.date | date: "%d.%m.%Y" }}</span>
   {% else %}
   <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | replace_first: ':', '</strong>:' | prepend: '<strong>' }}</a>
-  <span class="label gray">{{ post.date | date: "%d.%m.%Y" }}</span>
+  <span class="label label-date">{{ post.date | date: "%d.%m.%Y" }}</span>
   {% endif %}
-  {% if post.hasVideo %}<span class="label red">VIDEO</span>{% endif %}
+  {% if post.hasVideo %}<span class="label label-video">VIDEO</span>{% endif %}
 </li>

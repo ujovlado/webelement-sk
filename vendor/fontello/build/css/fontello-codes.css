@@ -3,13 +3,8 @@
 .icon-right-circled:before { content: '\e801'; } /* '' */
 .icon-left-circled:before { content: '\e802'; } /* '' */
 .icon-gplus:before { content: '\e803'; } /* '' */
-.icon-home:before { content: '\e804'; } /* '' */
-.icon-book:before { content: '\e805'; } /* '' */
-.icon-user:before { content: '\e806'; } /* '' */
+.icon-users:before { content: '\e804'; } /* '' */
 .icon-megaphone:before { content: '\e807'; } /* '' */
-.icon-briefcase:before { content: '\e808'; } /* '' */
-.icon-users:before { content: '\e809'; } /* '' */
-.icon-rss:before { content: '\e80a'; } /* '' */
 .icon-twitter:before { content: '\e80b'; } /* '' */
 .icon-facebook-squared:before { content: '\e80c'; } /* '' */
 .icon-calendar:before { content: '\e80d'; } /* '' */

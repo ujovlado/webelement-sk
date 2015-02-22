@@ -5,7 +5,9 @@ permalink: /podobne-stretnutia/
 class: similar-meetups
 ---
 
-Pár odkazov na stretnutia podobného druhu v Bratislave.
+Pár odkazov na stretnutia podobného druhu.
+
+V Bratislave:
 
 <table>
     <tr>
@@ -60,7 +62,7 @@ Pár odkazov na stretnutia podobného druhu v Bratislave.
     </tr>
 </table>
 
-A tiež pár v Brne.
+A tiež pár v Brne:
 
 <table>
     <tr>

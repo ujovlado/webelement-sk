@@ -11,7 +11,7 @@ Vďaka patrí všetkým, ktorí boli prednášať! Info o rečníkoch je stiahnu
 <div class="speaker">
 
 {% if speaker.image %}
-    <img src="{{ speaker.image | prepend: site.baseurl }}" alt="{{ speaker.name }}" />
+    <img src="{{ speaker.image | prepend: site.baseurl }}" alt="{{ speaker.name }}" class="img-circle">
 {% endif %}
 
 <h2 id="{{ speaker.id }}">{{ speaker.name }}</h2>
