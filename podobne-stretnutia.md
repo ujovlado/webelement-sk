@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Podobné stretnutia
+desc: Stretnutia podobného druhu na Slovensku a v Čechách
 permalink: /podobne-stretnutia/
 class: similar-meetups
 ---

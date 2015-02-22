@@ -1,6 +1,7 @@
 ---
 layout: page
 title: O webe, kontakt
+desc: O stránke WebElementu, kontaktné údaje
 permalink: /o/
 redirect_from:
   - /kontakt/

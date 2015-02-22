@@ -1,5 +1,6 @@
 ---
 title: Prednášky
+desc: Zoznam prednášok, ktoré boli na WebElemente
 permalink: /event/
 layout: page
 redirect_from:

@@ -1,5 +1,6 @@
 ---
 title: Rečníci
+desc: Ľudia, ktorí boli prednášať na WebElemente
 layout: page
 permalink: /recnici/
 class: speakers

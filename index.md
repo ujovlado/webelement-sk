@@ -1,7 +1,8 @@
 ---
 layout: page
 class: index
-title: WebElement
+title: WebElement - stretnutie web developerov
+desc: Stretnutie web developerov v Bratislave a Prešove, prednášky, prezentácie
 ---
 
 WebElement je pravidelné stretnutie ľudí zaujímajúcich sa o weby a technológie s webmi spojené.
