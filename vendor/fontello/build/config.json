@@ -7,20 +7,8 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
-      "css": "user",
-      "code": 59398,
-      "src": "fontawesome"
-    },
-    {
       "uid": "31972e4e9d080eaa796290349ae6c1fd",
       "css": "users",
-      "code": 59401,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "d7271d490b71df4311e32cdacae8b331",
-      "css": "home",
       "code": 59396,
       "src": "fontawesome"
     },
@@ -28,12 +16,6 @@
       "uid": "0d08dbb1dd648a43bdea81b7e6c9e036",
       "css": "location",
       "code": 59392,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "72b1277834cba5b7944b0a6cac7ddb0d",
-      "css": "rss",
-      "code": 59402,
       "src": "fontawesome"
     },
     {
@@ -52,18 +34,6 @@
       "uid": "19b04848ae7332d2c0ea2a9e19064037",
       "css": "right-circled",
       "code": 59393,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "053b757d97042e1c94276200c7b64b91",
-      "css": "briefcase",
-      "code": 59400,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "9755f76110ae4d12ac5f9466c9152031",
-      "css": "book",
-      "code": 59397,
       "src": "fontawesome"
     },
     {
