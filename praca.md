@@ -1,5 +1,6 @@
 ---
-title: Ponuka práce
+title: Práca
+desc: Pracovné ponuky
 layout: page
 permalink: /praca/
 ---
