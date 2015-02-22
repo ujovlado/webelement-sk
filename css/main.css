@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Roboto+Slab:400&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400&subset=latin,latin-ext);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -2486,7 +2486,6 @@ a:focus {
   margin-bottom: 0;
 }
 .content .speakers blockquote {
-  font-style: italic;
   margin-bottom: 0;
   margin-top: 1em;
 }
