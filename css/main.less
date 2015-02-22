@@ -121,7 +121,7 @@ p, ul li, table tr td {
   line-height: 1.5;
 }
 p {
-  margin-bottom: 1em;
+  margin: 1em 0;
 }
 ul {
   padding-left: 1.5em;
@@ -212,30 +212,39 @@ a {
     }
   }
   .index {
-    td.about-icon {
-      .text-center();
-      padding: 1em 1.5em 1em .5em;
+    table {
+      tr {
+        td.about-icon {
+          .text-center();
+          padding: 1em 1.5em 1em .5em;
+        }
+        td {
+          @media (max-width: @screen-xs-max) {
+            display: block;
+          }
+        }
+
+      }
     }
     p.counters {
       .text-center();
       font-size: 1.2em;
-      padding: 2em 0;
+      padding: 2em 1em;
       background-color: @webelement-bg-color;
     }
   }
   .similar-meetups {
-    img {
-      float: left;
-      width: 64px;
-      margin: 1em 1.5em 1.5em 0;
-    }
-    table {
-      margin-bottom: 1em;
-    }
-    table tr td {
-      vertical-align: top;
-      h3, p {
-        margin: .5em 0;
+    .meetup {
+      overflow: auto;
+      img {
+        width: 64px;
+        float: left;
+        margin: 1.5em 1.5em 1.5em 0;
+        @media (max-width: @screen-xs-max) {
+          width: 48px;
+          float: right;
+          margin: 1.5em 0 1.5em 1.5em;
+        }
       }
     }
   }

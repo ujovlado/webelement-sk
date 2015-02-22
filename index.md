@@ -51,9 +51,9 @@ Okrem toho sa koná **aj v Prešove**, kde sa komunitu snaží budovať [Martin 
 {% assign presentationsCount = presentationsCount | plus: events %}
 {% endfor %}
 
-Už <strong>{{ site.data.speakers | size }}</strong> rečníkov odprezentovalo
-<strong>{{ presentationsCount }}</strong> tém na
-<strong>{{ site.posts | size }}</strong> stretnutiach.
+Už <strong>{{ site.data.speakers | size }}</strong>&nbsp;rečníkov odprezentovalo
+<strong>{{ presentationsCount }}</strong>&nbsp;tém na
+<strong>{{ site.posts | size }}</strong>&nbsp;stretnutiach.
 {: .counters}
 
 ## Minulé stretnutia
