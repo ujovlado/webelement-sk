@@ -1,0 +1,9 @@
+<ul>
+    <li><a href="{{ '/' | prepend: site.baseurl }}">Úvod</a></li>
+    <li><a href="{{ '/event' | prepend: site.baseurl }}">Prednášky</a></li>
+    <li><a href="{{ '/recnici' | prepend: site.baseurl }}">Rečníci</a></li>
+    <li><a href="{{ '/pod-prednasat' | prepend: site.baseurl  }}">Poď prednášať!</a></li>
+    <li><a href="{{ '/praca' | prepend: site.baseurl }}">Práca{% if site.data.jobs %}&nbsp;({{ site.data.jobs | size }}){% endif %}</a></li>
+    <li><a href="{{ '/podobne-stretnutia' | prepend: site.baseurl }}">Podobné stretnutia</a></li>
+    <li><a href="{{ '/feed/rss' | prepend: site.baseurl }}">RSS</a></li>
+</ul>

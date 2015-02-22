@@ -1,0 +1,291 @@
+// Bootstrap path
+@BootstrapLessPath: "../vendor/bootstrap/less";
+
+// Core variables and mixins
+@import "@{BootstrapLessPath}/variables.less";
+@import "@{BootstrapLessPath}/mixins.less";
+
+// Reset and dependencies
+@import "@{BootstrapLessPath}/normalize.less";
+//@import "@{BootstrapLessPath}/print.less";
+//@import "@{BootstrapLessPath}/glyphicons.less";
+
+// Core CSS
+@import "@{BootstrapLessPath}/scaffolding.less";
+@import "@{BootstrapLessPath}/type.less";
+//@import "@{BootstrapLessPath}/code.less";
+@import "@{BootstrapLessPath}/grid.less";
+//@import "@{BootstrapLessPath}/tables.less";
+@import "@{BootstrapLessPath}/forms.less";
+@import "@{BootstrapLessPath}/buttons.less";
+
+// Components
+//@import "@{BootstrapLessPath}/component-animations.less";
+//@import "@{BootstrapLessPath}/dropdowns.less";
+//@import "@{BootstrapLessPath}/button-groups.less";
+//@import "@{BootstrapLessPath}/input-groups.less";
+//@import "@{BootstrapLessPath}/navs.less";
+//@import "@{BootstrapLessPath}/navbar.less";
+//@import "@{BootstrapLessPath}/breadcrumbs.less";
+//@import "@{BootstrapLessPath}/pagination.less";
+//@import "@{BootstrapLessPath}/pager.less";
+@import "@{BootstrapLessPath}/labels.less";
+//@import "@{BootstrapLessPath}/badges.less";
+//@import "@{BootstrapLessPath}/jumbotron.less";
+//@import "@{BootstrapLessPath}/thumbnails.less";
+//@import "@{BootstrapLessPath}/alerts.less";
+//@import "@{BootstrapLessPath}/progress-bars.less";
+//@import "@{BootstrapLessPath}/media.less";
+//@import "@{BootstrapLessPath}/list-group.less";
+//@import "@{BootstrapLessPath}/panels.less";
+//@import "@{BootstrapLessPath}/responsive-embed.less";
+//@import "@{BootstrapLessPath}/wells.less";
+//@import "@{BootstrapLessPath}/close.less";
+
+// Components w/ JavaScript
+//@import "@{BootstrapLessPath}/modals.less";
+//@import "@{BootstrapLessPath}/tooltip.less";
+//@import "@{BootstrapLessPath}/popovers.less";
+//@import "@{BootstrapLessPath}/carousel.less";
+
+// Utility classes
+@import "@{BootstrapLessPath}/utilities.less";
+//@import "@{BootstrapLessPath}/responsive-utilities.less";
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Roboto+Slab:400&subset=latin,latin-ext);
+
+@font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@font-family-serif: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+
+@webelement-color: #333;
+@webelement-bg-color: #eee;
+@webelement-video-label-color: #cc181e;
+
+.label {
+  font-weight: 400;
+  padding-bottom: .2em;
+  border-radius: 0;
+}
+
+.label-video {
+  .label-variant(@webelement-video-label-color);
+}
+
+.label-date {
+  .label-variant(@webelement-bg-color);
+  color: @webelement-color;
+}
+
+.text-center() {
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: @font-family-sans-serif;
+  background-image: url('../images/grid.png');
+  background-color: @webelement-bg-color;
+  color: @webelement-color;
+  font-size: @font-size-base;
+  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    font-size: @font-size-base + 1;
+  }
+  @media (min-width: @screen-md-min) {
+    font-size: @font-size-base + 2;
+  }
+}
+
+h1 {
+  .text-center();
+  margin: 1.5em 0 .5em;
+
+  font-size: 2em;
+  +p {
+    margin-bottom: 2em;
+  }
+}
+h2 {
+  font-size: 1.5em;
+  margin: 1em 0 .5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  font-family: @font-family-serif
+}
+
+p, ul li, table tr td {
+  line-height: 1.5;
+}
+p {
+  margin-bottom: 1em;
+}
+ul {
+  padding-left: 1.5em;
+}
+
+a {
+  padding: 0 1px;
+  text-decoration: underline;
+  &:hover, &:focus {
+    background-color: #23527c;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.container {
+  max-width: 970px;
+  background-color: #fff;
+  padding: 2em 0;
+}
+
+.part {
+  margin: 2em;
+  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    margin: 2em 4em;
+  }
+  @media (min-width: @screen-md-min) {
+    margin: 2em 6em;
+  }
+}
+
+.header {
+  .text-center();
+  a.logo {
+    padding: 0;
+    img {
+      height: 96px;
+    }
+  }
+}
+
+.menu {
+  .text-center;
+  padding: 2em 0;
+  border-top: thin solid @webelement-bg-color;
+  border-bottom: thin solid @webelement-bg-color;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    li {
+      display: inline;
+      font-size: 1.2em;
+      &:after {
+        content: " /";
+        color: #ddd;
+      }
+      &:last-child:after {
+        content: "";
+      }
+    }
+  }
+}
+
+.content {
+  padding-bottom: 2em;
+  min-height: 25em;
+  .event {
+    .meta {
+      .text-center();
+      text-transform: uppercase;
+    }
+    .share {
+      .text-center();
+      margin: 3em 0;
+      a {
+        text-decoration: none;
+      }
+    }
+    .navigation {
+      margin: 3em 0;
+    }
+    .speakerdeck {
+      .text-center();
+      margin: 0 auto;
+      max-width: 600px;
+    }
+  }
+  .index {
+    td.about-icon {
+      .text-center();
+      padding: 1em 1.5em 1em .5em;
+    }
+    p.counters {
+      .text-center();
+      font-size: 1.2em;
+      padding: 2em 0;
+      background-color: @webelement-bg-color;
+    }
+  }
+  .similar-meetups {
+    img {
+      float: left;
+      width: 64px;
+      margin: 1em 1.5em 1.5em 0;
+    }
+    table {
+      margin-bottom: 1em;
+    }
+    table tr td {
+      vertical-align: top;
+      h3, p {
+        margin: .5em 0;
+      }
+    }
+  }
+  .speakers {
+    h2 {
+      margin-bottom: 0;
+    }
+    blockquote {
+      font-style: italic;
+      margin-bottom: 0;
+      margin-top: 1em;
+    }
+    ul {
+      margin-top: 1em;
+    }
+    img {
+      width: 48px;
+      height: 48px;
+      float: left;
+      margin-right: 1em;
+    }
+  }
+}
+
+.search {
+  h4 {
+    .text-center();
+  }
+}
+
+.social ul {
+  .text-center();
+  padding: 0;
+  list-style-type: none;
+  li {
+    display: inline;
+    padding: 0 .25em;
+    font-size: 1.2em;
+  }
+}
+
+.footer {
+  text-align: center;
+}
+
+.fa {
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
