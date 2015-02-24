@@ -55,6 +55,14 @@
   events:
     - 2013-04-11-webelement-18-ba-jan-kmetko
 
+- name: Jerguš Lejko
+  twitter:
+  id: jergus-lejko
+  about:
+  image:
+  events:
+    - 2015-02-10-webelement-10-presov
+
 - name: Jozef Verbovský
   twitter: JozefVerbovsky
   id: jozef-verbovsky
