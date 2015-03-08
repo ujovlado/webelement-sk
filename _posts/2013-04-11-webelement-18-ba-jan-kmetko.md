@@ -6,6 +6,7 @@ facebookId: 433361840090311
 meetupId: 111716042
 redirect_from:
   - /e/18/
+  - /post/46662652628/webelement-18-bratislava/
 ---
 
 Návod ako sa vyznať v spleti NoSQL databáz a ako na základe strohých dostupných informácii predpovedať ich skutočné vlastnosti.
