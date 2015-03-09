@@ -27,7 +27,7 @@ If you don't want to install Ruby and related stuff, see attached `Dockerfile` a
 
 Alternatively, you can use existing Jekyll container [grahamc / jekyll](https://registry.hub.docker.com/u/grahamc/jekyll/).
 
-## Licence
+## License
 
 - code is licenced under MIT licence - see `LICENSE` file
 - slides content and descriptions are owned by speakers (or their creators)

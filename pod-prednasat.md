@@ -3,6 +3,8 @@ layout: page
 title: Poď prednášať!
 desc: Poď zdieľať vedomosti a skúsenosti alebo prezentovať svoj open-source projekt
 permalink: /pod-prednasat/
+redirect_from:
+  - /dotaznik/
 ---
 
 Poď prednášať, ak:

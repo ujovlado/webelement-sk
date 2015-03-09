@@ -21,6 +21,9 @@ permalink: /event/:title/
 exclude:
   - bower.json
   - README.md
+  - Dockerfile
+  - CNAME
+  - LICENSE
 
 gems:
   - jekyll-sitemap

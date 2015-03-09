@@ -6,6 +6,7 @@ facebookId: 195983660554245
 meetupId: 121610002
 redirect_from:
   - /e/20/
+  - /post/51564365305/webelement-20-sygic/
 ---
 
 
