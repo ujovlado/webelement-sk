@@ -33,6 +33,7 @@
   about: "Frontend webdeveloper using Mac, CoffeeScript, loving ZSH. Crafting AngularJS apps at @seges."
   image: /images/speakers/srigi-Screen-Shot-2011-09-12-at-8.50.54-AM-_blue__normal.png
   events:
+    - 2015-03-05-webelement-32
     - 2014-02-06-webelement-26
     - 2013-03-14-webelement-17-ba-peter-dulacka-igor-hlina
     - 2012-10-04-webelement-12-igor-hlina-nepoznane-funkcie-jquery
@@ -156,6 +157,14 @@
   events:
     - 2013-10-17-webelement-24
     - 2013-07-11-webelement-21-bratislava-matej-nemcek-d3-js-peter-sirka-partial-js
+
+- name: Matej Čapkovič
+  twitter: capkovic
+  id: matej-capkovic
+  about: "Developer @ WebSupport"
+  image: /images/speakers/Q5hgnREh_normal.jpeg
+  events:
+    - 2015-03-05-webelement-32
 
 - name: Matúš Duchoň
   twitter: MatusDuchon
