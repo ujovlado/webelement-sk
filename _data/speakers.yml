@@ -1,293 +1,212 @@
-- name: Adam Štipák
-  twitter: new_POPE
-  id: adam-stipak
-  about: "I like computers and opensource code. PHP developer at @sygicOfficial."
+- _id: adam-stipak
+  about: I like computers and opensource code. This is my blog. Co founder of http://t.co/IsSDAOx4XB.
+  events: [2015-02-11-webelement-31, 2014-12-11-webelement-30, 2014-04-03-webelement-28,
+    2014-03-06-webelement-27, 2013-05-09-webelement-19-ba-adam-stipak-phpstorm, 2012-12-06-webelement-14-ba-adam-stipak-vyvoj-one-page-app-s-angularjs]
   image: /images/speakers/new_POPE-6PRpCNdY_normal.jpeg
-  events:
-    - 2015-02-11-webelement-31
-    - 2014-12-11-webelement-30
-    - 2014-04-03-webelement-28
-    - 2014-03-06-webelement-27
-    - 2013-05-09-webelement-19-ba-adam-stipak-phpstorm
-    - 2012-12-06-webelement-14-ba-adam-stipak-vyvoj-one-page-app-s-angularjs
-
-- name: Andrej Had
-  twitter: andrejhad
-  id: andrej-had
-  about:
+  name: Adam Štipák
+  twitter: new_POPE
+- _id: andrej-had
+  about: ''
+  events: [2013-06-06-webelement-20-sygic-andrej-had-ondrej-svitek-git]
   image: /images/speakers/andrejhad-8badaee47ee77e941a948d948a4f9d6a_normal.png
-  events:
-    - 2013-06-06-webelement-20-sygic-andrej-had-ondrej-svitek-git
-
-- name: Gregor Raýman
-  twitter: gregor_rayman
-  id: gregor-rayman
-  about:
+  name: Andrej Had
+  twitter: andrejhad
+- _id: gregor-rayman
+  about: ''
+  events: [2013-10-17-webelement-24]
   image: /images/speakers/gregor_rayman-gregor-rayman_normal.jpg
-  events:
-    - 2013-10-17-webelement-24
-
-- name: Igor Hlina
-  twitter: srigi
-  id: igor-hlina
-  about: "Frontend webdeveloper using Mac, CoffeeScript, loving ZSH. Crafting AngularJS apps at @seges."
+  name: Gregor Raýman
+  twitter: gregor_rayman
+- _id: igor-hlina
+  about: Frontend webdeveloper, Mac evangelist, CoffeeScript & ZSH. Crafting AngularJS
+    apps at @phirational.
+  events: [2015-03-05-webelement-32, 2014-02-06-webelement-26, 2013-03-14-webelement-17-ba-peter-dulacka-igor-hlina,
+    2012-10-04-webelement-12-igor-hlina-nepoznane-funkcie-jquery, 2012-02-02-webelement-4,
+    2011-11-10-webelement-1]
   image: /images/speakers/srigi-Screen-Shot-2011-09-12-at-8.50.54-AM-_blue__normal.png
-  events:
-    - 2015-03-05-webelement-32
-    - 2014-02-06-webelement-26
-    - 2013-03-14-webelement-17-ba-peter-dulacka-igor-hlina
-    - 2012-10-04-webelement-12-igor-hlina-nepoznane-funkcie-jquery
-    - 2012-02-02-webelement-4
-    - 2011-11-10-webelement-1
-
-- name: Ján Antala
+  name: Igor Hlina
+  twitter: srigi
+- _id: jan-antala
+  about: JavaScript & Mobile, Innovation Engineer, Open Source contributor
+  events: [2013-12-05-webelement-25]
+  image: /images/speakers/janantala-AFLmU1_8_normal.jpeg
+  name: Ján Antala
   twitter: janantala
-  id: jan-antala
-  about: "Front end developer, Student at FIIT STU in Bratislava. Open Source contributor."
-  image: /images/speakers/janantala-whly7hhlc52c1phcl491_normal.jpeg
-  events:
-    - 2013-12-05-webelement-25
-
-- name: Ján Kmeťko
-  twitter: 
-  id: jan-kmetko
-  about:
-  image:
-  events:
-    - 2013-04-11-webelement-18-ba-jan-kmetko
-
-- name: Jerguš Lejko
+- _id: jan-kmetko
+  about: null
+  events: [2013-04-11-webelement-18-ba-jan-kmetko]
+  image: null
+  name: Ján Kmeťko
+  twitter: null
+- _id: jergus-lejko
+  about: ''
+  events: [2015-02-10-webelement-10-presov]
+  image: /images/speakers/Jergush-d2ef91d008a6a29235c9de406c8fa4d3_normal.jpeg
+  name: Jerguš Lejko
   twitter: Jergush
-  id: jergus-lejko
-  about:
-  image:
-  events:
-    - 2015-02-10-webelement-10-presov
-
-- name: Jozef Verbovský
+- _id: jozef-verbovsky
+  about: ''
+  events: [2014-10-23-webelement-8-presov, 2014-01-10-webelement-3-presov]
+  image: /images/speakers/JozefVerbovsky-3iiwhCKQ_normal.jpeg
+  name: Jozef Verbovský
   twitter: JozefVerbovsky
-  id: jozef-verbovsky
-  about: "Facilitator, brainstorming, like creativity, marketing, internet, e-commerce, new projects, fun, astronomy, vine, coffee, ghost movies and stories"
-  image: /images/speakers/JozefVerbovsky-bbef619f5e1260751d3ea73154cb3d0e_normal.jpeg
-  events:
-    - 2014-10-23-webelement-8-presov
-    - 2014-01-10-webelement-3-presov
-
-- name: Lukáš Šabľa
-  twitter: 
-  id: lukas-sabla
-  about: "Admin @ WebSupport"
-  image:
-  events:
-    - 2013-01-10-webelement-15-lukas-sabla-vim
-
-- name: Marek Dlugoš
-  twitter:
-  id: marek-dlugos
-  about:
-  image:
-  events:
-    - 2014-08-14-webelement-7-presov
-
-- name: Marek Lichtner
-  twitter: mareklichtner
-  id: marek-lichtner
-  about: "PHP and Angular.js developer, @FluentPDO, happy @ubuntu user.  Hobby advisor for tax and insurance optimization in crazy slovak legislation ;-)"
+- _id: lukas-sabla
+  about: Admin @ WebSupport
+  events: [2013-01-10-webelement-15-lukas-sabla-vim]
+  image: null
+  name: Lukáš Šabľa
+  twitter: null
+- _id: marek-dlugos
+  about: null
+  events: [2014-08-14-webelement-7-presov]
+  image: null
+  name: Marek Dlugoš
+  twitter: null
+- _id: marek-lichtner
+  about: nodejs, angular developer. I use coffeescript, jade, express, mocha, gulp.
+    In my prev php live I made @FluentPDO. And I like @ubuntu and open source also.
+  events: [2013-09-05-webelement-23-marek-lichtner-hackovanie-dani-a-odvodov-pre-web-developerov,
+    2012-05-10-webelement-7]
   image: /images/speakers/mareklichtner-me_normal.png
-  events:
-    - 2013-09-05-webelement-23-marek-lichtner-hackovanie-dani-a-odvodov-pre-web-developerov
-    - 2012-05-10-webelement-7
-
-- name: Marek Zapach
-  twitter:
-  id: marek-zapach
-  about:
-  image:
-  events:
-    - 2014-10-23-webelement-8-presov
-
-- name: Marián Gargalovič
-  twitter: 
-  id: marian-gargalovic
-  about:
-  image:
-  events:
-    - 2014-02-20-webelement-4-presov
-
-- name: Martin Krupa
+  name: Marek Lichtner
+  twitter: mareklichtner
+- _id: marek-zapach
+  about: null
+  events: [2014-10-23-webelement-8-presov]
+  image: null
+  name: Marek Zapach
+  twitter: null
+- _id: marian-gargalovic
+  about: null
+  events: [2014-02-20-webelement-4-presov]
+  image: null
+  name: Marián Gargalovič
+  twitter: null
+- _id: martin-krupa
+  about: internet, web, ecommerce, usability, UX, UCD, IA, CMS, startup
+  events: [2014-04-17-webelement-5-presov]
+  image: /images/speakers/martinkrupa-krupa_avatar_normal.jpg
+  name: Martin Krupa
   twitter: martinkrupa
-  id: martin-krupa
-  about: "internet, web, ecommerce, usability, UX, UCD, IA, CMS, startup"
-  image: /images/speakers/krupa_avatar_normal.jpg
-  events:
-    - 2014-04-17-webelement-5-presov
-
-- name: Martin Rázus
-  twitter: martinrazus
-  id: martin-razus
-  about: "Relentless optimist, web developer, trying to realize hundreds of ideas at one time"
+- _id: martin-razus
+  about: Relentless optimist, web developer, trying to realize hundreds of ideas at
+    one time
+  events: [2014-08-14-webelement-7-presov, 2013-02-04-webelement-2-po-martin-razus,
+    2012-12-13-webelement-1-po-martin-razus, 2012-11-08-webelement-0-po-martin-razus-zend-framework-a-jeho-vyuzitie-v-praxi]
   image: /images/speakers/martinrazus-twitter_normal.JPG
-  events:
-    - 2014-08-14-webelement-7-presov
-    - 2013-02-04-webelement-2-po-martin-razus
-    - 2012-12-13-webelement-1-po-martin-razus
-    - 2012-11-08-webelement-0-po-martin-razus-zend-framework-a-jeho-vyuzitie-v-praxi
-
-- name: Martin Strýček
-  twitter: martin_strycek
-  id: martin-strycek
-  about:
+  name: Martin Rázus
+  twitter: martinrazus
+- _id: martin-strycek
+  about: ''
+  events: [2012-06-07-webelement-8]
   image: /images/speakers/martin_strycek-223149_10150237309840518_572300517_7973249_3239506_n_1__normal.jpg
-  events:
-    - 2012-06-07-webelement-8
-
-- name: Martin Sústrik
+  name: Martin Strýček
+  twitter: martin_strycek
+- _id: martin-sustrik
+  about: Creator of ZeroMQ, working on nanomsg and ribosome
+  events: [2014-06-19-webelement-29]
+  image: /images/speakers/sustrik-sustrik_normal.png
+  name: Martin Sústrik
   twitter: sustrik
-  id: martin-sustrik
-  about: "Creator of ZeroMQ, now working on nanomsg"
-  image: /images/speakers/sustrik_normal.png
-  events:
-    - 2014-06-19-webelement-29
-
-- name: Matej Nemček
-  twitter: yangwao
-  id: matej-nemcek
-  about: "devops.js @geefunet, autodidact webdev, hackerspace @Progressbarsk, B1tc0in-lov3r, Cypherpunk, psychotronic"
+- _id: matej-nemcek
+  about: devops.js @AktivioCRM, autodidact webdev, hackerspace @Progressbarsk, B1tc0in-lov3r,
+    cypherpunk, psychotronic
+  events: [2013-10-17-webelement-24, 2013-07-11-webelement-21-bratislava-matej-nemcek-d3-js-peter-sirka-partial-js]
   image: /images/speakers/yangwao-83f7f811dc71f5dc1954ba0a2ec837e2_normal.jpeg
-  events:
-    - 2013-10-17-webelement-24
-    - 2013-07-11-webelement-21-bratislava-matej-nemcek-d3-js-peter-sirka-partial-js
-
-- name: Matej Čapkovič
+  name: Matej Nemček
+  twitter: yangwao
+- _id: matej-capkovic
+  about: Developer @ WebSupport
+  events: [2015-03-05-webelement-32]
+  image: /images/speakers/capkovic-Q5hgnREh_normal.jpeg
+  name: Matej Čapkovič
   twitter: capkovic
-  id: matej-capkovic
-  about: "Developer @ WebSupport"
-  image: /images/speakers/Q5hgnREh_normal.jpeg
-  events:
-    - 2015-03-05-webelement-32
-
-- name: Matúš Duchoň
-  twitter: MatusDuchon
-  id: matus-duchon
-  about:
+- _id: matus-duchon
+  about: ''
+  events: [2014-02-20-webelement-4-presov]
   image: /images/speakers/MatusDuchon-a182c889e858bf4ddf85eba960e52511_normal.jpeg
-  events:
-    - 2014-02-20-webelement-4-presov
-
-- name: Milan Kurečko
-  twitter: 
-  id: milan-kurecko
-  about:
-  image:
-  events:
-    - 2014-01-10-webelement-3-presov
-
-- name: Michal Poremba
-  twitter:
-  id: michal-poremba
-  about:
-  image:
-  events:
-    - 2014-06-06-webelement-6-presov
-
-- name: Miroslav Ďumbala
-  twitter:
-  id: miroslav-dumbala
-  about:
-  image:
-  events:
-    - 2014-08-14-webelement-7-presov
-
-- name: Miroslav Trnka
-  twitter:
-  id: miroslav-trnka
-  about:
-  image:
-  events:
-    - 2014-12-10-webelement-special-presov
-
-- name: Ondrej Svitek
-  twitter: knizkar
-  id: ondrej-svitek
-  about:
+  name: Matúš Duchoň
+  twitter: MatusDuchon
+- _id: milan-kurecko
+  about: null
+  events: [2014-01-10-webelement-3-presov]
+  image: null
+  name: Milan Kurečko
+  twitter: null
+- _id: michal-poremba
+  about: null
+  events: [2014-06-06-webelement-6-presov]
+  image: null
+  name: Michal Poremba
+  twitter: null
+- _id: miroslav-dumbala
+  about: null
+  events: [2014-08-14-webelement-7-presov]
+  image: null
+  name: Miroslav Ďumbala
+  twitter: null
+- _id: miroslav-trnka
+  about: null
+  events: [2014-12-10-webelement-special-presov]
+  image: null
+  name: Miroslav Trnka
+  twitter: null
+- _id: ondrej-svitek
+  about: ''
+  events: [2013-06-06-webelement-20-sygic-andrej-had-ondrej-svitek-git]
   image: /images/speakers/knizkar-default_profile_6_normal.png
-  events:
-    - 2013-06-06-webelement-20-sygic-andrej-had-ondrej-svitek-git
-
-- name: Peter Dulačka
-  twitter: rootpd
-  id: peter-dulacka
-  about: "PHP developer @ Piano Media • FIIT STU student • 
-SubtitleNET creator • PeWe@FIIT member • 
-cinemaniac"
+  name: Ondrej Svitek
+  twitter: knizkar
+- _id: peter-dulacka
+  about: "PHP developer @ Piano Media • \nWoodstock.FM, SubtitleNET • cinemaniac"
+  events: [2015-02-11-webelement-31, 2013-03-14-webelement-17-ba-peter-dulacka-igor-hlina]
   image: /images/speakers/rootpd-scr_normal.png
-  events:
-    - 2015-02-11-webelement-31
-    - 2013-03-14-webelement-17-ba-peter-dulacka-igor-hlina
-
-- name: Peter Šimún
-  twitter: petersimun
-  id: peter-simun
-  about: "Entrepreneur, cofounder of @seges and @synapso, interested in UI/UX, tech and startups. Oh, did I mention that I love beer?"
+  name: Peter Dulačka
+  twitter: rootpd
+- _id: peter-simun
+  about: Entrepreneur, cofounder of @seges and @thesitehero, interested in UI/UX,
+    tech and startups. Oh, did I mention that I love beer?
+  events: [2012-08-09-webelement-10, 2012-03-08-webelement-5, 2012-01-12-webelement-3]
   image: /images/speakers/petersimun-DSC_0372_small_normal.png
-  events:
-    - 2012-08-09-webelement-10
-    - 2012-03-08-webelement-5
-    - 2012-01-12-webelement-3
-
-- name: Peter Širka
-  twitter: petersirka
-  id: peter-sirka
-  about: "ASP.MVC / node.js / total.js"
+  name: Peter Šimún
+  twitter: petersimun
+- _id: peter-sirka
+  about: The best ever framework for node.js is total.js.
+  events: [2013-07-11-webelement-21-bratislava-matej-nemcek-d3-js-peter-sirka-partial-js]
   image: /images/speakers/petersirka-ja_normal.jpg
-  events:
-    - 2013-07-11-webelement-21-bratislava-matej-nemcek-d3-js-peter-sirka-partial-js
-
-- name: Peter Slivka
-  twitter: peterslivka
-  id: peter-slivka
-  about: "Passionate webdeveloper of @slidoapp, co-founder of @instando"
+  name: Peter Širka
+  twitter: petersirka
+- _id: peter-slivka
+  about: Passionate webdeveloper of @slidoapp, co-founder of @instando
+  events: [2013-08-08-webelement-22-bratislava-peter-slivka-uvod-do-aws]
   image: /images/speakers/peterslivka-b953b7835b214b106e705098a39e47de_normal.jpeg
-  events:
-    - 2013-08-08-webelement-22-bratislava-peter-slivka-uvod-do-aws
-
-- name: Tibor Soviš
+  name: Peter Slivka
+  twitter: peterslivka
+- _id: tibor-sovis
+  about: sKoRo KRitiK
+  events: [2014-12-11-webelement-30]
+  image: /images/speakers/tiso-tiso-icq_normal.jpg
+  name: Tibor Soviš
   twitter: tiso
-  id: tibor-sovis
-  about: "sKoRo KRitiK"
-  image: /images/speakers/tiso-icq_normal.jpg
-  events:
-    - 2014-12-11-webelement-30
-
-- name: Tomáš Čorej
-  twitter: tomas_corej
-  id: tomas-corej
-  about:
+- _id: tomas-corej
+  about: ''
+  events: [2012-07-12-webelement-9]
   image: /images/speakers/tomas_corej-leme_normal.jpg
-  events:
-    - 2012-07-12-webelement-9
-
-- name: Tomáš Kulich
-  twitter: 
-  id: tomas-kulich
-  about:
-  image:
-  events:
-    - 2014-03-06-webelement-27
-
-- name: Vladimír Kriška
+  name: Tomáš Čorej
+  twitter: tomas_corej
+- _id: tomas-kulich
+  about: null
+  events: [2014-03-06-webelement-27]
+  image: null
+  name: Tomáš Kulich
+  twitter: null
+- _id: vladimir-kriska
+  about: "programmer, geek, blogger, speaker;\r\nLinux, CSS & typography lover;\r\n\
+    @webelement meetup, @rekurzia"
+  events: [2014-12-11-webelement-30, 2014-02-06-webelement-26, 2013-10-17-webelement-24,
+    2013-02-07-webelement-16-ba-vladimir-kriska, 2012-11-08-webelement-13-ba-vladimir-kriska-prejdite-na-dvcs,
+    2012-09-06-webelement-11-testovanie-web-aplikacii-s-casperjs, 2012-04-12-webelement-6,
+    2012-02-02-webelement-4, 2011-12-08-webelement-2]
+  image: /images/speakers/ujovlado-xKQSGIQk_normal.jpeg
+  name: Vladimír Kriška
   twitter: ujovlado
-  id: vladimir-kriska
-  about: "programátor, geek, troška blogér http://t.co/PdEYvqK5ME, typografia, CSS, @webelement, ..."
-  image: /images/speakers/ujovlado-n1322130728_30169157_9465_normal.jpg
-  events:
-    - 2014-12-11-webelement-30
-    - 2014-02-06-webelement-26
-    - 2013-10-17-webelement-24
-    - 2013-02-07-webelement-16-ba-vladimir-kriska
-    - 2012-11-08-webelement-13-ba-vladimir-kriska-prejdite-na-dvcs
-    - 2012-09-06-webelement-11-testovanie-web-aplikacii-s-casperjs
-    - 2012-04-12-webelement-6
-    - 2012-02-02-webelement-4
-    - 2011-12-08-webelement-2
-
