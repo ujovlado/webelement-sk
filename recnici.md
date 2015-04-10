@@ -15,7 +15,7 @@ Vďaka patrí všetkým, ktorí boli prednášať! Info o rečníkoch je stiahnu
     <img src="{{ speaker.image | prepend: site.baseurl }}" alt="{{ speaker.name }}" class="img-circle">
 {% endif %}
 
-<h2 id="{{ speaker.id }}">{{ speaker.name }}</h2>
+<h2 id="{{ speaker._id }}">{{ speaker.name }}</h2>
 
 {% if speaker.twitter %}
     <p>
@@ -23,7 +23,7 @@ Vďaka patrí všetkým, ktorí boli prednášať! Info o rečníkoch je stiahnu
     </p>
 {% endif %}
 
-{% if speaker.about %}
+{% if speaker.about and speaker.about != '' %}
     <blockquote class="text-muted">{{ speaker.about }}</blockquote>
 {% endif %}
 

@@ -24,6 +24,8 @@ exclude:
   - Dockerfile
   - CNAME
   - LICENSE
+  - twitter-secrets.yml
+  - speakers.py
 
 gems:
   - jekyll-sitemap
