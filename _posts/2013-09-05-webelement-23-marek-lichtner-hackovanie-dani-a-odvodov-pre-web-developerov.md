@@ -1,5 +1,5 @@
 ---
-title: "WebElement #23: Marek Lichtner - Hackovanie daní a odvodov pre web developerov"
+title: "WebElement #23 @ ProgressBar: Marek Lichtner - Hackovanie daní a odvodov pre web developerov"
 layout: event
 hasVideo: false
 facebookId: 404600806318530
