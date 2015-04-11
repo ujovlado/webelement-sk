@@ -26,6 +26,12 @@
   image: /images/speakers/srigi-Screen-Shot-2011-09-12-at-8.50.54-AM-_blue__normal.png
   name: Igor Hlina
   twitter: srigi
+- _id: igor-rjabinin
+  about: ''
+  events: [2015-04-09-webelement-33]
+  image: /images/speakers/igor_kamil-5666667262_1a2cd12ddb_b_normal.jpg
+  name: Igor Rjabinin
+  twitter: igor_kamil
 - _id: jan-antala
   about: JavaScript & Mobile, Innovation Engineer, Open Source contributor
   events: [2013-12-05-webelement-25]
