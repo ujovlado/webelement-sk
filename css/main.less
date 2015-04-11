@@ -7,52 +7,19 @@
 
 // Reset and dependencies
 @import "@{BootstrapLessPath}/normalize.less";
-//@import "@{BootstrapLessPath}/print.less";
-//@import "@{BootstrapLessPath}/glyphicons.less";
 
 // Core CSS
 @import "@{BootstrapLessPath}/scaffolding.less";
 @import "@{BootstrapLessPath}/type.less";
-//@import "@{BootstrapLessPath}/code.less";
 @import "@{BootstrapLessPath}/grid.less";
-//@import "@{BootstrapLessPath}/tables.less";
 @import "@{BootstrapLessPath}/forms.less";
 @import "@{BootstrapLessPath}/buttons.less";
 
 // Components
-//@import "@{BootstrapLessPath}/component-animations.less";
-//@import "@{BootstrapLessPath}/dropdowns.less";
-//@import "@{BootstrapLessPath}/button-groups.less";
-//@import "@{BootstrapLessPath}/input-groups.less";
-//@import "@{BootstrapLessPath}/navs.less";
-//@import "@{BootstrapLessPath}/navbar.less";
-//@import "@{BootstrapLessPath}/breadcrumbs.less";
-//@import "@{BootstrapLessPath}/pagination.less";
-//@import "@{BootstrapLessPath}/pager.less";
 @import "@{BootstrapLessPath}/labels.less";
-//@import "@{BootstrapLessPath}/badges.less";
-//@import "@{BootstrapLessPath}/jumbotron.less";
-//@import "@{BootstrapLessPath}/thumbnails.less";
-//@import "@{BootstrapLessPath}/alerts.less";
-//@import "@{BootstrapLessPath}/progress-bars.less";
-//@import "@{BootstrapLessPath}/media.less";
-//@import "@{BootstrapLessPath}/list-group.less";
-//@import "@{BootstrapLessPath}/panels.less";
-//@import "@{BootstrapLessPath}/responsive-embed.less";
-//@import "@{BootstrapLessPath}/wells.less";
-//@import "@{BootstrapLessPath}/close.less";
-
-// Components w/ JavaScript
-//@import "@{BootstrapLessPath}/modals.less";
-//@import "@{BootstrapLessPath}/tooltip.less";
-//@import "@{BootstrapLessPath}/popovers.less";
-//@import "@{BootstrapLessPath}/carousel.less";
 
 // Utility classes
 @import "@{BootstrapLessPath}/utilities.less";
-//@import "@{BootstrapLessPath}/responsive-utilities.less";
-
-
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400&subset=latin,latin-ext);
 
@@ -101,7 +68,6 @@ body {
 h1 {
   .text-center();
   margin: 1.5em 0 .5em;
-
   font-size: 2em;
   +p {
     margin-bottom: 2em;
@@ -214,16 +180,15 @@ a {
   .index {
     table {
       tr {
-        td.about-icon {
-          .text-center();
-          padding: 1em 1.5em 1em .5em;
-        }
         td {
           @media (max-width: @screen-xs-max) {
             display: block;
           }
+          &.about-icon {
+            .text-center();
+              padding: 1em 1.5em 1em .5em;
+          }
         }
-
       }
     }
     p.counters {
@@ -250,7 +215,11 @@ a {
   }
   .speakers {
     h2 {
+      margin-top: 2em;
       margin-bottom: 0;
+      +p {
+        margin-top: 0;
+      }
     }
     blockquote {
       margin-bottom: 0;
