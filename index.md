@@ -60,7 +60,7 @@ Už <strong>{{ site.data.speakers | size }}</strong>&nbsp;rečníkov odprezentov
 ## Minulé stretnutia
 
 <ul class="posts">
-    {% for post in site.posts | limit: 10 %}
+    {% for post in site.posts | limit: 15 %}
         {% include event-list-item.html post=post %}
     {% endfor %}
 </ul>
