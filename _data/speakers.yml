@@ -82,6 +82,12 @@
   image: null
   name: Marek Zapach
   twitter: null
+- _id: marian-bodnarik
+  about: null
+  events: [2015-03-10-webelement-11-presov]
+  image: null
+  name: Marián Bodnárik
+  twitter: null
 - _id: marian-gargalovic
   about: null
   events: [2014-02-20-webelement-4-presov]
