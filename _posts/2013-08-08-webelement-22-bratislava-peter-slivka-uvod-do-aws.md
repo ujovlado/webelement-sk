@@ -17,4 +17,4 @@ Peťo tiež ukázal výhody AWS a ako začať step-by-step nastavovať AWS tak, 
 
 {% include youtube.html id="kA0FE_j1rPo" %}
 
-{% include slideshare.html id="25393447" %}
+- {% include ext-link.html href="http://www.slideshare.net/webelement/webelement-22-peter-slivka-vod-do-aws" %}

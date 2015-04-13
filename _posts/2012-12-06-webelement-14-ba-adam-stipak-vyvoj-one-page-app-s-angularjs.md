@@ -10,8 +10,6 @@ Príde čas kedy už jQuery (a jeho alternatívy) nepostačuje a je treba siahn�
 
 Na prednáške ste sa mohli dozvedieť ako Adam s AngularJS začal a prečo je s ním spokojný.
 
-prezentácia: [http://webelement.newpope.org](http://webelement.newpope.org)
-
-aplikácia: [http://webelement.newpope.org/demo](http://webelement.newpope.org/demo)
-
 {% include slideshare.html id="15530563" %}
+
+- {% include ext-link.html href="http://webelement.newpope.org" %}

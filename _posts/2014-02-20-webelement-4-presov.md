@@ -5,12 +5,15 @@ hasVideo: true
 facebookId: 459015060891961
 ---
 
+## Chrome Apps
 
 O možnostiach a vlastných skúsenostiach s tvorbou Chrome aplikácií.
 
 {% include youtube.html id="mCsBJOJL6ZQ" %}
 
-{% include speakerdeck.html id="1fd1b2908ce8013162b95e7a2e8ee0d7" %}
+- {% include ext-link.html href="https://speakerdeck.com/webelement/matus-duchon-chrome-apps-webelement-number-4-presov" %}
+
+## Procesy v našej softwarovej firme
 
 Ako fungujú procesy v našej softwarovej firme. Aké používame tooly, ako funguje interná komunikácia, komunikácia s klientom atď.
 

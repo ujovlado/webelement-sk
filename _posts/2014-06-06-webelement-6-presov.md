@@ -8,4 +8,4 @@ facebookId: 816510788359328
 [![úvodný slide]({{ '/images/events/presov-6.png' | prepend: site.baseurl }})](http://temp.nolimit.sk/miso/webelement-po-6/)
 {: .text-center }
 
-Komplet slajdy na stiahnutie: [http://temp.nolimit.sk/miso/webelement-po-6/download.zip](http://temp.nolimit.sk/miso/webelement-po-6/download.zip).
+- {% include ext-link.html href="http://temp.nolimit.sk/miso/webelement-po-6/download.zip" %}
