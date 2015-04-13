@@ -2461,6 +2461,9 @@ a:focus {
   margin: 0 auto;
   max-width: 600px;
 }
+.content .event ul {
+  margin-top: 1em;
+}
 @media (max-width: 767px) {
   .content .index table tr td {
     display: block;
