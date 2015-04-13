@@ -6,6 +6,7 @@ facebookId: 569520879753523
 meetupId: 128568822
 ---
 
+## D3.js
 
 Matej Nemček prišiel predstaviť D3.js
 
@@ -13,11 +14,10 @@ D3.js alebo tiež Data Driven Documents je dnes veľmi populárnou knižnicou na
 
 No hlavne slúži na "premenu" dát resp. informácií na dokumenty. Na veľmi pekné dokumenty.
 
-Prezentácia: [http://syx.sk/matej/visualstory/](http://syx.sk/matej/visualstory/).
-
 {% include youtube.html id="CJVJU6x4daw" %}
 
-<p style="text-align: center;">
-<a href="http://prezentacia.partialjs.com/">prezentacia.partialjs.com</a>
-</p>
+- {% include ext-link.html href="http://syx.sk/matej/visualstory/" %}
 
+## Praktické skúsenosti s node.js & partial.js
+
+- {% include ext-link.html href="http://prezentacia.partialjs.com/" %}

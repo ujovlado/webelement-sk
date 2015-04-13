@@ -14,7 +14,6 @@ Tentokrát predstavil užitočné, no málo využívané funkcie knižnice jQuer
 
 Podarilo sa nám akciu dôkladne zaznamenať, a tak si môžete pozrieť Live slajdy z prednášky, fotky (v grupe na FB) a videozáznam.
 
-Live slajdy nájdete na <a href="http://sc.webelement.sk/we12">http://sc.webelement.sk/we12</a>
-
 {% include youtube.html id="VowKrVa6o0k" %}
 
+- {% include ext-link.html href="http://sc.webelement.sk/we12" %}

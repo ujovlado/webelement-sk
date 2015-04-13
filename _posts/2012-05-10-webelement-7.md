@@ -11,7 +11,7 @@ facebookId: 235590076540645
 - Predstavenie nového nástroja, ktorý rieši nedostatky NotORM.
 - Ako na rýchle prototypovanie aplikácií v Nette.
 
-Spomínaná knižnica FluentPDO je dostupná na <a href="http://fluentpdo.com">fluentpdo.com</a>. Príklad v Nette (fluentpdo, notorm aj
-s panelmi): <a href="https://github.com/lichtner/fluentpdo-nette-sandbox">https://github.com/lichtner/fluentpdo-nette-sandbox</a>.
-
 {% include slideshare.html id="13023043" %}
+
+- {% include ext-link.html href="http://fluentpdo.com" %}
+- {% include ext-link.html href="https://github.com/lichtner/fluentpdo-nette-sandbox" %}

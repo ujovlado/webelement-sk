@@ -9,13 +9,21 @@ redirect_from:
   - /post/51564365305/webelement-20-sygic/
 ---
 
+## Úvod do Gitu
 
-Prezentácia: [http://prezi.com/zg--oq2yiwub/git/](http://prezi.com/zg--oq2yiwub/git/)
+<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="550" height="400" src="https://prezi.com/embed/zg--oq2yiwub/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0#"></iframe>
+
+- {% include ext-link.html href="http://prezi.com/zg--oq2yiwub/git/" %}
+
+
+## Migrácia SVN do Gitu
 
 {% include youtube.html id="UogF8pr4wkc" %}
 
-Prezentácia: [http://sc.webelement.sk/we20/andrej](http://sc.webelement.sk/we20/andrej).
+- {% include ext-link.html href="http://sc.webelement.sk/we20/andrej" %}
 
+
+## Hacking life with Git
 
 A Ondrejove vychytávky.
 
