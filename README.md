@@ -22,8 +22,13 @@ To run it locally, just clone it and run `jekyll` command:
 
 If you don't want to install Ruby and related stuff, see attached `Dockerfile` and run:
 
-    $ sudo docker build -t YOUR_NAME/webelement .
-    $ sudo docker run -i -t --rm -v "$PWD:/jekyll" -w /jekyll -p 4000:4000 YOUR_NAME/webelement:latest jekyll serve --watch -H 0.0.0.0
+    $ docker build -t webelement/website .
+    $ docker run -i -t --rm -v "$PWD:/jekyll" -w /jekyll -p 4000:4000 webelement/website:latest jekyll serve --watch -H 0.0.0.0
+
+There are also shortcut scripts:
+
+    $ ./docker-build.sh
+    $ ./docker-run.sh
 
 Alternatively, you can use existing Jekyll container [grahamc / jekyll](https://registry.hub.docker.com/u/grahamc/jekyll/).
 
