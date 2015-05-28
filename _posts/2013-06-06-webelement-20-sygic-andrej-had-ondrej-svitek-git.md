@@ -11,7 +11,7 @@ redirect_from:
 
 ## Úvod do Gitu
 
-<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="550" height="400" src="https://prezi.com/embed/zg--oq2yiwub/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0#"></iframe>
+{% include prezi.html id="zg--oq2yiwub" %}
 
 - {% include ext-link.html href="http://prezi.com/zg--oq2yiwub/git/" %}
 

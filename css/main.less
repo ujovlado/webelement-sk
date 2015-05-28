@@ -17,6 +17,7 @@
 
 // Components
 @import "@{BootstrapLessPath}/labels.less";
+@import "@{BootstrapLessPath}/responsive-embed.less";
 
 // Utility classes
 @import "@{BootstrapLessPath}/utilities.less";
@@ -166,6 +167,9 @@ a {
       margin: 3em 0;
       a {
         text-decoration: none;
+        &.btn {
+          margin-bottom: .25em;
+        }
       }
     }
     .navigation {
@@ -175,6 +179,9 @@ a {
       .text-center();
       margin: 0 auto;
       max-width: 600px;
+    }
+    .embed {
+      max-width: 640px;
     }
     ul {
       margin-top: 1em;
