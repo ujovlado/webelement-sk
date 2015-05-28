@@ -18,10 +18,12 @@ layout: default
   <div class="share">
     {% assign escapedUrl = page.url | prepend: site.baseurl | prepend: site.url | url_escape %}
     {% assign escapedTitle = page.title | url_escape | replace: "#", "%23" %}
-    Zdieľať na:
-    <a class="btn btn-default" href="https://twitter.com/intent/tweet?text={{ escapedTitle }}&url={{ escapedUrl }}&via=webelement" title="Zdieľaj na Twitter"><i class="fa icon-twitter"></i> Twitter</a>
-    <a class="btn btn-default" href="https://www.facebook.com/sharer/sharer.php?u={{ escapedUrl }}" title="Zdieľaj na Facebook"><i class="fa icon-facebook-squared"></i> Facebook</a>
-    <a class="btn btn-default" href="https://plus.google.com/share?url={{ escapedUrl }}"  title="Zdieľaj na Google+"><i class="fa icon-gplus"></i> Google+</a>
+    <p>Zdieľaj na:</p>
+    <p>
+      <a class="btn btn-default" href="https://twitter.com/intent/tweet?text={{ escapedTitle }}&url={{ escapedUrl }}&via=webelement" title="Zdieľaj na Twitter"><i class="fa icon-twitter"></i> Twitter</a>
+      <a class="btn btn-default" href="https://www.facebook.com/sharer/sharer.php?u={{ escapedUrl }}" title="Zdieľaj na Facebook"><i class="fa icon-facebook-squared"></i> Facebook</a>
+      <a class="btn btn-default" href="https://plus.google.com/share?url={{ escapedUrl }}"  title="Zdieľaj na Google+"><i class="fa icon-gplus"></i> Google+</a>
+    </p>
   </div>
 
   <div class="row navigation">
