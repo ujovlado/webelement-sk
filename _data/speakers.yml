@@ -76,6 +76,12 @@
   image: /images/speakers/mareklichtner-me_normal.png
   name: Marek Lichtner
   twitter: mareklichtner
+- _id: marek-varga
+  about: null
+  events: [2015-04-14-webelement-12-presov]
+  image: null
+  name: Marek Varga
+  twitter: null
 - _id: marek-zapach
   about: null
   events: [2014-10-23-webelement-8-presov]
