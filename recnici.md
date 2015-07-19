@@ -19,7 +19,9 @@ Vďaka patrí všetkým, ktorí boli prednášať! Info o rečníkoch je stiahnu
 
 {% if speaker.twitter %}
     <p>
-        <a href="https://twitter.com/{{ speaker.twitter }}" title="{{ speaker.name }} - Twitter">@{{ speaker.twitter }}</a>
+        <a href="https://twitter.com/{{ speaker.twitter }}"
+           title="{{ speaker.name }} - Twitter"
+           target="_blank">@{{ speaker.twitter }}</a>
     </p>
 {% endif %}
 
