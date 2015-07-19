@@ -1,6 +1,7 @@
 {
     "require": {
         "dg/twitter-php": "~3.5",
-        "symfony/yaml": "~2.7"
+        "symfony/yaml": "~2.7",
+        "twbs/bootstrap": "~3.3.4"
     }
 }
