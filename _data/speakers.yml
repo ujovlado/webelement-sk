@@ -11,6 +11,12 @@
   image: /images/speakers/andrejhad-8badaee47ee77e941a948d948a4f9d6a_normal.png
   name: Andrej Had
   twitter: andrejhad
+- _id: david-durika
+  about: null
+  events: [2015-05-14-webelement-34.md]
+  image: null
+  name: Dávid Ďurika
+  twitter: null
 - _id: gregor-rayman
   about: ''
   events: [2013-10-17-webelement-24]
@@ -158,6 +164,13 @@
   image: null
   name: Milan Kurečko
   twitter: null
+- _id: michal-maxian
+  about: "it member, event organizer, idea maker and most of all human \nprojects\
+    \ @itexperienced \n#startupweekend #batsuite #startupeduSVK #startupslovakia"
+  events: [2015-05-14-webelement-34]
+  image: /images/speakers/mmaxian-ja_gtug_small_normal.png
+  name: Michal Maxian
+  twitter: mmaxian
 - _id: michal-poremba
   about: null
   events: [2014-06-06-webelement-6-presov]
@@ -228,8 +241,8 @@
 - _id: vladimir-kriska
   about: "programmer, geek, blogger, speaker;\r\nLinux, CSS & typography lover;\r\n\
     @webelement meetup, @rekurzia"
-  events: [2014-12-11-webelement-30, 2014-02-06-webelement-26, 2013-10-17-webelement-24,
-    2013-02-07-webelement-16-ba-vladimir-kriska, 2012-11-08-webelement-13-ba-vladimir-kriska-prejdite-na-dvcs,
+  events: [2015-05-14-webelement-34, 2014-12-11-webelement-30, 2014-02-06-webelement-26,
+    2013-10-17-webelement-24, 2013-02-07-webelement-16-ba-vladimir-kriska, 2012-11-08-webelement-13-ba-vladimir-kriska-prejdite-na-dvcs,
     2012-09-06-webelement-11-testovanie-web-aplikacii-s-casperjs, 2012-04-12-webelement-6,
     2012-02-02-webelement-4, 2011-12-08-webelement-2]
   image: /images/speakers/ujovlado-xKQSGIQk_normal.jpeg
