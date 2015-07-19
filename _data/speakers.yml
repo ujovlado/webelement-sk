@@ -1,5 +1,5 @@
 - _id: adam-stipak
-  about: I like computers and opensource code. This is my blog. Co founder of http://t.co/IsSDAOx4XB.
+  about: Full stack web developer. Open source fan. Co-founder of http://t.co/A8yRC88Bd0.
   events: [2015-02-11-webelement-31, 2014-12-11-webelement-30, 2014-04-03-webelement-28,
     2014-03-06-webelement-27, 2013-05-09-webelement-19-ba-adam-stipak-phpstorm, 2012-12-06-webelement-14-ba-adam-stipak-vyvoj-one-page-app-s-angularjs]
   image: /images/speakers/new_POPE-6PRpCNdY_normal.jpeg
@@ -18,8 +18,8 @@
   name: Gregor Raýman
   twitter: gregor_rayman
 - _id: igor-hlina
-  about: Frontend webdeveloper, Mac evangelist, CoffeeScript & ZSH. Crafting AngularJS
-    apps at @phirational.
+  about: Full-stack webdeveloper focused on Node.js & React.js. Kerbal space program
+    fan. Also (learning :clojure)
   events: [2015-03-05-webelement-32, 2014-02-06-webelement-26, 2013-03-14-webelement-17-ba-peter-dulacka-igor-hlina,
     2012-10-04-webelement-12-igor-hlina-nepoznane-funkcie-jquery, 2012-02-02-webelement-4,
     2011-11-10-webelement-1]
@@ -94,6 +94,12 @@
   image: null
   name: Marián Gargalovič
   twitter: null
+- _id: marian-rusnak
+  about: null
+  events: [2015-05-12-webelement-13-presov]
+  image: null
+  name: Marián Rusnák
+  twitter: null
 - _id: martin-krupa
   about: internet, web, ecommerce, usability, UX, UCD, IA, CMS, startup
   events: [2014-04-17-webelement-5-presov]
@@ -115,7 +121,8 @@
   name: Martin Strýček
   twitter: martin_strycek
 - _id: martin-sustrik
-  about: Creator of ZeroMQ, working on nanomsg and ribosome
+  about: Creator of ZeroMQ (http://t.co/4Nuh3UpnZu), nanomsg (http://t.co/Zb167lSANP),
+    libmill (http://t.co/Kd0qPIEHGh) and Ribosome (http://t.co/tRdP7v61mc).
   events: [2014-06-19-webelement-29]
   image: /images/speakers/sustrik-sustrik_normal.png
   name: Martin Sústrik
