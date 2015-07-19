@@ -29,6 +29,8 @@ exclude:
   - vendor/symfony
   - vendor/dg
   - vendor/composer
+  - vendor/autoload.php
+  - vendor/twbs
   - docker-run.sh
   - docker-build.sh
   - composer.json
