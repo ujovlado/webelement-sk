@@ -24,8 +24,15 @@ exclude:
   - Dockerfile
   - CNAME
   - LICENSE
-  - twitter-secrets.yml
-  - speakers.py
+  - twitter-secrets.php
+  - speakers.php
+  - vendor/symfony
+  - vendor/dg
+  - vendor/composer
+  - docker-run.sh
+  - docker-build.sh
+  - composer.json
+  - composer.lock
 
 gems:
   - jekyll-sitemap

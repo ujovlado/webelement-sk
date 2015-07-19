@@ -1,0 +1,6 @@
+{
+    "require": {
+        "dg/twitter-php": "~3.5",
+        "symfony/yaml": "~2.7"
+    }
+}

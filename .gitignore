@@ -3,4 +3,4 @@ _site
 .idea
 /vendor
 !/vendor/fontello
-twitter-secrets.yml
+twitter-secrets.php
