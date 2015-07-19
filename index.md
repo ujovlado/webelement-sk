@@ -38,7 +38,7 @@ WebElement je pravidelné stretnutie ľudí zaujímajúcich sa o weby a technol�
             Kto?
         </td>
         <td>
-            Na WebElement chodia predášať ľudia s rôznych sfér - či už robia backend, frontend alebo administráciu.
+            Na WebElement chodia prednášať ľudia z rôznych sfér - či už robia backend, frontend alebo administráciu.
             Primárne sú to však ľudia motajúci sa okolo webov, programovania, databáz a serverov.
         </td>
     </tr>
