@@ -6,13 +6,21 @@ description: "Stretnutie web developerov v Bratislave a Prešove, prednášky, p
 baseurl: ""
 url: "http://webelement.sk"
 
-links:
+anchors:
   github: '<a href="https://github.com/webelement" target="_blank">Github</a>'
   twitter: '<a href="https://twitter.com/webelement" target="_blank">Twitter</a>'
   facebook: '<a href="https://facebook.com/groups/webelement" target="_blank">Facebook</a>'
   youtube: '<a href="https://www.youtube.com/channel/UC7ytCGu5KVT7yq5tSMSqHow" target="_blank">Youtube</a>'
   flickr: '<a href="https://www.flickr.com/groups/webelement" target="_blank">Flickr</a>'
-  meetup: '<a href="http://meetup.com/webelement/" target="_blank">Meetup</a>'
+  meetup: '<a href="http://meetup.com/webelement" target="_blank">Meetup</a>'
+
+links:
+  twitter: https://twitter.com/webelement
+  github: https://github.com/webelement
+  facebook: https://facebook.com/groups/webelement
+  youtube: https://www.youtube.com/channel/UC7ytCGu5KVT7yq5tSMSqHow
+  flickr: https://www.flickr.com/groups/webelement
+  meetup: http://meetup.com/webelement
 
 timezone: "Europe/Bratislava"
 
