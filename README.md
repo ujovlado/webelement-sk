@@ -14,7 +14,7 @@ Interested in meetup itself? Join group on:
 
 As you noticed, site is coded in Jekyll.
 
-Note: Don't load Google Analytics and Disqus codes while running locally.
+**Note: Don't load Google Analytics and Disqus codes while running locally.**
 
 To run it locally, just clone it and run `jekyll` command:
 
@@ -30,7 +30,7 @@ There are also shortcut scripts:
     $ ./docker-build.sh
     $ ./docker-run.sh
 
-Alternatively, you can use existing Jekyll container [grahamc / jekyll](https://registry.hub.docker.com/u/grahamc/jekyll/).
+Alternatively, you can use existing Jekyll container [grahamc/jekyll](https://registry.hub.docker.com/u/grahamc/jekyll/).
 
 ## License
 
