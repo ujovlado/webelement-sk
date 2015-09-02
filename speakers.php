@@ -39,4 +39,8 @@ foreach ($speakers as $key => $speaker) {
 	}
 }
 
+usort($speakers, function ($a, $b) {
+	return strcmp($a['_id'], $b['_id']);
+});
+
 file_put_contents($speakersFile, Yaml::dump($speakers));
