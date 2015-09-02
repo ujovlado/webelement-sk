@@ -442,7 +442,7 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: #777777;
+  color: #90bae0;
 }
 .text-primary {
   color: #337ab7;
@@ -2475,6 +2475,9 @@ a.label:focus {
 .affix {
   position: fixed;
 }
+span.text-muted {
+  color: #90bae0;
+}
 .label {
   font-weight: 400;
   padding-bottom: .2em;
@@ -2488,19 +2491,19 @@ a.label:focus {
   background-color: #9e1317;
 }
 .label-date {
-  background-color: #eeeeee;
+  background-color: #e2eff3;
   color: #333333;
 }
 .label-date[href]:hover,
 .label-date[href]:focus {
-  background-color: #d5d5d5;
+  background-color: #bedbe4;
 }
 body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-image: url('../images/grid.png');
-  background-color: #eeeeee;
+  background-color: #dddddd;
   color: #333333;
   font-size: 14px;
 }
@@ -2559,7 +2562,18 @@ a:focus {
 .container {
   max-width: 970px;
   background-color: #fff;
-  padding: 2em 0;
+}
+.container.container-page {
+  margin-top: 2em;
+  padding: 2em 0 0;
+}
+.container.container-footer {
+  margin-bottom: 4em;
+  padding: 0 0 2em;
+  background-color: #e2eff3;
+}
+.container.container-footer .part.menu {
+  border: none;
 }
 .part {
   margin: 2em;
@@ -2586,8 +2600,8 @@ a:focus {
 .menu {
   text-align: center;
   padding: 2em 0;
-  border-top: thin solid #eeeeee;
-  border-bottom: thin solid #eeeeee;
+  border-top: thin solid #e2eff3;
+  border-bottom: thin solid #e2eff3;
 }
 .menu ul {
   padding: 0;
@@ -2600,7 +2614,7 @@ a:focus {
 }
 .menu ul li:after {
   content: " /";
-  color: #ddd;
+  color: #e2eff3;
 }
 .menu ul li:last-child:after {
   content: "";
@@ -2651,7 +2665,7 @@ a:focus {
   text-align: center;
   font-size: 1.2em;
   padding: 2em 1em;
-  background-color: #eeeeee;
+  background-color: #e2eff3;
 }
 .content .similar-meetups .meetup {
   overflow: auto;
@@ -2703,6 +2717,7 @@ a:focus {
 }
 .footer {
   text-align: center;
+  padding: 1em 0 0;
 }
 .fa {
   line-height: 1;
