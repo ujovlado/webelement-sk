@@ -26,7 +26,7 @@ Vďaka patrí všetkým, ktorí boli prednášať! Info o rečníkoch je stiahnu
 {% endif %}
 
 {% if speaker.about and speaker.about != '' %}
-    <blockquote class="text-muted">{{ speaker.about }}</blockquote>
+    <blockquote>{{ speaker.about }}</blockquote>
 {% endif %}
 
 <ul>
