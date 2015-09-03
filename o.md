@@ -6,6 +6,7 @@ permalink: /o/
 redirect_from:
   - /kontakt/
   - /o-webelemente/
+  - /event/preco-webelement/
 ---
 
 Tento web vznikol spolu a akciou WebElement a primárne slúži ako úložisko odprezentovaných tém.
