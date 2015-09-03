@@ -3,6 +3,8 @@ title: "WebElement #1: Igor Hlina - ActiveRecord is good enough"
 layout: event
 hasVideo: false
 facebookId: 185505734865007
+redirect_from:
+  - /1/
 ---
 
 
