@@ -3,6 +3,8 @@ title: "WebElement #2: Vladimír Kriška - Xdebug / debugging PHP applications"
 layout: event
 hasVideo: false
 facebookId: 195744573844176
+redirect_from:
+  - /2/
 ---
 
 

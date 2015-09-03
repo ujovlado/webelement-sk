@@ -3,6 +3,8 @@ title: "WebElement #3: Peter Šimún - Testovanie webových aplikácií v Seleni
 layout: event
 hasVideo: false
 facebookId: 164856350286330
+redirect_from:
+  - /3/
 ---
 
 

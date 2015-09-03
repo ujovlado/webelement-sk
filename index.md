@@ -3,6 +3,8 @@ layout: page
 class: index
 title: WebElement - stretnutie web developerov
 desc: Stretnutie web developerov v Bratislave a Prešove, prednášky, prezentácie
+redirect_from:
+  - /post/46660576306/welcome/
 ---
 
 WebElement je pravidelné stretnutie ľudí zaujímajúcich sa o weby a technológie s webmi spojené.
