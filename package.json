@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.1"
+  },
+  "license": "MIT"
+}
