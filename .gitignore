@@ -1,6 +1,6 @@
 _site
-.DS_Store
+_build
+node_modules
 .idea
 /vendor
-!/vendor/fontello
 twitter-secrets.php
