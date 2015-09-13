@@ -22,10 +22,7 @@
 // Utility classes
 @import "@{BootstrapLessPath}/utilities.less";
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400&subset=latin,latin-ext);
-
-@font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-@font-family-serif: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+@font-family-sans-serif: Helvetica, Arial, sans-serif;
 
 @webelement-color: #333;
 @webelement-bg-color: #ddd;
@@ -33,6 +30,7 @@
 @webelement-footer-bg: #e2eff3;
 
 @text-muted: #90BAE0;
+@font-size-base: 15px;
 
 span.text-muted {
   color: @text-muted;
@@ -61,15 +59,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: @font-family-sans-serif;
-  background-image: url('../images/grid.png');
   background-color: @webelement-bg-color;
   color: @webelement-color;
   font-size: @font-size-base;
-  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-    font-size: @font-size-base + 1;
-  }
   @media (min-width: @screen-md-min) {
-    font-size: @font-size-base + 2;
+    background-image: url('../images/grid.png');
   }
 }
 
@@ -87,8 +81,7 @@ h2 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
-  font-family: @font-family-serif
+  font-weight: 700;
 }
 
 p, ul li, table tr td {
@@ -115,21 +108,24 @@ a {
   max-width: 970px;
   background-color: #fff;
   &.container-page {
-    margin-top: 2em;
-    padding: 2em 0 0;
+    @media (min-width: @screen-md-min) {
+      margin-top: 2em;
+      padding-top: 2em;
+    }
   }
   &.container-footer {
-    margin-bottom: 4em;
-    padding: 0 0 2em;
+    @media (min-width: @screen-md-min) {
+      margin-bottom: 4em;
+    }
+    padding-bottom: 2em;
     background-color: @webelement-footer-bg;
     .part.menu {
       border: none;
     }
   }
 }
-
 .part {
-  margin: 2em;
+  margin: 2em 1em;
   @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
     margin: 2em 4em;
   }
@@ -252,6 +248,7 @@ a {
     blockquote {
       margin-bottom: 0;
       margin-top: 1em;
+      font-size: @font-size-base;
     }
     ul {
       margin-top: 1em;
