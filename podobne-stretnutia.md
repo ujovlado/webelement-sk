@@ -69,13 +69,5 @@ A tiež pár v Brne:
         <a href="http://brnophp.cz/">brnophp.cz</a>
     </p>
 </div>
-<div class="meetup">
-    <img src="/images/similar/brug.png">
-    <h2>BRUG</h2>
-    <p>
-        Skupina ľudí z Brna a okolia zaujímajúcich sa o Ruby a jeho ekosystém.
-        <a href="http://brug.cz/">brug.cz</a>
-    </p>
-</div>
 
 Robíš programátorské stretnutia a nie si v zozname? [Pridaj sa!](https://github.com/webelement/webelement.github.io/)
