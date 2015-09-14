@@ -14,7 +14,8 @@ var paths = {
     '_layouts/*.html',
     '_posts/*.md',
     '*.md',
-    '_config.yml'
+    '_config.yml',
+    '.htaccess'
   ],
   css: [
     'fontello/build/css/fontello.css',
@@ -24,7 +25,8 @@ var paths = {
     'fontello/build/font/*.*'
   ],
   site: [
-    '_site/**/*.*'
+    '_site/**/*.*',
+    '_site/**/.*'
   ]
 };
 
