@@ -29,20 +29,22 @@ permalink: /event/:title/
 exclude:
   - bower.json
   - README.md
-  - Dockerfile
   - CNAME
   - LICENSE
   - twitter-secrets.php
   - speakers.php
-  - vendor/symfony
-  - vendor/dg
-  - vendor/composer
-  - vendor/autoload.php
-  - vendor/twbs
+  - vendor
+  - fontello
+  - Dockerfile
   - docker-run.sh
   - docker-build.sh
   - composer.json
   - composer.lock
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - css
+  - _build
 
 gems:
   - jekyll-sitemap

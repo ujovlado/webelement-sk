@@ -32,10 +32,9 @@ WebElement je pravidelné stretnutie ľudí zaujímajúcich sa o weby a technol�
             (<a href="{% post_url 2013-06-06-webelement-20-sygic-andrej-had-ondrej-svitek-git %}" title="WebElement #20 @ Sygic">#20</a>,
             <a href="{% post_url 2013-09-05-webelement-23-marek-lichtner-hackovanie-dani-a-odvodov-pre-web-developerov %}" title="WebElement #23 @ Progressbar">#23</a>,
             <a href="{% post_url 2015-05-14-webelement-34 %}" title="WebElement #34 @ VisualDNA CEE">#34</a>,
-            <a href="{% post_url 2015-08-20-webelement-bb %}" title="WebElement Banská Bystrica">#BB</a>
-            ), tak WebElement býva v
+            <a href="{% post_url 2015-08-20-webelement-bb %}" title="WebElement Banská Bystrica">#BB</a>), tak WebElement býva v
             <a href="https://maps.google.com/maps?q=Zámocká 30, Bratislava" title="Kafe Nervosa, Zámocká 30, Bratislava" target="_blank">Kafe Nervosa</a>, na Zámockej ulici <strong>v Bratislave</strong>.
-            Na event sa dá zvyčajne prihlásiť cez {{ site.links.facebook }} alebo {{ site.links.meetup }}.
+            Na event sa dá zvyčajne prihlásiť cez {{ site.anchors.facebook }} alebo {{ site.anchors.meetup }}.
         </td>
     </tr>
     <tr>

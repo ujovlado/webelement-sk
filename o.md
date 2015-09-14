@@ -9,7 +9,7 @@ redirect_from:
   - /event/preco-webelement/
 ---
 
-Tento web vznikol spolu a akciou WebElement a primárne slúži ako úložisko odprezentovaných tém.
+Tento web vznikol spolu so stretnutím WebElement a primárne slúži ako úložisko odprezentovaných tém.
 
 Nápady na vylepšenia alebo nájdené chyby môžete hlásiť:
 
