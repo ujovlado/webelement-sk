@@ -70,4 +70,4 @@ A tiež pár v Brne:
     </p>
 </div>
 
-Robíš programátorské stretnutia a nie si v zozname? [Pridaj sa!](https://github.com/webelement/webelement.github.io/blob/master/podobne-stretnutia.md)
+Robíš programátorské stretnutia a nie si v zozname? [Pridaj sa!](https://github.com/webelement/webelement.sk/blob/master/podobne-stretnutia.md)
