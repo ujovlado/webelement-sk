@@ -1,36 +1,36 @@
-WebElement
+[WebElement](http://webelement.sk) - web developers meetup
 ==========
 
-This is source of site for [WebElement](http://webelement.sk) - web developers meetup in Bratislava and Prešov.
+WebElement is regular meetup for web developers. It takes place in Bratislava and Prešov.
 
-If you find any issue, feel free to fix - pull requests are welcome.
+Interested in meetup itself? Join group on [Meetup](http://meetup.com/webelement/) or [Facebook](https://facebook.com/groups/webelement).
 
-Interested in meetup itself? Join group on:
-
-- [Meetup](http://meetup.com/webelement/)
-- or [Facebook](https://facebook.com/groups/webelement)
+Also, feel free to join the chat at Gitter. [![Join the chat at Gitter](https://img.shields.io/badge/Gitter-join%20chat-green.svg)](https://gitter.im/webelement/chat)
 
 ## Code
 
-As you noticed, site is coded in Jekyll.
+If you find any issue, please report it.
+
+As you noticed, site is coded mostly in Jekyll. There are also used some Node modules and Composer packages.
 
 **Note: Don't load Google Analytics and Disqus codes while running locally.**
 
-To run it locally, just clone it and run `jekyll` command:
+To run it locally, just clone it, install dependencies and run commands:
 
-    $ jekyll serve --watch
+    $ composer install
+    $ npm install
+    $ gulp clean
+    $ gulp
 
 If you don't want to install Ruby and related stuff, see attached `Dockerfile` and run:
 
     $ docker build -t webelement/website .
-    $ docker run -i -t --rm -v "$PWD:/jekyll" -w /jekyll -p 4000:4000 webelement/website:latest jekyll serve --watch -H 0.0.0.0
+    $ docker run -i -t --rm -v "$PWD:/jekyll" -w /jekyll -p 4000:4000 webelement/website:latest sh -c 'composer install && npm install && gulp clean && gulp'
 
 There are also shortcut scripts:
 
     $ ./docker-build.sh
     $ ./docker-run.sh
-
-Alternatively, you can use existing Jekyll container [grahamc/jekyll](https://registry.hub.docker.com/u/grahamc/jekyll/).
 
 ## License
 
