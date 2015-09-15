@@ -11,8 +11,6 @@ redirect_from:
 
 ## Úvod do Gitu
 
-{% include prezi.html id="zg--oq2yiwub" %}
-
 - {% include ext-link.html href="http://prezi.com/zg--oq2yiwub/git/" %}
 
 

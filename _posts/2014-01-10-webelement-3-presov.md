@@ -14,5 +14,3 @@ Skúsenosti s frameworkom Foundation.
 ## Reklamné maily
 
 Základné informácie, novinky, trendy a slabé stránky pri posielaní reklamných mailov.
-
-{% include slideshare.html id="31890911" %}
