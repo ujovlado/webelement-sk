@@ -39,6 +39,7 @@ gulp.task('watch', function() {
   gulp.watch(paths.site, ['site']);
   gulp.watch(paths.jekyll, ['jekyll']);
   gulp.watch(paths.css, ['css']);
+  gulp.watch(paths.fonts, ['fonts']);
 });
 
 gulp.task('jekyll', function(callback) {
