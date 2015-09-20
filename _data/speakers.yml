@@ -16,7 +16,7 @@
     url: null
 -
     _id: david-durika
-    about: '... php programátor ...'
+    about: 'web developer | Meteor JS fun'
     events: [2015-05-14-webelement-34]
     image: /images/speakers/DavidDurika-8ayiooqsf7v98b8zug0f_normal.png
     name: 'Dávid Ďurika'
@@ -70,7 +70,7 @@
     url: '<a href="http://www.lejko.sk" target="_blank">lejko.sk</a>'
 -
     _id: jozef-verbovsky
-    about: ''
+    about: 'Online marketing specialist at VSE/RWE'
     events: [2014-10-23-webelement-8-presov, 2014-01-10-webelement-3-presov]
     image: /images/speakers/JozefVerbovsky-3iiwhCKQ_normal.jpeg
     name: 'Jozef Verbovský'
