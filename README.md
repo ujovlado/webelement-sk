@@ -5,7 +5,7 @@ WebElement is regular meetup for web developers. It takes place in Bratislava an
 
 Interested in meetup itself? Join group on [Meetup](http://meetup.com/webelement/) or [Facebook](https://facebook.com/groups/webelement).
 
-Also, feel free to join the chat at Gitter. [![Join the chat at Gitter](https://img.shields.io/badge/Gitter-join%20chat-green.svg)](https://gitter.im/webelement/chat)
+Also, feel free to [join the chat at Gitter](https://gitter.im/webelement/chat).
 
 ## Code
 
