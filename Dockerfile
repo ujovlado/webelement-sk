@@ -1,4 +1,4 @@
-FROM ubuntu:14.10
+FROM ubuntu:15.04
 MAINTAINER ujovlado@gmail.com
 
 # upgrade the system
@@ -16,11 +16,12 @@ RUN apt-get install curl php5-cli -y
 RUN cd && curl -sS https://getcomposer.org/installer | php && ln -s /root/composer.phar /usr/local/bin/composer
 
 # node/gulp related
-RUN curl -sL https://deb.nodesource.com/setup | sudo bash -
+RUN curl -sL https://deb.nodesource.com/setup | bash -
 RUN apt-get install nodejs -y
 RUN npm install -g npm
 RUN npm install -g n
-RUN n stable
+RUN n 0.12
 RUN npm install -g gulp
+RUN apt-get install python g++ -y
 
 EXPOSE 4000
