@@ -1,5 +1,6 @@
 {% assign disqusUrl = page.url | prepend: site.baseurl | prepend: site.url %}
 <div id="disqus_thread"></div>
+{% if jekyll.environment == "production" %}
 <script type="text/javascript">
   var disqus_shortname = 'webelementsk';
   var disqus_identifier = '{{ disqusUrl }}';
@@ -12,3 +13,6 @@
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 </script>
+{% else %}
+<!-- disqus -->
+{% endif %}
