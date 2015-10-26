@@ -6,9 +6,14 @@ permalink: /podobne-stretnutia/
 class: similar-meetups
 ---
 
-Pár odkazov na stretnutia podobného druhu.
+<div class="section page similar-meetups">
+<div class="container">
 
-V Bratislave:
+<h1>Podobné stretnutia</h1>
+
+<p>Pár odkazov na stretnutia podobného druhu &ndash; naši kamoši.</p>
+
+<p>V Bratislave:</p>
 
 <div class="meetup">
     <img src="/images/similar/gdg.png">
@@ -43,7 +48,9 @@ V Bratislave:
     </p>
 </div>
 
-A tiež pár v Brne:
+<hr>
+
+<p>A tiež pár v Brne:</p>
 
 <div class="meetup">
     <img src="/images/similar/pyvo.png">
@@ -70,4 +77,10 @@ A tiež pár v Brne:
     </p>
 </div>
 
-Robíš programátorské stretnutia a nie si v zozname? [Pridaj sa!](https://github.com/webelement/webelement.sk/blob/master/podobne-stretnutia.md)
+<p>
+Robíš programátorské stretnutia a nie si v zozname?
+<a href="https://github.com/webelement/webelement.sk/blob/master/podobne-stretnutia.md">Pridaj sa!</a>
+</p>
+
+</div>
+</div>

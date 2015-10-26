@@ -6,6 +6,8 @@ var minifyCss = require('gulp-minify-css');
 var concatCss = require('gulp-concat-css');
 var browserSync = require('browser-sync');
 var childProcess = require('child_process');
+var rev = require('gulp-rev');
+var revReplace = require('gulp-rev-replace');
 
 var paths = {
   jekyll: [
@@ -59,6 +61,10 @@ gulp.task('css', function() {
     .pipe(concatCss("main.css"))
     .pipe(minifyCss())
     .pipe(gulp.dest('_build/css'))
+    .pipe(rev())
+    .pipe(gulp.dest('_build/css'))
+    .pipe(rev.manifest())
+    .pipe(gulp.dest('_build/css'))
     .pipe(browserSync.reload({stream:true}))
 });
 
@@ -66,6 +72,13 @@ gulp.task('site', [], function() {
   return gulp.src(paths.site)
     .pipe(gulp.dest('_build'))
     .pipe(browserSync.reload({stream:true}));
+});
+
+gulp.task("site-and-revreplace", [], function() {
+  var manifest = gulp.src('_build/css/rev-manifest.json');
+  return gulp.src(paths.site)
+    .pipe(revReplace({manifest: manifest}))
+    .pipe(gulp.dest('_build'))
 });
 
 gulp.task('browser-sync', [], function() {

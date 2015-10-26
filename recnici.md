@@ -6,7 +6,14 @@ permalink: /recnici/
 class: speakers
 ---
 
+<div class="section page speakers">
+<div class="container">
+
+
+<h1>Rečníci</h1>
+<p>
 Vďaka patrí všetkým, ktorí boli prednášať! Info o rečníkoch je stiahnuté z ich Twitteru.
+</p>
 
 {% for speaker in site.data.speakers %}
 <div class="speaker">
@@ -29,7 +36,7 @@ Vďaka patrí všetkým, ktorí boli prednášať! Info o rečníkoch je stiahnu
     <blockquote>{{ speaker.about }}</blockquote>
 {% endif %}
 
-<ul>
+<ul class="posts">
 {% for event in speaker.events %}
     {% assign postUrl = event | split: 'webelement' | last | prepend: "/event/webelement" | append: "/" %}
     {% for post in site.posts %}
@@ -42,3 +49,6 @@ Vďaka patrí všetkým, ktorí boli prednášať! Info o rečníkoch je stiahnu
 
 </div>
 {% endfor %}
+
+</div>
+</div>

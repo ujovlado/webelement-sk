@@ -3,47 +3,54 @@
 {% include head.html %}
 <body>
 
-<div class="container container-page">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="part header">
-        {% include header.html %}
-      </div>
-      <div class="part menu">
-      {% include menu.html %}
-      </div>
-      <div class="part content">
-        {{ content }}
+<nav class="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}" title="WebElement">
+        <img src="{{ "/images/logo.png" | prepend: site.baseurl }}" alt="Logo"></a>
+    </div>
+
+    {% include menu.html class="nav navbar-nav navbar-right" %}
+  </div>
+</nav>
+
+{{ content }}
+
+<div class="section search">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+        <div class="part search">
+          {% include search.html %}
+        </div>
       </div>
     </div>
   </div>
 </div>
-<div class="container container-footer">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="part menu">
-        {% include menu.html %}
+<div class="section footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="menu">
+          {% include menu.html %}
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
-      <div class="part search">
-        {% include search.html %}
+      <div class="col-sm-3">
+        <div class="social">
+          {% include social.html %}
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="part social">
-        {% include social.html %}
-      </div>
-      <div class="part footer">
-        {% include footer.html %}
+      <div class="col-sm-6">
+        <div class="copy">
+          {% include footer.html %}
+        </div>
       </div>
     </div>
   </div>
 </div>
+<script src="https://use.typekit.net/uss5lpr.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 {% include analytics.html %}
 </body>
 </html>

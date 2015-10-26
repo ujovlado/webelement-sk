@@ -16,7 +16,7 @@
     url: null
 -
     _id: david-durika
-    about: 'web developer | Meteor JS fun'
+    about: 'web developer | Meteor JS fan'
     events: [2015-05-14-webelement-34]
     image: /images/speakers/DavidDurika-8ayiooqsf7v98b8zug0f_normal.png
     name: 'Dávid Ďurika'
@@ -64,9 +64,9 @@
     _id: jergus-lejko
     about: ''
     events: [2015-02-10-webelement-10-presov]
-    image: /images/speakers/Jergush-d2ef91d008a6a29235c9de406c8fa4d3_normal.jpeg
+    image: null
     name: 'Jerguš Lejko'
-    twitter: Jergush
+    twitter: null
     url: '<a href="http://www.lejko.sk" target="_blank">lejko.sk</a>'
 -
     _id: jozef-verbovsky
