@@ -7,14 +7,23 @@ redirect_from:
   - /dotaznik/
 ---
 
-Poď prednášať, ak:
+<div class="section page">
+<div class="container">
 
-- máš **zaujímavý projekt** a popri jeho budovaní si získal **skúsenosti, s ktorými sa chceš podeliť**
-- robíš **open-source projekt**, ktorý chceš odprezentovať
-- naučil si sa **niečo nové** a myslíš, že by to mali vedieť všetci developeri
-- chceš **zdieľať vedomosti** s ostatnými
+<h1>Poď prednášať!</h1>
+<p>Dojdi! Radi si ťa vypočujeme.</p>
 
-Dojdi! Radi si ťa vypočujeme.
+<p>Poď prednášať, ak:</p>
 
-Pridaj sa do Facebook skupiny, napíš e-mail alebo príď na pivo, dohodneme sa a môžeš prednášať kľudne
-na niektorom z nasledujúcich stretnutí.
+<ul>
+  <li>máš <strong>zaujímavý projekt</strong> a popri jeho budovaní si získal <strong>skúsenosti, s ktorými sa chceš podeliť</strong></li>
+  <li>robíš <strong>open-source projekt</strong>, ktorý chceš odprezentovať</li>
+  <li>naučil si sa <strong>niečo nové</strong> a myslíš, že by to mali vedieť všetci developeri</li>
+  <li>chceš <strong>zdieľať vedomosti</strong> s ostatnými</li>
+</ul>
+
+<p>Pridaj sa do Facebook skupiny, napíš e-mail alebo príď na pivo, dohodneme sa a môžeš prednášať kľudne
+na niektorom z nasledujúcich stretnutí.</p>
+
+</div>
+</div>

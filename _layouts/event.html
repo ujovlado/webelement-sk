@@ -2,51 +2,55 @@
 layout: default
 ---
 
-<div class="event">
+<div class="section event">
+  <div class="container">
 
-  <h1>{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
 
-    <div class="meta text-muted">
-      <i class="fa icon-megaphone"></i> {{ page.date | date: "%d.%m.%Y" }}
-      {% if page.city %} • {{ page.city }}{% endif %}
-      {% if page.facebookId %} • <a href="https://facebook.com/events/{{ page.facebookId }}" title="Facebook event">Facebook</a>{% endif %}
-      {% if page.meetupId %} • <a href="http://meetup.com/webelement/events/{{ page.meetupId }}" title="Meetup event">Meetup</a>{% endif %}
+      <div class="meta text-muted">
+        <i class="fa icon-megaphone"></i> {{ page.date | date: "%d.%m.%Y" }}
+        {% if page.city %} • {{ page.city }}{% endif %}
+        {% if page.facebookId %} • <a href="https://facebook.com/events/{{ page.facebookId }}" title="Facebook event">Facebook</a>{% endif %}
+        {% if page.meetupId %} • <a href="http://meetup.com/webelement/events/{{ page.meetupId }}" title="Meetup event">Meetup</a>{% endif %}
+      </div>
+
+      <hr>
+
+      {{ content }}
+
+    <div class="share">
+      {% assign escapedUrl = page.url | prepend: site.baseurl | prepend: site.url | url_escape %}
+      {% assign escapedTitle = page.title | url_escape | replace: "#", "%23" %}
+      <p>Zdieľaj na:</p>
+      <p>
+        <a class="btn btn-default" href="https://twitter.com/intent/tweet?text={{ escapedTitle }}&url={{ escapedUrl }}&via=webelement" title="Zdieľaj na Twitter"><i class="fa icon-twitter"></i> Twitter</a>
+        <a class="btn btn-default" href="https://www.facebook.com/sharer/sharer.php?u={{ escapedUrl }}" title="Zdieľaj na Facebook"><i class="fa icon-facebook-squared"></i> Facebook</a>
+        <a class="btn btn-default" href="https://plus.google.com/share?url={{ escapedUrl }}"  title="Zdieľaj na Google+"><i class="fa icon-gplus"></i> Google+</a>
+      </p>
     </div>
 
-    {{ content }}
-
-  <div class="share">
-    {% assign escapedUrl = page.url | prepend: site.baseurl | prepend: site.url | url_escape %}
-    {% assign escapedTitle = page.title | url_escape | replace: "#", "%23" %}
-    <p>Zdieľaj na:</p>
-    <p>
-      <a class="btn btn-default" href="https://twitter.com/intent/tweet?text={{ escapedTitle }}&url={{ escapedUrl }}&via=webelement" title="Zdieľaj na Twitter"><i class="fa icon-twitter"></i> Twitter</a>
-      <a class="btn btn-default" href="https://www.facebook.com/sharer/sharer.php?u={{ escapedUrl }}" title="Zdieľaj na Facebook"><i class="fa icon-facebook-squared"></i> Facebook</a>
-      <a class="btn btn-default" href="https://plus.google.com/share?url={{ escapedUrl }}"  title="Zdieľaj na Google+"><i class="fa icon-gplus"></i> Google+</a>
-    </p>
-  </div>
-
-  <div class="row navigation">
-    <div class="col-sm-6">
-    {% if page.previous.url and page.previous.noContent != true %}
-      <i class="fa icon-left-circled"></i>
-      <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
-    {% endif %}
-    </div>
-    <div class="col-sm-6 text-right">
-    {% if page.next.url and page.next.noContent != true %}
-      <a href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a>
-      <i class="fa icon-right-circled"></i>
+    <div class="row navigation">
+      <div class="col-sm-6">
+      {% if page.previous.url and page.previous.noContent != true %}
+        <i class="fa icon-left-circled"></i>
+        <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
       {% endif %}
+      </div>
+      <div class="col-sm-6 text-right">
+      {% if page.next.url and page.next.noContent != true %}
+        <a href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a>
+        <i class="fa icon-right-circled"></i>
+        {% endif %}
+      </div>
     </div>
+
+    <div class="disqus">
+
+      <h2>Diskusia</h2>
+
+      {% include disqus.html %}
+
+    </div>
+
   </div>
-
-  <div class="disqus">
-
-    <h2>Diskusia</h2>
-
-    {% include disqus.html %}
-
-  </div>
-
 </div>

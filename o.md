@@ -9,11 +9,29 @@ redirect_from:
   - /event/preco-webelement/
 ---
 
-Tento web vznikol spolu so stretnutím WebElement a primárne slúži ako úložisko odprezentovaných tém.
+<div class="section page">
+<div class="container">
 
-Nápady na vylepšenia alebo nájdené chyby môžete hlásiť:
+<h1>O webe, kontakt</h1>
 
-- [e-mailom](mailto:{{ site.email }}) alebo tweetom na [@webelement]({{ site.links.twitter }}){:target="_blank"}
-- prípadne vytvorením issue cez [Github](https://github.com/webelement/webelement.sk/issues/new){:target="_blank"}.
+<p>Tento web vznikol spolu so stretnutím WebElement a primárne slúži ako úložisko odprezentovaných tém.</p>
 
-Ak nás chcete podporiť alebo [zverejniť pracovnú ponuku](https://gist.github.com/ujovlado/84a4634c7efb2bdc47bd){:target="_blank"}, píšte na e-mail.
+<p>Nápady na vylepšenia alebo nájdené chyby môžete hlásiť:</p>
+
+<ul>
+  <li>
+    <a href="mailto:{{ site.email }}">e-mailom</a>
+    alebo tweetom na <a href="{{ site.links.twitter }}" target="_blank">@webelement</a>
+  </li>
+  <li>
+    prípadne vytvorením issue cez <a href="https://github.com/webelement/webelement.sk/issues/new" target="_blank">Github</a>
+  </li>
+</ul>
+
+<p>
+Ak nás chcete podporiť alebo
+<a href="https://gist.github.com/ujovlado/84a4634c7efb2bdc47bd">zverejniť pracovnú ponuku</a>, píšte na e-mail.
+</p>
+
+</div>
+</div>
