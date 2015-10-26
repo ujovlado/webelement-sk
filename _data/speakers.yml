@@ -22,6 +22,13 @@
     name: 'Dávid Ďurika'
     twitter: DavidDurika
 -
+    _id: frantisek-trusa
+    about: 'Freelancer / Drupal Developer'
+    events: [2015-09-08-webelement-15-presov]
+    image: /images/speakers/trafo-head_in_clouds_normal.jpg
+    name: 'František Trusa'
+    twitter: trafo
+-
     _id: gregor-rayman
     about: ''
     events: [2013-10-17-webelement-24]
@@ -76,6 +83,13 @@
     name: 'Jozef Verbovský'
     twitter: JozefVerbovsky
     url: null
+-
+    _id: kristina-sebejova
+    about: null
+    events: [2015-10-06-webelement-16-presov]
+    image: null
+    name: 'Kristína Šebejová'
+    twitter: null
 -
     _id: lukas-sabla
     about: 'Admin @ WebSupport'
@@ -207,7 +221,7 @@
 -
     _id: milan-kurecko
     about: null
-    events: [2014-01-10-webelement-3-presov]
+    events: [2014-01-10-webelement-3-presov, 2015-09-08-webelement-15-presov]
     image: null
     name: 'Milan Kurečko'
     twitter: null
@@ -233,6 +247,14 @@
     name: 'Ondrej Svitek'
     twitter: knizkar
     url: null
+-
+    _id: peter-dendis
+    about: 'I am interested in digital marketing, business strategy and people. I am working @tarantulask'
+    events: [2015-10-06-webelement-16-presov]
+    image: /images/speakers/peterdendis-t_pd2_normal.jpg
+    name: 'Peter Dendis'
+    twitter: peterdendis
+    url: '<a href="http://www.dendis.eu" target="_blank">dendis.eu</a>'
 -
     _id: peter-dulacka
     about: "PHP developer @ Piano Media • \nWoodstock.FM, SubtitleNET • cinemaniac"
