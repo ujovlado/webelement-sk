@@ -221,7 +221,7 @@
 -
     _id: milan-kurecko
     about: null
-    events: [2014-01-10-webelement-3-presov, 2015-09-08-webelement-15-presov]
+    events: [2015-09-08-webelement-15-presov, 2014-01-10-webelement-3-presov]
     image: null
     name: 'Milan Kurečko'
     twitter: null
@@ -258,7 +258,7 @@
 -
     _id: peter-dulacka
     about: "PHP developer @ Piano Media • \nWoodstock.FM, SubtitleNET • cinemaniac"
-    events: [2015-02-11-webelement-31, 2013-03-14-webelement-17-ba-peter-dulacka-igor-hlina]
+    events: [2015-10-08-webelement-35, 2015-02-11-webelement-31, 2013-03-14-webelement-17-ba-peter-dulacka-igor-hlina]
     image: /images/speakers/rootpd-scr_normal.png
     name: 'Peter Dulačka'
     twitter: rootpd
@@ -313,7 +313,7 @@
 -
     _id: vladimir-kriska
     about: "programmer, geek, blogger, speaker;\r\nLinux, CSS & typography lover;\r\n@webelement meetup, @rekurzia"
-    events: [2015-08-20-webelement-bb, 2015-05-14-webelement-34, 2014-12-11-webelement-30, 2014-02-06-webelement-26, 2013-10-17-webelement-24, 2013-02-07-webelement-16-ba-vladimir-kriska, 2012-11-08-webelement-13-ba-vladimir-kriska-prejdite-na-dvcs, 2012-09-06-webelement-11-testovanie-web-aplikacii-s-casperjs, 2012-04-12-webelement-6, 2012-02-02-webelement-4, 2011-12-08-webelement-2]
+    events: [2015-10-08-webelement-35, 2015-08-20-webelement-bb, 2015-05-14-webelement-34, 2014-12-11-webelement-30, 2014-02-06-webelement-26, 2013-10-17-webelement-24, 2013-02-07-webelement-16-ba-vladimir-kriska, 2012-11-08-webelement-13-ba-vladimir-kriska-prejdite-na-dvcs, 2012-09-06-webelement-11-testovanie-web-aplikacii-s-casperjs, 2012-04-12-webelement-6, 2012-02-02-webelement-4, 2011-12-08-webelement-2]
     image: /images/speakers/ujovlado-xKQSGIQk_normal.jpeg
     name: 'Vladimír Kriška'
     twitter: ujovlado
