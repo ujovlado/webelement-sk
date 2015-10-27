@@ -77,9 +77,11 @@ redirect_from:
 
 <div class="section counters">
     <div class="container">
+        <p>
         Už <strong>{{ site.data.speakers | size }}&nbsp;rečníkov</strong> odprezentovalo
         <strong>{{ presentationsCount }}&nbsp;tém</strong> na
         <strong>{{ site.posts | size }}&nbsp;stretnutiach.</strong>
+        </p>
     </div>
 </div>
 

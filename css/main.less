@@ -58,7 +58,7 @@ h3 {
 }
 
 p, ul li {
-  line-height: 1.6;
+  line-height: 1.7;
 }
 p, ul {
   margin-top: 1em;
@@ -92,53 +92,60 @@ span.text-muted {
       float: none;
     }
     a.navbar-brand {
+      margin-left: 0;
       height: 96px;
       padding: 0;
+      float: none;
       img {
         height: 96px;
         display: inline;
       }
-      @media (max-width: @screen-sm-max) {
-        float: none;
+      @media (min-width: @screen-md-min) {
+        float: left;
+        padding: 0 0 0 1.25em;
       }
     }
   }
 
   ul.navbar-nav {
-    margin: 0;
     padding: 1em 0;
+    margin-left: 0;
+    margin-right: 0;
     @media (min-width: @screen-sm-min) {
       padding: 1.5em 0;
     }
     li {
       float: none;
       display: inline;
+      padding: 0 .5em;
       a {
         display: inline;
         padding: 0;
-        margin: .5em .75em;
-        line-height: 48px;
+        @media (min-width: @screen-sm-min) {
+          line-height: 48px;
+        }
         &:hover {
           text-decoration: underline;
           background-color: transparent;
         }
       }
     }
+    float: none;
+    @media (min-width: @screen-md-min) {
+      float: right;
+    }
   }
   text-align: center;
-  @media (min-width: @screen-md-min) {
-    text-align: left;
-  }
 
 }
 
 .section {
-  padding: 2em 0;
+  padding: 2rem 0;
   @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-    padding: 3em 0;
+    padding: 3rem 0;
   }
   @media (min-width: @screen-md-min) {
-    padding: 4em 0;
+    padding: 4rem 0;
   }
 
 
@@ -216,9 +223,13 @@ span.text-muted {
       list-style: none;
       padding: 0;
       li {
+        display: inline;
         @media (max-width: @screen-xs-max) {
-          display: inline;
+
           padding: 0 .5em;
+        }
+        @media (min-width: @screen-sm-min) {
+          display: block;
         }
       }
     }
