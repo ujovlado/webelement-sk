@@ -1,0 +1,3 @@
+<Files "logo.png">
+    Header set Cache-Control "max-age=2419200"
+</Files>

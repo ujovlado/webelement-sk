@@ -45,7 +45,7 @@ exclude:
   - node_modules
   - gulpfile.js
   - package.json
-  - css
+  - css/main.less
   - _build
 
 gems:
