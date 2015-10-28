@@ -50,7 +50,7 @@ h1 {
   font-size: 2.5em;
 }
 h2 {
-  margin-bottom: .8em;
+  margin-bottom: 1em;
   font-size: 2em;
 }
 h3 {
@@ -61,8 +61,8 @@ p, ul li {
   line-height: 1.7;
 }
 p, ul {
-  margin-top: 1em;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 ul {
   padding-left: 1.5em;
@@ -102,7 +102,6 @@ span.text-muted {
       }
       @media (min-width: @screen-md-min) {
         float: left;
-        padding: 0 0 0 1.25em;
       }
     }
   }
@@ -176,7 +175,7 @@ span.text-muted {
   &.where-when-who {
     text-align: center;
     .item {
-      padding: 0 1.25em 1.5em;
+      padding: 0 0 1.5em;
       i {
       }
       p {
@@ -257,7 +256,7 @@ span.text-muted {
       margin-top: 2em;
       margin-bottom: 0;
       +p {
-        margin-top: 0;
+        margin-top: .2em;
       }
     }
     blockquote {
@@ -272,11 +271,17 @@ span.text-muted {
       width: 48px;
       height: 48px;
       float: left;
-      margin-right: 1em;
+      margin: .5em 1em 0 0;
     }
   }
   &.similar-meetups {
     .meetup {
+      h2 {
+        margin-bottom: 0;
+        +p {
+          margin-top: .2em;
+        }
+      }
       overflow: auto;
       img {
         width: 64px;
@@ -291,6 +296,12 @@ span.text-muted {
     }
   }
   &.jobs {
+    h2 {
+      margin-bottom: 0;
+      +p {
+        margin-top: .2em;
+      }
+    }
   }
 }
 

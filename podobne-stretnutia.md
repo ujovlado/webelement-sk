@@ -48,8 +48,6 @@ class: similar-meetups
     </p>
 </div>
 
-<hr>
-
 <p>A tiež pár v Brne:</p>
 
 <div class="meetup">
