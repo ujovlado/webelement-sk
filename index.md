@@ -7,15 +7,21 @@ redirect_from:
   - /post/46660576306/welcome/
 ---
 
-<div class="section headline">
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-8 col-sm-offset-2">
-            <p>
-            <strong>WebElement</strong> je pravidelné stretnutie <strong>web developerov</strong>
-            a&nbsp;ľudí zaujímajúcich sa o&nbsp;technológie súvisiace s <strong>web/dev/ops</strong>.
-            </p>
-          </div>
+<div class="headline-first-bg">
+    <div class="headline-second-bg">
+        <div class="section headline">
+            <div class="container">
+              <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <p>
+                    <span>
+                    <strong>WebElement</strong> je pravidelné stretnutie <strong>web developerov</strong>
+                    a&nbsp;ľudí zaujímajúcich sa o&nbsp;technológie súvisiace s <strong>vývojom webov</strong>.
+                    </span>
+                    </p>
+                  </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -42,7 +48,7 @@ redirect_from:
                     <p>
                         Ak sa nedeje niečo špeciálne, ako napr.
                         <a href="{% post_url 2013-06-06-webelement-20-sygic-andrej-had-ondrej-svitek-git %}" title="WebElement #20 @ Sygic">WebElement #20 v Sygicu</a>, tak akcia býva v
-                        <a href="https://maps.google.com/maps?q=Zámocká 30, Bratislava" title="Kafe Nervosa, Zámocká 30, Bratislava" target="_blank">Kafe Nervosa</a>, na Zámockej ulici <strong>v Bratislave</strong>.
+                        <a href="https://maps.google.com/maps?q=Zámocká 30, Bratislava" title="Kafe Nervosa, Zámocká 30, Bratislava" target="_blank">Kafe Nervosa</a>, na Zámockej ulici <strong>v&nbsp;Bratislave</strong>.
                         Na event sa dá zvyčajne prihlásiť cez {{ site.anchors.facebook }} alebo {{ site.anchors.meetup }}.
                     </p>
                 </div>

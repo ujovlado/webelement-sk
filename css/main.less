@@ -18,7 +18,6 @@
 // Components
 @import "@{BootstrapLessPath}/labels.less";
 @import "@{BootstrapLessPath}/responsive-embed.less";
-@import "@{BootstrapLessPath}/navbar.less";
 
 // Utility classes
 @import "@{BootstrapLessPath}/utilities.less";
@@ -88,9 +87,7 @@ span.text-muted {
   border-radius: 0;
   margin-bottom: 0;
   .navbar-header {
-    @media (max-width: @screen-sm-max) {
-      float: none;
-    }
+    float: none;
     a.navbar-brand {
       margin-left: 0;
       height: 96px;
@@ -108,10 +105,9 @@ span.text-muted {
 
   ul.navbar-nav {
     padding: 1em 0;
-    margin-left: 0;
-    margin-right: 0;
+    //margin: 0;
     @media (min-width: @screen-sm-min) {
-      padding: 1.5em 0;
+      padding: .5em 0;
     }
     li {
       float: none;
@@ -129,13 +125,24 @@ span.text-muted {
         }
       }
     }
-    float: none;
     @media (min-width: @screen-md-min) {
       float: right;
     }
   }
   text-align: center;
+}
 
+@media (min-width: @screen-sm-min) {
+  .headline-first-bg {
+    background-image: url('/images/speakers/sprite/sprite.png');
+    background-position: 30px 0;
+    background-size: auto 300px;
+    .headline-second-bg {
+      background-image: url('/images/speakers/sprite/sprite.png');
+      background-position: 90px 120px;
+      background-size: auto 300px;
+    }
+  }
 }
 
 .section {
@@ -189,8 +196,14 @@ span.text-muted {
   }
   &.headline {
     text-align: center;
-    font-size: 1.75em;
+    font-size: 1.9em;
     background-color: @webelement-hr-color;
+    @media (min-width: @screen-sm-min) {
+      background-color: rgba(212, 231, 237, .6);
+    }
+    span {
+      background-color: @webelement-hr-color;
+    }
   }
   &.counters {
     text-align: center;
@@ -223,12 +236,10 @@ span.text-muted {
       padding: 0;
       li {
         display: inline;
-        @media (max-width: @screen-xs-max) {
-
-          padding: 0 .5em;
-        }
+        padding: 0 .5em;
         @media (min-width: @screen-sm-min) {
           display: block;
+          padding: 0;
         }
       }
     }
@@ -284,13 +295,13 @@ span.text-muted {
       }
       overflow: auto;
       img {
-        width: 64px;
-        float: left;
-        margin: 1.5em 1.5em 1.5em 0;
-        @media (max-width: @screen-xs-max) {
-          width: 48px;
-          float: right;
-          margin: 1.5em 0 1.5em 1.5em;
+        width: 48px;
+        float: right;
+        margin: 1.5em 0 1.5em 1.5em;
+        @media (min-width: @screen-sm-min) {
+          width: 64px;
+          float: left;
+          margin: 1.5em 1.5em 1.5em 0;
         }
       }
     }

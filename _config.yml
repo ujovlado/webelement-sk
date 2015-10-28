@@ -46,6 +46,7 @@ exclude:
   - gulpfile.js
   - package.json
   - css/main.less
+  - images/speakers/sprite/sprite.css
   - _build
 
 gems:
