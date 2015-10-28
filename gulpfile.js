@@ -8,6 +8,9 @@ var browserSync = require('browser-sync');
 var childProcess = require('child_process');
 var rev = require('gulp-rev');
 var revReplace = require('gulp-rev-replace');
+var spritesmith = require('gulp.spritesmith');
+var imagemin = require('gulp-imagemin');
+var htmlmin = require('gulp-htmlmin');
 
 var paths = {
   jekyll: [
@@ -38,7 +41,7 @@ gulp.task('clean', function(callback) {
 
 
 gulp.task('watch', function() {
-  gulp.watch(paths.site, ['site']);
+  gulp.watch(paths.site, ['minify']);
   gulp.watch(paths.jekyll, ['jekyll']);
   gulp.watch(paths.css, ['css']);
   gulp.watch(paths.fonts, ['fonts']);
@@ -71,14 +74,33 @@ gulp.task('css', function() {
 gulp.task('site', [], function() {
   return gulp.src(paths.site)
     .pipe(gulp.dest('_build'))
-    .pipe(browserSync.reload({stream:true}));
+    //.pipe(browserSync.reload({stream:true}));
 });
 
-gulp.task("site-and-revreplace", [], function() {
+gulp.task('sprite', function () {
+  var spriteData = gulp.src(['images/speakers/*.*']).pipe(spritesmith({
+    imgName: 'sprite.png',
+    cssName: 'sprite.css'
+  }));
+  return spriteData.pipe(imagemin())
+    .pipe(gulp.dest('images/speakers/sprite'));
+});
+
+gulp.task("revreplace", [], function() {
   var manifest = gulp.src('_build/css/rev-manifest.json');
-  return gulp.src(paths.site)
+  return gulp.src('_build/**/*.html')
     .pipe(revReplace({manifest: manifest}))
     .pipe(gulp.dest('_build'))
+});
+
+gulp.task('minify', ['site'], function() {
+  return gulp.src('_build/**/*.html')
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      conservativeCollapse: true
+    }))
+    .pipe(gulp.dest('_build'))
+    .pipe(browserSync.reload({stream:true}));
 });
 
 gulp.task('browser-sync', [], function() {
@@ -91,6 +113,6 @@ gulp.task('browser-sync', [], function() {
   });
 });
 
-gulp.task('default', ['jekyll', 'css', 'fonts'], function() {
-  gulp.start('site', 'watch', 'browser-sync');
+gulp.task('default', ['jekyll', 'css', 'fonts', 'sprite'], function() {
+  gulp.start('minify', 'watch', 'browser-sync');
 });
