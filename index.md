@@ -16,7 +16,7 @@ redirect_from:
                     <p>
                     <span>
                     <strong>WebElement</strong> je pravidelné stretnutie <strong>web developerov</strong>
-                    a&nbsp;ľudí zaujímajúcich sa o&nbsp;technológie súvisiace s <strong>vývojom webov</strong>.
+                    a&nbsp;ľudí zaujímajúcich sa o&nbsp;technológie súvisiace s <strong>vývojom webov.</strong>
                     </span>
                     </p>
                   </div>
@@ -34,10 +34,10 @@ redirect_from:
                     <i class="fa icon-calendar fa-2x"></i><br>
                     <h3>Kedy?</h3>
                     <p>
-                        WebElement sa zvyčajne koná <strong>prvý alebo druhý týždeň v&nbsp;mesiaci</strong>.
-                        Býva <strong>vo štvrtok</strong>, pretože vtedy ešte ľudia chodia normálne do práce a&nbsp;nijako
-                        im to nenaruší plány na víkend.
-                        Začína <strong>o&nbsp;19:00</strong>.
+                        WebElement sa zvyčajne koná <strong>prvý alebo druhý týždeň v&nbsp;mesiaci.</strong>
+                        Býva <strong>vo štvrtok,</strong> pretože vtedy ešte ľudia chodia normálne do práce
+                        a&nbsp;obvykle im to nijako nenaruší plány na víkend.
+                        Začína <strong>o&nbsp;19.&nbsp;hodine.</strong>
                     </p>
                 </div>
             </div>
@@ -48,7 +48,7 @@ redirect_from:
                     <p>
                         Ak sa nedeje niečo špeciálne, ako napr.
                         <a href="{% post_url 2013-06-06-webelement-20-sygic-andrej-had-ondrej-svitek-git %}" title="WebElement #20 @ Sygic">WebElement #20 v Sygicu</a>, tak akcia býva v
-                        <a href="https://maps.google.com/maps?q=Zámocká 30, Bratislava" title="Kafe Nervosa, Zámocká 30, Bratislava" target="_blank">Kafe Nervosa</a>, na Zámockej ulici <strong>v&nbsp;Bratislave</strong>.
+                        <a href="https://maps.google.com/maps?q=Zámocká 30, Bratislava" title="Kafe Nervosa, Zámocká 30, Bratislava" target="_blank">Kafe Nervosa</a>, na Zámockej ulici <strong>v&nbsp;Bratislave.</strong>
                         Na event sa dá zvyčajne prihlásiť cez {{ site.anchors.facebook }} alebo {{ site.anchors.meetup }}.
                     </p>
                 </div>
@@ -58,8 +58,8 @@ redirect_from:
                     <i class="fa icon-users fa-2x"></i><br>
                     <h3>Kto?</h3>
                     <p>
-                        Na WebElement chodia prednášať rečníci z rôznych sfér &ndash; či už robia backend, frontend alebo správu serverov.
-                        Primárne sú to však ľudia motajúci sa okolo webov, databáz a programovania.
+                        Na WebElement chodia prednášať <a href="{{ "/recnici" | prepend: site.baseurl }}">rečníci z rôznych sfér</a> &ndash; či už robia <strong>backend, frontend alebo správu serverov.</strong>
+                        Primárne sú to však ľudia motajúci sa okolo <strong>webov, databáz a programovania.</strong>
                     </p>
                 </div>
             </div>
@@ -67,7 +67,7 @@ redirect_from:
         <div class="row">
             <div class="col-md-12">
                 <p class="presov">
-                    Okrem toho sa koná <strong>aj v Prešove</strong>,
+                    Okrem toho sa koná <strong>aj v Prešove,</strong>
                     kde sa komunitu snaží budovať <a href="{{ "/recnici/#martin-razus" | prepend: site.baseurl }}">Martin Rázus</a>.
                 </p>
             </div>
