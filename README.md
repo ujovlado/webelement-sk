@@ -1,4 +1,4 @@
-[WebElement](http://webelement.sk) - web developers meetup
+[WebElement](https://webelement.sk) - web developers meetup
 ==========
 
 WebElement is regular meetup for web developers. It takes place in Bratislava and Prešov.
