@@ -4,6 +4,8 @@ layout: event
 hasVideo: true
 facebookId: 569520879753523
 meetupId: 128568822
+redirect_from:
+  - /e/21/
 ---
 
 ## D3.js
