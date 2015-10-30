@@ -1,3 +1,5 @@
+ErrorDocument 404 /404.html
+
 RewriteEngine on
 
 RewriteCond %{HTTP_HOST} ^www\.webelement\.sk$
