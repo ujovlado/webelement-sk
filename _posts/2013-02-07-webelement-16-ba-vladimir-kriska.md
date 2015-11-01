@@ -3,6 +3,8 @@ title: "WebElement #16: Vladimír Kriška - Jednoduché udržiavanie projektov v
 layout: event
 hasVideo: false
 facebookId: 339970736112074
+redirect_from:
+  - /event/webelement-16-bratislava/
 ---
 
 
