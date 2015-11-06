@@ -5,12 +5,14 @@ stages:
   - build
   - deploy
 
-buildForProductionEnv:
+buildDevBranches:
   stage: build
   script:
     - ./build.sh
+  except:
+    - master
 
-deployToProductionEnv:
+deployToProduction:
   stage: deploy
   script:
     - ./build.sh
