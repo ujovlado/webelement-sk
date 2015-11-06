@@ -1,0 +1,18 @@
+before_script:
+  - ./docker-build.sh
+
+stages:
+  - build
+  - deploy
+
+buildForProductionEnv:
+  stage: build
+  script:
+    - ./build.sh
+
+deployToProductionEnv:
+  stage: deploy
+  script:
+    - ./deploy.sh
+  only:
+    - master

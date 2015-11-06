@@ -1,0 +1,7 @@
+{
+  "name": "webelement.sk",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

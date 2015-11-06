@@ -4,3 +4,5 @@ node_modules
 .idea
 /vendor
 twitter-secrets.php
+.jekyll-metadata
+bower_components
