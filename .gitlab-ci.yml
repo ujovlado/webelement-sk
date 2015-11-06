@@ -13,6 +13,7 @@ buildForProductionEnv:
 deployToProductionEnv:
   stage: deploy
   script:
+    - ./build.sh
     - ./deploy.sh
   only:
     - master
