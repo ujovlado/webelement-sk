@@ -48,6 +48,9 @@ exclude:
   - css/main.less
   - images/speakers/sprite/sprite.css
   - _build
+  - bower_components
+  - build.sh
+  - deploy.sh
 
 gems:
   - jekyll-sitemap

@@ -21,3 +21,9 @@ RUN apt-get install g++ -y
 
 # less, gulp and bower
 RUN npm install -g less gulp bower
+
+ARG userId
+ARG groupId
+
+RUN addgroup --gid $groupId dockergroup
+RUN adduser --uid $userId --gid $groupId --quiet --disabled-login --system dockeruser
