@@ -15,19 +15,7 @@ As you noticed, site is coded mostly in Jekyll. There are also used some Node mo
 
 **Note: Don't load Google Analytics and Disqus codes while running locally.**
 
-To run it locally, just clone it, install dependencies and run commands:
-
-    $ composer install
-    $ npm install
-    $ gulp clean
-    $ gulp
-
-If you don't want to install Ruby and related stuff, see attached `Dockerfile` and run:
-
-    $ docker build -t webelement/website .
-    $ docker run -i -t --rm -v "$PWD:/jekyll" -w /jekyll -p 4000:4000 webelement/website:latest sh -c 'composer install && npm install && gulp clean && gulp'
-
-There are also shortcut scripts:
+To run it locally, just clone it and use shortcut scripts:
 
     $ ./docker-build.sh
     $ ./docker-run.sh
