@@ -1,6 +1,7 @@
 ---
 title: "WebElement #16 Prešov: Peter Dendis - Ako na Crowdfunding; Kristína Šebejová - Ta Take Town"
 layout: event
+hasVideo: true
 facebookId: 934775063278930
 ---
 
