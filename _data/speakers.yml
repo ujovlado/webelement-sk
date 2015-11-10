@@ -15,6 +15,13 @@
     twitter: andrejhad
     url: null
 -
+    _id: daniel-tekel
+    about: null
+    events: [2015-05-12-webelement-13-presov]
+    image: null
+    name: 'Daniel Tekeľ'
+    twitter: null
+-
     _id: david-durika
     about: 'web developer | Meteor JS fan'
     events: [2015-05-14-webelement-34]
