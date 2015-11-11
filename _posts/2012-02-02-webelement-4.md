@@ -13,5 +13,5 @@ Na štvrtý WebElement sme si s Igorom prichystali CSS kombo. Pozrite sa, o čom
 
 ## SMACSS / CSS effectively
 
-{% include slideshare.html id="14921233" %}
+{% include speakerdeck.html id="4d4ade970724440b87b9f0bc819fe389" %}
 

@@ -13,4 +13,4 @@ Prednáška je o výhodách a nevýhodách DVCS a o verzovacích systémoch vše
 
 CVCS zastupuje Subversion, DVCS Mercurial.
 
-{% include slideshare.html id="15662203" %}
+{% include speakerdeck.html id="45613ef237ec420290e6264535953e22" %}
