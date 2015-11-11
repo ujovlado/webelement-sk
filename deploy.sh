@@ -1,5 +1,6 @@
 #!/bin/bash
 
-scp -r _build webelement.sk@webelement.sk:/new
-echo "rename web web-`date +"%Y%m%d-%H%M%S"`" | sftp -C webelement.sk@webelement.sk
-echo "rename new web" | sftp -C webelement.sk@webelement.sk
+DATETIME=`date +"%Y%m%d-%H%M%S"`;
+
+scp -r _build webelement.sk@webelement.sk:/new-$DATETIME
+echo -e "rename web web-$DATETIME\nrename new-$DATETIME web" | sftp -C webelement.sk@webelement.sk
