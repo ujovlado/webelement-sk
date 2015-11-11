@@ -14,4 +14,4 @@ CasperJS, je jednoduchá utilitka na testovanie webov, ktorá PhantomJS využív
 Na prednáška sa dozviete ako CasperJS funguje, ako ho používať, na čo všetko sa vám zíde a ukážem vám pár príkladov,
 kedy mi CasperJS zachránil kopec času.
 
-{% include slideshare.html id="14356762" %}
+{% include speakerdeck.html id="0cee4184475841c6856b719ee82cf564" %}

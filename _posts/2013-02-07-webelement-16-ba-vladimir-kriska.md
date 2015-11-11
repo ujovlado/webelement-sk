@@ -14,4 +14,4 @@ je editovanie priamo na live najväčšia zloba a prečo by sa nemala nikdy tá 
 Ukázali sme si prácu so vzdialeným serverom pomocou SSHFS, s verzovacím systémom Mercurial a použite databázových
  migrácií s Yii frameworku.
 
-{% include slideshare.html id="17289071" %}
+{% include speakerdeck.html id="b61d9060ebe64507b370c9846a6fff19" %}
