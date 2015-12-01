@@ -3,6 +3,8 @@ title: "WebElement #17: Peter Dulačka - Chrome Dev Tools Crash Course; Igor Hli
 layout: event
 hasVideo: false
 facebookId: 542231759154984
+redirect_from:
+  - /event/webelement-17/
 ---
 
 ## Chrome Dev Tools Crash Course
