@@ -3,7 +3,8 @@ ErrorDocument 404 /404.html
 RewriteEngine on
 
 RewriteCond %{HTTP_HOST} ^www\.webelement\.sk$
-RewriteRule .* http://webelement.sk/$0 [L,R=301,NE]
+RewriteRule .* %{REQUEST_SCHEME}://webelement.sk/$0 [L,R=301,NE]
 
+RewriteCond %{HTTP_HOST} ^webelement\.sk$
 RewriteCond %{SERVER_PORT} ^80$
 RewriteRule .* https://webelement.sk/$0 [L,R=301,NE]
