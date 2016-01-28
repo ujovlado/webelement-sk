@@ -5,7 +5,6 @@
     image: /images/speakers/new_POPE-6PRpCNdY_normal.jpeg
     name: 'Adam Štipák'
     twitter: new_POPE
-    url: '<a href="http://newpope.org" target="_blank">newpope.org</a>'
 -
     _id: andrej-had
     about: ''
@@ -21,7 +20,6 @@
     image: /images/speakers/artmatsak-bc859145f1ad84983fde79711084b59b_normal.jpeg
     name: 'Art Matsak'
     twitter: artmatsak
-    url: '<a href="http://www.gruveo.com" target="_blank">gruveo.com</a>'
 -
     _id: daniel-tekel
     about: null
@@ -50,7 +48,6 @@
     image: /images/speakers/gregor_rayman-gregor-rayman_normal.jpg
     name: 'Gregor Raýman'
     twitter: gregor_rayman
-    url: '<a href="http://www.linkedin.com/in/gregorrayman" target="_blank">linkedin.com/in/gregorrayman</a>'
 -
     _id: igor-hlina
     about: 'Full-stack webdeveloper focused on Node.js & React.js. Kerbal space program fan. Also (learning :clojure)'
@@ -58,7 +55,6 @@
     image: /images/speakers/srigi-Screen-Shot-2011-09-12-at-8.50.54-AM-_blue__normal.png
     name: 'Igor Hlina'
     twitter: srigi
-    url: '<a href="http://www.srigi.sk" target="_blank">srigi.sk</a>'
 -
     _id: igor-rjabinin
     about: ''
@@ -66,7 +62,6 @@
     image: /images/speakers/igor_kamil-5666667262_1a2cd12ddb_b_normal.jpg
     name: 'Igor Rjabinin'
     twitter: igor_kamil
-    url: '<a href="http://www.igo.sk" target="_blank">igo.sk</a>'
 -
     _id: jan-antala
     about: 'JavaScript & Mobile, Innovation Engineer, Open Source contributor'
@@ -74,7 +69,6 @@
     image: /images/speakers/janantala-AFLmU1_8_normal.jpeg
     name: 'Ján Antala'
     twitter: janantala
-    url: '<a href="http://www.janantala.com" target="_blank">janantala.com</a>'
 -
     _id: jan-kmetko
     about: null
@@ -126,7 +120,6 @@
     image: /images/speakers/mareklichtner-me_normal.png
     name: 'Marek Lichtner'
     twitter: mareklichtner
-    url: '<a href="http://licht.sk" target="_blank">licht.sk</a>'
 -
     _id: marek-varga
     about: null
@@ -169,7 +162,6 @@
     image: /images/speakers/martinkrupa-krupa_avatar_normal.jpg
     name: 'Martin Krupa'
     twitter: martinkrupa
-    url: '<a href="http://www.ui42.sk/blog" target="_blank">ui42.sk/blog</a>'
 -
     _id: martin-razus
     about: 'Relentless optimist, web developer, trying to realize hundreds of ideas at one time'
@@ -177,7 +169,6 @@
     image: /images/speakers/martinrazus-twitter_normal.JPG
     name: 'Martin Rázus'
     twitter: martinrazus
-    url: '<a href="http://scoolmate.com" target="_blank">scoolmate.com</a>'
 -
     _id: martin-strycek
     about: ''
@@ -193,7 +184,6 @@
     image: /images/speakers/sustrik-sustrik_normal.png
     name: 'Martin Sústrik'
     twitter: sustrik
-    url: '<a href="http://www.250bpm.com/blog" target="_blank">250bpm.com/blog</a>'
 -
     _id: matej-capkovic
     about: 'Developer @ WebSupport'
@@ -209,7 +199,6 @@
     image: /images/speakers/matejlukac-rkXCfBn1_normal.jpeg
     name: 'Matej Lukáč'
     twitter: matejlukac
-    url: '<a href="http://www.nolimit.sk" target="_blank">nolimit.sk</a>'
 -
     _id: matej-nemcek
     about: 'devops.js @AktivioCRM, autodidact webdev, hackerspace @Progressbarsk, B1tc0in-lov3r, cypherpunk, psychotronic'
@@ -217,7 +206,6 @@
     image: /images/speakers/yangwao-83f7f811dc71f5dc1954ba0a2ec837e2_normal.jpeg
     name: 'Matej Nemček'
     twitter: yangwao
-    url: '<a href="http://sk.linkedin.com/in/mnemcek/" target="_blank">sk.linkedin.com/in/mnemcek/</a>'
 -
     _id: matus-duchon
     about: ''
@@ -241,7 +229,6 @@
     image: /images/speakers/mmaxian-ja_gtug_small_normal.png
     name: 'Michal Maxian'
     twitter: mmaxian
-    url: '<a href="http://www.maxian.sk" target="_blank">maxian.sk</a>'
 -
     _id: michal-poremba
     about: null
@@ -285,7 +272,6 @@
     image: /images/speakers/peterdendis-Rt_W-dL3_normal.jpg
     name: 'Peter Dendis'
     twitter: peterdendis
-    url: '<a href="http://www.dendis.eu" target="_blank">dendis.eu</a>'
 -
     _id: peter-dulacka
     about: 'Golang, Ruby and PHP developer • tech enthusiast • cinemaniac'
@@ -293,7 +279,6 @@
     image: /images/speakers/rootpd-scr_normal.png
     name: 'Peter Dulačka'
     twitter: rootpd
-    url: '<a href="http://rootpd.com" target="_blank">rootpd.com</a>'
 -
     _id: peter-simun
     about: 'Entrepreneur, cofounder of @seges and @thesitehero, interested in UI/UX, tech and startups. Oh, did I mention that I love beer?'
@@ -301,7 +286,6 @@
     image: /images/speakers/petersimun-DSC_0372_small_normal.png
     name: 'Peter Šimún'
     twitter: petersimun
-    url: '<a href="http://about.me/peter.simun" target="_blank">about.me/peter.simun</a>'
 -
     _id: peter-sirka
     about: 'The best ever framework for node.js is total.js.'
@@ -309,7 +293,6 @@
     image: /images/speakers/petersirka-ja_normal.jpg
     name: 'Peter Širka'
     twitter: petersirka
-    url: '<a href="http://www.totaljs.com" target="_blank">totaljs.com</a>'
 -
     _id: peter-slivka
     about: 'Passionate webdeveloper of @slidoapp, co-founder of @instando'
@@ -317,7 +300,6 @@
     image: /images/speakers/peterslivka-b953b7835b214b106e705098a39e47de_normal.jpeg
     name: 'Peter Slivka'
     twitter: peterslivka
-    url: '<a href="http://www.peterslivka.sk" target="_blank">peterslivka.sk</a>'
 -
     _id: tibor-sovis
     about: 'sKoRo KRitiK'
@@ -333,7 +315,6 @@
     image: /images/speakers/tomas_corej-leme_normal.jpg
     name: 'Tomáš Čorej'
     twitter: tomas_corej
-    url: '<a href="http://websupport.sk" target="_blank">websupport.sk</a>'
 -
     _id: tomas-kulich
     about: null
@@ -348,4 +329,3 @@
     image: /images/speakers/ujovlado-xKQSGIQk_normal.jpeg
     name: 'Vladimír Kriška'
     twitter: ujovlado
-    url: '<a href="https://ujovlado.sk" target="_blank">ujovlado.sk</a>'

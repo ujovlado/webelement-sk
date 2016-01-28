@@ -33,9 +33,6 @@ foreach ($speakers as $key => $speaker) {
 		if (isset($info->description)) {
 			$speakers[$key]['about'] = replaceShortUrls($info->description, $info->entities->description->urls);
 		}
-		if (isset($info->url)) {
-			$speakers[$key]['url'] = replaceShortUrls($info->url, $info->entities->url->urls);
-		}
 	}
 }
 
