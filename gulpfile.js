@@ -11,6 +11,7 @@ var revReplace = require('gulp-rev-replace');
 var spritesmith = require('gulp.spritesmith');
 var imagemin = require('gulp-imagemin');
 var htmlmin = require('gulp-htmlmin');
+var filter = require('gulp-filter');
 
 var paths = {
   jekyll: [
@@ -41,7 +42,7 @@ gulp.task('clean', function(callback) {
 
 
 gulp.task('watch', function() {
-  gulp.watch(paths.site, ['minify']);
+  gulp.watch(paths.site, ['site']);
   gulp.watch(paths.jekyll, ['jekyll']);
   gulp.watch(paths.css, ['css']);
   gulp.watch(paths.fonts, ['fonts']);
@@ -74,10 +75,16 @@ gulp.task('css', function() {
     .pipe(browserSync.reload({stream:true}))
 });
 
-gulp.task('site', [], function() {
+gulp.task('site', function() {
+  var htmlFilter = filter('**/*.html', {restore: true});
   return gulp.src(paths.site)
-    .pipe(gulp.dest('_build'))
-    //.pipe(browserSync.reload({stream:true}));
+    .pipe(htmlFilter)
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      conservativeCollapse: true
+    }))
+    .pipe(htmlFilter.restore)
+    .pipe(gulp.dest('_build'));
 });
 
 gulp.task('sprite', function () {
@@ -96,16 +103,6 @@ gulp.task("revreplace", [], function() {
     .pipe(gulp.dest('_build'))
 });
 
-gulp.task('minify', ['site'], function() {
-  return gulp.src('_build/**/*.html')
-    .pipe(htmlmin({
-      collapseWhitespace: true,
-      conservativeCollapse: true
-    }))
-    .pipe(gulp.dest('_build'))
-    .pipe(browserSync.reload({stream:true}));
-});
-
 gulp.task('browser-sync', [], function() {
   browserSync({
     server: {
@@ -117,5 +114,5 @@ gulp.task('browser-sync', [], function() {
 });
 
 gulp.task('default', ['jekyll', 'css', 'fonts', 'sprite'], function() {
-  gulp.start('minify', 'watch', 'browser-sync');
+  gulp.start('site', 'watch', 'browser-sync');
 });
