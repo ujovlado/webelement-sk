@@ -29,28 +29,7 @@ timezone: "Europe/Bratislava"
 markdown: kramdown
 permalink: /event/:title/
 exclude:
-  - bower.json
-  - README.md
-  - CNAME
-  - LICENSE
-  - twitter-secrets.php
-  - speakers.php
-  - vendor
-  - fontello
-  - Dockerfile
-  - docker-run.sh
-  - docker-build.sh
-  - composer.json
-  - composer.lock
-  - node_modules
-  - gulpfile.js
-  - package.json
-  - css/main.less
   - images/speakers/sprite/sprite.css
-  - _build
-  - bower_components
-  - build.sh
-  - deploy.sh
 
 gems:
   - jekyll-sitemap
