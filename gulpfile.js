@@ -49,8 +49,11 @@ gulp.task('watch', function() {
 
 gulp.task('jekyll', function(callback) {
   browserSync.notify('jekyll');
-  childProcess.spawn('jekyll', ['build'], {stdio: 'inherit'})
-    .on('close', callback);
+  childProcess.spawn('jekyll', ['build', '-d', '../_site'], {
+    cwd: './app',
+    stdio: 'inherit'
+  })
+  .on('close', callback);
 });
 
 gulp.task('fonts', function() {
