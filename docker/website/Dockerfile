@@ -12,7 +12,7 @@ RUN update-alternatives --set editor /usr/bin/vim.basic
 
 # ruby and other dependencies, then required gems
 RUN apt-get install ruby ruby-dev make ca-certificates gcc -y
-RUN gem install jekyll jekyll-sitemap jekyll-redirect-from
+RUN gem install jekyll:3.0.0 jekyll-sitemap:0.9.0 jekyll-redirect-from:0.9.0
 
 # install node and tools
 RUN curl --silent --location https://deb.nodesource.com/setup_4.x | bash -
