@@ -118,7 +118,7 @@ gulp.task("revreplace", [], function() {
     .pipe(gulp.dest('_build'))
 });
 
-gulp.task('browser-sync', ['css', 'fonts', 'sprite', 'build-from-site'], function() {
+gulp.task('browser-sync', ['css', 'fonts', 'sprite', 'build-site'], function() {
   browserSync.init({
     server: '_build',
     host: "localhost",
@@ -126,4 +126,4 @@ gulp.task('browser-sync', ['css', 'fonts', 'sprite', 'build-from-site'], functio
   });
 });
 
-gulp.task('default', ['watch', 'browser-sync']);
+gulp.task('default', ['jekyll', 'watch', 'browser-sync']);
