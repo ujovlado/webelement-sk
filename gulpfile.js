@@ -57,6 +57,15 @@ gulp.task('jekyll', function(callback) {
   .on('close', callback);
 });
 
+gulp.task('jekyll-incremental', function(callback) {
+  browserSync.notify('jekyll');
+  childProcess.spawn('jekyll', ['build', '-d', '../_site', '-I'], {
+        cwd: './app',
+        stdio: 'inherit'
+      })
+      .on('close', callback);
+});
+
 gulp.task('fonts', function() {
   return gulp.src(paths.fonts)
     .pipe(gulp.dest('_build/font'));
