@@ -17,7 +17,7 @@ function replaceShortUrls($text, $urls = [])
 
 $twitter = new Twitter($consumerKey, $consumerSecret, $accessToken, $accessTokenSecret);
 
-$speakersFile = __DIR__ . '/_data/speakers.yml';
+$speakersFile = __DIR__ . '/app/_data/speakers.yml';
 $speakers = Yaml::parse(file_get_contents($speakersFile));
 
 foreach ($speakers as $key => $speaker) {
@@ -28,7 +28,7 @@ foreach ($speakers as $key => $speaker) {
 		$profileImage = file_get_contents($info->profile_image_url);
 		$pathinfo = pathinfo($info->profile_image_url);
 		$newProfileImageName = '/images/speakers/' . $username . '-' . $pathinfo['basename'];
-		file_put_contents('.' . $newProfileImageName, $profileImage);
+		file_put_contents('./app' . $newProfileImageName, $profileImage);
 		$speakers[$key]['image'] = $newProfileImageName;
 		if (isset($info->description)) {
 			$speakers[$key]['about'] = replaceShortUrls($info->description, $info->entities->description->urls);

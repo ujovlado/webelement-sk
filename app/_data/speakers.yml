@@ -256,15 +256,15 @@
     url: null
 -
     _id: peter-dendis
-    about: 'I am interested in digital marketing, business strategy and people. I am working @tarantulask'
+    about: 'I believe that the world can be a better place through technology that solve problems. I am working @tarantulask #startup #technology #future #education'
     events: [2015-10-06-webelement-16-presov]
-    image: /images/speakers/peterdendis-t_pd2_normal.jpg
+    image: /images/speakers/peterdendis-Rt_W-dL3_normal.jpg
     name: 'Peter Dendis'
     twitter: peterdendis
     url: '<a href="http://www.dendis.eu" target="_blank">dendis.eu</a>'
 -
     _id: peter-dulacka
-    about: "PHP developer @ Piano Media • \nWoodstock.FM, SubtitleNET • cinemaniac"
+    about: 'Golang, Ruby and PHP developer • tech enthusiast • cinemaniac'
     events: [2015-10-08-webelement-35, 2015-02-11-webelement-31, 2013-03-14-webelement-17-ba-peter-dulacka-igor-hlina]
     image: /images/speakers/rootpd-scr_normal.png
     name: 'Peter Dulačka'
