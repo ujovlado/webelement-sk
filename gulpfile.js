@@ -2,7 +2,7 @@
 var gulp = require('gulp');
 var less = require('gulp-less');
 var del = require('del');
-var minifyCss = require('gulp-minify-css');
+var cssnano = require('gulp-cssnano');
 var concatCss = require('gulp-concat-css');
 var browserSync = require('browser-sync');
 var childProcess = require('child_process');
@@ -65,7 +65,7 @@ gulp.task('css', function() {
   return gulp.src(paths.css)
     .pipe(less())
     .pipe(concatCss("main.css"))
-    .pipe(minifyCss())
+    .pipe(cssnano())
     .pipe(gulp.dest('_build/css'))
     .pipe(rev())
     .pipe(gulp.dest('_build/css'))
