@@ -4,7 +4,7 @@
     "url": "https://github.com/webelement/webelement.sk.git"
   },
   "devDependencies": {
-    "browser-sync": "^2.9.3",
+    "browser-sync": "^2.11.1",
     "del": "^2.0.2",
     "gulp": "^3.9.0",
     "gulp-concat-css": "^2.2.0",
