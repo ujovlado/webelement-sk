@@ -15,13 +15,10 @@ var filter = require('gulp-filter');
 
 var paths = {
   jekyll: [
-    '_data/*.yml',
-    '_includes/*.html',
-    '_layouts/*.html',
-    '_posts/*.md',
-    '*.md',
-    '_config.yml',
-    '.htaccess'
+    'app/**/*.md',
+    'app/**/*.html',
+    'app/**/*.yml',
+    'app/**/.htaccess'
   ],
   css: [
     'fontello/build/css/fontello.css',
@@ -43,7 +40,7 @@ gulp.task('clean', function(callback) {
 
 gulp.task('watch', function() {
   gulp.watch(paths.site, ['site']);
-  gulp.watch(paths.jekyll, ['jekyll']);
+  gulp.watch(paths.jekyll, ['jekyll-incremental']);
   gulp.watch(paths.css, ['css']);
   gulp.watch(paths.fonts, ['fonts']);
 });
