@@ -12,15 +12,22 @@ var spritesmith = require('gulp.spritesmith');
 var imagemin = require('gulp-imagemin');
 var htmlmin = require('gulp-htmlmin');
 var filter = require('gulp-filter');
+var changed = require('gulp-changed');
+var runSequence = require('run-sequence');
 
 var paths = {
   jekyll: [
-    'app/**/*.md',
-    'app/**/*.html',
-    'app/**/.htaccess'
-  ],
-  jekyll_yml: [
-    'app/**/*.yml'
+    'app/_data/*.yml',
+    'app/_includes/*.html',
+    'app/_layouts/*.html',
+    'app/_posts/*.md',
+    'app/feed/rss/.htaccess',
+    'app/images/ad/*.*',
+    'app/images/events/*.*',
+    'app/images/similar/*.*',
+    'app/images/*.*',
+    'app/.*',
+    'app/*.*'
   ],
   css: [
     'fontello/build/css/fontello.css',
@@ -29,21 +36,28 @@ var paths = {
   fonts: [
     'fontello/build/font/*.*'
   ],
+  images: [
+    'app/images/speakers/*.*'
+  ],
   site: [
     '_site/**/*.*',
-    '_site/**/.*'
+    '_site/**/.*',
+    '!_site/**/*.html'
+  ],
+  siteHtml: [
+    '_site/**/*.html'
   ]
 };
 
 gulp.task('clean', function(callback) {
-  del(['_build/*', '_site/*'], callback)
+  del(['_build', '_site'], callback)
 });
 
-
-gulp.task('watch', function() {
-  gulp.watch(paths.site, ['build-site']);
-  gulp.watch(paths.jekyll, ['jekyll-incremental']);
-  gulp.watch(paths.jekyll_yml, ['jekyll']);
+gulp.task('watch', ['initial'],function() {
+  gulp.watch(paths.siteHtml, ['copy-site-html-and-minify']);
+  gulp.watch(paths.site, ['copy-site-files']);
+  gulp.watch(paths.images, ['copy-app-images']);
+  gulp.watch(paths.jekyll, ['jekyll']);
   gulp.watch(paths.css, ['css']);
   gulp.watch(paths.fonts, ['fonts']);
 });
@@ -51,28 +65,15 @@ gulp.task('watch', function() {
 gulp.task('jekyll', function(callback) {
   browserSync.notify('jekyll build standard');
   childProcess.spawn('jekyll', ['build', '-d', '../_site'], {
-    cwd: './app',
-    stdio: 'inherit'
-  })
-  .on('close', callback);
-});
-
-gulp.task('jekyll-incremental', function(callback) {
-  browserSync.notify('jekyll build incremental');
-  childProcess.spawn('jekyll', ['build', '-d', '../_site', '-I'], {
-        cwd: './app',
-        stdio: 'inherit'
-      })
-      .on('close', callback);
+      cwd: './app',
+      stdio: 'inherit'
+    })
+    .on('close', callback);
 });
 
 gulp.task('fonts', function() {
   return gulp.src(paths.fonts)
-    .pipe(gulp.dest('_build/font'));
-});
-
-gulp.task('build-site', ['minify'], function() {
-  browserSync.reload();
+      .pipe(gulp.dest('_build/font'));
 });
 
 gulp.task('css', function() {
@@ -88,27 +89,43 @@ gulp.task('css', function() {
     .pipe(browserSync.reload({stream:true}))
 });
 
-gulp.task('site', function() {
+gulp.task('copy-site-files', function() {
   return gulp.src(paths.site)
+    .pipe(changed('_build', {hasChanged: changed.compareSha1Digest}))
     .pipe(gulp.dest('_build'));
 });
 
-gulp.task('minify', ['site'], function() {
-  return gulp.src('_build/**/*.html')
+gulp.task('copy-site-html-and-minify', function() {
+  return gulp.src(paths.siteHtml)
     .pipe(htmlmin({
       collapseWhitespace: true,
       conservativeCollapse: true
     }))
-    .pipe(gulp.dest('_build'));
+    .pipe(changed('_build', {hasChanged: changed.compareSha1Digest}))
+    .pipe(gulp.dest('_build'))
+    .pipe(browserSync.reload({stream:true}))
 });
 
-gulp.task('sprite', function () {
+gulp.task('create-speakers-sprite', function () {
   var spriteData = gulp.src(['app/images/speakers/*.*']).pipe(spritesmith({
     imgName: 'sprite.png',
     cssName: 'sprite.css'
   }));
   return spriteData.pipe(imagemin())
     .pipe(gulp.dest('app/images/speakers/sprite'));
+});
+
+gulp.task('copy-app-images', ['create-speakers-sprite'], function() {
+  return gulp.src('app/images/speakers/**/*.*')
+    .pipe(changed('_site/images/speakers', {hasChanged: changed.compareSha1Digest}))
+    .pipe(gulp.dest('_site/images/speakers'));
+});
+
+gulp.task('initial', function(callback) {
+  runSequence('jekyll', 'copy-app-images',
+    ['css', 'fonts'],
+    ['copy-site-files', 'copy-site-html-and-minify'],
+    callback);
 });
 
 gulp.task("revreplace", [], function() {
@@ -118,7 +135,7 @@ gulp.task("revreplace", [], function() {
     .pipe(gulp.dest('_build'))
 });
 
-gulp.task('browser-sync', ['css', 'fonts', 'sprite', 'build-site'], function() {
+gulp.task('browser-sync', ['watch'],function() {
   browserSync.init({
     server: '_build',
     host: "localhost",
@@ -126,4 +143,4 @@ gulp.task('browser-sync', ['css', 'fonts', 'sprite', 'build-site'], function() {
   });
 });
 
-gulp.task('default', ['jekyll', 'watch', 'browser-sync']);
+gulp.task('default', ['browser-sync', 'watch']);
