@@ -20,7 +20,7 @@ class: similar-meetups
     <h2>GDG Slovakia</h2>
     <p>
         Skupina zameraná na propagáciu Google API a frameworkov, best practices a stretávanie ľudí, ktorí sa zaujímajú o Google technológie.
-        <a href="http://www.meetup.com/gdg-slovakia">meetup.com/gdg-slovakia</a>
+        <a href="https://www.meetup.com/gdg-slovakia">meetup.com/gdg-slovakia</a>
     </p>
 </div>
 <div class="meetup">
@@ -44,7 +44,7 @@ class: similar-meetups
     <h2>Slovak Scala Users' Group</h2>
     <p>
         Skupina pre každého, kto sa zaujíma o programovanie v Scale a súvisiace technológie.
-        <a href="http://www.meetup.com/slovak-scala">meetup.com/slovak-scala</a>
+        <a href="https://www.meetup.com/slovak-scala">meetup.com/slovak-scala</a>
     </p>
 </div>
 
