@@ -6,3 +6,5 @@ node_modules
 twitter-secrets.php
 .jekyll-metadata
 bower_components
+build-*.tar.gz
+build-*.sh
