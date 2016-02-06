@@ -9,9 +9,9 @@
     _id: andrej-had
     about: ''
     events: [2013-06-06-webelement-20-sygic-andrej-had-ondrej-svitek-git]
-    image: /images/speakers/andrejhad-8badaee47ee77e941a948d948a4f9d6a_normal.png
+    image: null
     name: 'Andrej Had'
-    twitter: andrejhad
+    twitter: null
     url: null
 -
     _id: art-matsak
@@ -261,9 +261,9 @@
     _id: ondrej-svitek
     about: ''
     events: [2013-06-06-webelement-20-sygic-andrej-had-ondrej-svitek-git]
-    image: /images/speakers/knizkar-default_profile_6_normal.png
+    image: null
     name: 'Ondrej Svitek'
-    twitter: knizkar
+    twitter: null
     url: null
 -
     _id: peter-dendis
