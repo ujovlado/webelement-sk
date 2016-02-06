@@ -21,7 +21,6 @@ var paths = {
     'app/_includes/*.html',
     'app/_layouts/*.html',
     'app/_posts/*.md',
-    'app/feed/rss/.htaccess',
     'app/images/ad/*.*',
     'app/images/events/*.*',
     'app/images/similar/*.*',
