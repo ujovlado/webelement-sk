@@ -8,14 +8,14 @@ stages:
 buildDevBranches:
   stage: build
   script:
-    - ./build.sh
+    - ./prod-build.sh
   except:
     - master
 
 deployToProduction:
   stage: deploy
   script:
-    - ./build.sh
-    - ./deploy.sh
+    - ./prod-build.sh
+    - ./prod-deploy.sh
   only:
     - master
