@@ -13,7 +13,7 @@ rm -rf _build
 echo \"Extracting archive ...\"
 tar -xzf $ARCHIVE
 mv _build webelement.sk-$DATETIME
-rm web && ln -s webelement.sk-$DATETIME web
+rm -f www && ln -s webelement.sk-$DATETIME www
 " > $SCRIPT
 
 scp -r $ARCHIVE $SCRIPT webelement@webelement.sk:~/web/webelement.sk
