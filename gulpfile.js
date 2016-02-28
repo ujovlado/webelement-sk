@@ -138,7 +138,8 @@ gulp.task('browser-sync', ['watch'],function() {
   browserSync.init({
     server: '_build',
     host: "localhost",
-    port: 4000
+    port: 4000,
+    online: false
   });
 });
 
