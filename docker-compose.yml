@@ -1,0 +1,28 @@
+node:
+  image: quay.io/webelement/node:latest
+  tty: true
+  stdin_open: true
+  volumes:
+    - ./:/code
+  working_dir: /code
+  command: >
+           sh -c '
+           bower install --allow-root
+           && npm set progress=false
+           && npm install -q
+           && gulp copy-app-images
+           && gulp css
+           && gulp fonts
+           && gulp copy-site-files
+           && gulp copy-site-html-and-minify
+           && gulp revreplace
+           '
+
+jekyll:
+  image: quay.io/webelement/jekyll:latest
+  tty: true
+  stdin_open: true
+  volumes:
+    - ./:/code
+  working_dir: /code
+  command: sh -c 'JEKYLL_ENV=production jekyll build -s ./app'
