@@ -150,7 +150,7 @@
     twitter: null
 -
     _id: marian-rusnak
-    about: ''
+    about: 'Front-end Software Engineer at AOL, pasionate about dev trends, sport freak, crazy East-Slovakian, currently living in London, UK'
     events: [2015-05-12-webelement-13-presov]
     image: /images/speakers/MarianRusnak-iddo8qZL_normal.jpeg
     name: 'Marián Rusnák'
@@ -172,7 +172,7 @@
 -
     _id: martin-strycek
     about: ''
-    events: [2012-06-07-webelement-8]
+    events: [2016-03-10-webelement-37, 2012-06-07-webelement-8]
     image: /images/speakers/martin_strycek-223149_10150237309840518_572300517_7973249_3239506_n_1__normal.jpg
     name: 'Martin Strýček'
     twitter: martin_strycek
@@ -224,7 +224,7 @@
     url: null
 -
     _id: michal-maxian
-    about: "it member, event organizer, idea maker and most of all human \nprojects @itexperienced \n#startupweekend #batsuite #startupeduSVK #startupslovakia"
+    about: 'startup enthusiast, non-profit activist, idea maker but most of all human in projects #startupweekend #batsuite #startupeduSVK #startupslovakia'
     events: [2015-05-14-webelement-34]
     image: /images/speakers/mmaxian-ja_gtug_small_normal.png
     name: 'Michal Maxian'
@@ -267,7 +267,7 @@
     url: null
 -
     _id: peter-dendis
-    about: 'I believe that the world can be a better place through technology that solve problems. I am working @tarantulask #startup #technology #future #education'
+    about: 'I believe that the world can be a better place through technology that solve problems. I am part of @tarantulask @slovak_startup #startup #technology #education'
     events: [2015-10-06-webelement-16-presov]
     image: /images/speakers/peterdendis-Rt_W-dL3_normal.jpg
     name: 'Peter Dendis'
@@ -322,6 +322,13 @@
     image: null
     name: 'Tomáš Kulich'
     twitter: null
+-
+    _id: tomas-sirny
+    about: 'Python/Django developer (@reactoram, @synopsitv), historical fencer, music lover, laugh seeker.'
+    events: [2016-03-10-webelement-37]
+    image: /images/speakers/junckritter-ja_normal.jpeg
+    name: 'Tomáš Sirný'
+    twitter: junckritter
 -
     _id: vladimir-kriska
     about: "programmer, geek, blogger, speaker;\r\nLinux, CSS & typography lover;\r\n@webelement meetup, @rekurzia"
