@@ -13,7 +13,7 @@ script:
 
 deploy:
   provider: script
-  script: ./create-image.sh
+  script: ./deploy.sh
   on:
     branch: master
   skip_cleanup: true
