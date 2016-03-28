@@ -8,8 +8,8 @@ before_script:
 
 script:
   - docker-compose build
-  - docker-compose run jekyll
-  - docker-compose run node
+  - docker-compose run --rm build-jekyll
+  - docker-compose run --rm build-node
 
 deploy:
   provider: script
