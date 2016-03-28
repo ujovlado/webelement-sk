@@ -1,0 +1,24 @@
+sudo: required
+
+services:
+  - docker
+
+before_script:
+  - docker-compose -v
+
+script:
+  - docker-compose build
+  - docker-compose run jekyll
+  - docker-compose run node
+
+deploy:
+  provider: script
+  script: ./create-image.sh
+  on:
+    branch: master
+  skip_cleanup: true
+
+cache:
+  directories:
+    - bower_components
+    - node_modules
