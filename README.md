@@ -1,12 +1,11 @@
-[WebElement](https://webelement.sk) - web developers meetup
-==========
+# WebElement
 
-WebElement is regular meetup for web developers. It takes place in Bratislava and Prešov.
+[![Build Status](https://travis-ci.org/webelement/webelement.sk.svg?branch=master)](https://travis-ci.org/webelement/webelement.sk)
+
+[WebElement](https://webelement.sk) is regular web developers meetup. It takes place in Bratislava and Prešov.
 
 Interested in meetup itself? Join group on [Meetup](https://www.meetup.com/webelement/)
 or [Facebook](https://facebook.com/groups/webelement).
-
-Also, feel free to [join the chat at Gitter](https://gitter.im/webelement/chat).
 
 ## Code
 
