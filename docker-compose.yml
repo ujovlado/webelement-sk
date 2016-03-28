@@ -1,5 +1,5 @@
 php:
-  build: docker/php
+  image: quay.io/webelement/php:latest
   tty: true
   stdin_open: true
   volumes:
