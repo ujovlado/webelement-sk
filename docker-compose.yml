@@ -1,3 +1,16 @@
+php:
+  build: docker/php
+  tty: true
+  stdin_open: true
+  volumes:
+    - ./:/code
+  working_dir: /code
+  command: >
+           sh -c '
+           composer install
+           && ./speakers.php
+           '
+
 node:
   image: quay.io/webelement/node:latest
   tty: true
