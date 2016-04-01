@@ -20,6 +20,7 @@ permalink: /praca/
     <p>
         {{ job.description }}
         {% if job.twitter %}<a href="">@{{ job.twitter }}</a>{% endif %}
+        &rarr; <a href="{{ job.link }}">{{ job.link }}</a>
     </p>
 </div>
 {% endfor %}
