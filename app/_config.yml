@@ -13,7 +13,6 @@ anchors:
   youtube: '<a href="https://www.youtube.com/channel/UC7ytCGu5KVT7yq5tSMSqHow" target="_blank">Youtube</a>'
   flickr: '<a href="https://www.flickr.com/groups/webelement" target="_blank">Flickr</a>'
   meetup: '<a href="https://www.meetup.com/webelement" target="_blank">Meetup</a>'
-  gitter: '<a href="https://gitter.im/webelement/chat" target="_blank">Gitter</a>'
 
 links:
   twitter: https://twitter.com/webelement
@@ -22,7 +21,6 @@ links:
   youtube: https://www.youtube.com/channel/UC7ytCGu5KVT7yq5tSMSqHow
   flickr: https://www.flickr.com/groups/webelement
   meetup: https://www.meetup.com/webelement
-  gitter: https://gitter.im/webelement/chat
 
 timezone: "Europe/Bratislava"
 
