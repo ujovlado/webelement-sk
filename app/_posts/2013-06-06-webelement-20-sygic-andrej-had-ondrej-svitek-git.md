@@ -18,7 +18,7 @@ redirect_from:
 
 {% include youtube.html id="UogF8pr4wkc" %}
 
-- {% include ext-link.html href="http://sc.webelement.sk/we20/andrej" %}
+- {% include ext-link.html href="https://slides.webelement.sk/we20/andrej" %}
 
 
 ## Hacking life with Git

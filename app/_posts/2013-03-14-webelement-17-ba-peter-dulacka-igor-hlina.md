@@ -23,4 +23,4 @@ Srigi prišiel predstaviť nástroje moderného developerského prostredia.
 
 Dozvedieť ste sa mohli o semantickom verzovaní a spomínaných nástrojoch.
 
-- {% include ext-link.html href="http://sc.webelement.sk/we17/srigi/" %}
+- {% include ext-link.html href="https://slides.webelement.sk/we17/srigi/" %}

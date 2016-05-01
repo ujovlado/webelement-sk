@@ -16,4 +16,4 @@ Podarilo sa nám akciu dôkladne zaznamenať, a tak si môžete pozrieť Live sl
 
 {% include youtube.html id="VowKrVa6o0k" %}
 
-- {% include ext-link.html href="http://sc.webelement.sk/we12" %}
+- {% include ext-link.html href="https://slides.webelement.sk/we12" %}
