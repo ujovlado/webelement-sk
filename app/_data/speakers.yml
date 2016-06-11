@@ -64,7 +64,7 @@
     twitter: igor_kamil
 -
     _id: jan-antala
-    about: 'JavaScript & Mobile, Innovation Engineer, Open Source contributor'
+    about: 'Innovation Engineer, Open Source contributor @pygmalios'
     events: [2013-12-05-webelement-25]
     image: /images/speakers/janantala-AFLmU1_8_normal.jpeg
     name: 'Ján Antala'
@@ -329,6 +329,13 @@
     image: /images/speakers/junckritter-ja_normal.jpeg
     name: 'Tomáš Sirný'
     twitter: junckritter
+-
+    _id: tomas-tegelhoff
+    about: 'working @qbsw , founder of @betaplayapp and @datagridapp , Apple TV enthusiast'
+    events: [2016-05-12-webelement-38]
+    image: /images/speakers/tegino-tegi_normal.jpg
+    name: 'Tomáš Tegelhoff'
+    twitter: tegino
 -
     _id: vladimir-kriska
     about: "programmer, geek, blogger, speaker;\r\nLinux, CSS & typography lover;\r\n@webelement meetup, @rekurzia"
