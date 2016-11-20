@@ -9,6 +9,16 @@ or [Facebook](https://facebook.com/groups/webelement).
 
 If you find any issue, please report it.
 
+## Development
+
+Site is built using Jekyll.
+
+To start, install Docker Engine and run:
+
+```console
+./run.sh
+```
+
 ## License
 
 - MIT. See LICENSE file.

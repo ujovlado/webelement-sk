@@ -6,3 +6,7 @@
 /vendor
 /twitter-secrets.php
 .jekyll-metadata
+/.sass-cache
+/app/font
+/app/css/fontello.css
+/app/_sass
