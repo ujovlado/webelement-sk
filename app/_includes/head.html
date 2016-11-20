@@ -4,6 +4,7 @@
 {% else %}
 {% assign pageDesc = page.title %}
 {% endif %}
+{% assign cssVersion = site.time | date: "v%Y%m%d-%H%M%S" %}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,6 +31,7 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css?" | append: cssVersion | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/fontello.css?" | append: cssVersion | prepend: site.baseurl }}">
   {% include analytics.html %}
 </head>
