@@ -6,12 +6,11 @@ services:
   - docker
 
 before_script:
+  - docker -v
   - docker-compose -v
 
 script:
-  - docker-compose build
-  - docker-compose run --rm jekyll
-  - docker-compose run --rm node
+  - ./build.sh
 
 deploy:
   provider: script

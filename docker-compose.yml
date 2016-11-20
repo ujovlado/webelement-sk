@@ -40,3 +40,7 @@ services:
     ports:
       - "4000:4000"
     command: sh -c 'JEKYLL_ENV=production jekyll build -s ./app'
+
+  app:
+    build: .
+    image: webelement/web
