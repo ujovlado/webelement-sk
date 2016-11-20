@@ -37,7 +37,7 @@
 -
     _id: frantisek-trusa
     about: 'Freelancer / Drupal Developer'
-    events: [2015-09-08-webelement-15-presov]
+    events: [2016-11-07-webelement-26-presov, 2015-09-08-webelement-15-presov]
     image: /images/speakers/trafo-head_in_clouds_normal.jpg
     name: 'František Trusa'
     twitter: trafo
@@ -79,7 +79,7 @@
 -
     _id: jergus-lejko
     about: ''
-    events: [2015-02-10-webelement-10-presov, 2016-02-09-webelement-20-presov]
+    events: [2016-09-12-webelement-24-presov, 2015-02-10-webelement-10-presov, 2016-02-09-webelement-20-presov]
     image: null
     name: 'Jerguš Lejko'
     twitter: null
@@ -87,7 +87,7 @@
 -
     _id: jozef-verbovsky
     about: 'Online marketing specialist at VSE/RWE'
-    events: [2014-10-23-webelement-8-presov, 2014-01-10-webelement-3-presov]
+    events: [2016-11-07-webelement-26-presov, 2014-10-23-webelement-8-presov, 2014-01-10-webelement-3-presov]
     image: /images/speakers/JozefVerbovsky-3iiwhCKQ_normal.jpeg
     name: 'Jozef Verbovský'
     twitter: JozefVerbovsky
@@ -206,6 +206,10 @@
     image: /images/speakers/yangwao-83f7f811dc71f5dc1954ba0a2ec837e2_normal.jpeg
     name: 'Matej Nemček'
     twitter: yangwao
+-
+    _id: matej-stetiar
+    events: [2016-10-11-webelement-25-presov.md]
+    name: 'Matej Štetiar'
 -
     _id: matus-duchon
     about: ''
