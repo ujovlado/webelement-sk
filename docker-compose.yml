@@ -1,41 +1,45 @@
-php:
-  image: quay.io/webelement/php:latest
-  tty: true
-  stdin_open: true
-  volumes:
-    - ./:/code
-  working_dir: /code
-  command: >
-           sh -c '
-           composer install
-           && ./speakers.php
-           '
+version: "2"
 
-build-node:
-  image: quay.io/webelement/node:latest
-  tty: true
-  stdin_open: true
-  volumes:
-    - ./:/code
-  working_dir: /code
-  command: >
-           sh -c '
-           bower install --allow-root
-           && npm set progress=false
-           && npm install -q
-           && gulp copy-app-images
-           && gulp css
-           && gulp fonts
-           && gulp copy-site-files
-           && gulp copy-site-html-and-minify
-           && gulp revreplace
-           '
+services:
 
-build-jekyll:
-  image: quay.io/webelement/jekyll:latest
-  tty: true
-  stdin_open: true
-  volumes:
-    - ./:/code
-  working_dir: /code
-  command: sh -c 'JEKYLL_ENV=production jekyll build -s ./app'
+  php:
+    image: quay.io/webelement/php:latest
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./:/code
+    working_dir: /code
+    command: >
+             sh -c '
+             composer install
+             && ./speakers.php
+             '
+
+  build-node:
+    image: quay.io/webelement/node:latest
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./:/code
+    working_dir: /code
+    command: >
+             sh -c '
+             bower install --allow-root
+             && npm set progress=false
+             && npm install -q
+             && gulp copy-app-images
+             && gulp css
+             && gulp fonts
+             && gulp copy-site-files
+             && gulp copy-site-html-and-minify
+             && gulp revreplace
+             '
+
+  build-jekyll:
+    image: quay.io/webelement/jekyll:latest
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./:/code
+    working_dir: /code
+    command: sh -c 'JEKYLL_ENV=production jekyll build -s ./app'
