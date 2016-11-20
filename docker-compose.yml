@@ -15,7 +15,7 @@ services:
              && ./speakers.php
              '
 
-  build-node:
+  node:
     image: quay.io/webelement/node:latest
     tty: true
     stdin_open: true
@@ -35,7 +35,7 @@ services:
              && gulp revreplace
              '
 
-  build-jekyll:
+  jekyll:
     image: quay.io/webelement/jekyll:latest
     tty: true
     stdin_open: true
