@@ -44,3 +44,9 @@ services:
   app:
     build: .
     image: webelement/web
+
+  aws:
+    image: quay.io/rekurzia/aws-cli-docker
+    volumes:
+      - ./:/code
+    working_dir: /code
