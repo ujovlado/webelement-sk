@@ -3,7 +3,9 @@
     <li><a href="{{ '/event' | prepend: site.baseurl }}">Prednášky</a></li>
     <li><a href="{{ '/recnici' | prepend: site.baseurl }}">Rečníci</a></li>
     <li><a href="{{ '/pod-prednasat' | prepend: site.baseurl  }}">Poď&nbsp;prednášať!</a></li>
-    <li><a href="{{ '/praca' | prepend: site.baseurl }}">Práca{% if site.data.jobs %}&nbsp;({{ site.data.jobs | size }}){% endif %}</a></li>
+{% if site.data.jobs %}
+    <li><a href="{{ '/praca' | prepend: site.baseurl }}">Práca&nbsp;({{ site.data.jobs | size }})</a></li>
+{% endif %}
     <li><a href="{{ '/podobne-stretnutia' | prepend: site.baseurl }}">Podobné&nbsp;stretnutia</a></li>
     <li><a href="{{ '/feed/rss' | prepend: site.baseurl }}">RSS</a></li>
 </ul>
