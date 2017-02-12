@@ -1,6 +1,6 @@
 # WebElement
 
-[![Build Status](https://travis-ci.org/webelement/webelement.sk.svg?branch=master)](https://travis-ci.org/webelement/webelement.sk)
+[![Build Status](https://travis-ci.org/webelement/webelement-web.svg?branch=master)](https://travis-ci.org/webelement/webelement-web)
 
 [WebElement](https://webelement.sk) is regular web developers meetup. It takes place in Bratislava and Prešov.
 
