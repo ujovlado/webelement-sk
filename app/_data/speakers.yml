@@ -66,7 +66,7 @@
     _id: jan-antala
     about: 'Innovation Engineer, Open Source contributor, Demiurge and Head of Technology @pygmalios'
     events: [2013-12-05-webelement-25]
-    image: /images/speakers/janantala-AFLmU1_8_normal.jpeg
+    image: /images/speakers/janantala-zIVpQs2H_normal.jpg
     name: 'Ján Antala'
     twitter: janantala
 -
@@ -156,6 +156,13 @@
     name: 'Marián Rusnák'
     twitter: MarianRusnak
 -
+    _id: martin-hochel
+    about: 'jedi knight, @ngPartyCz meetup founder ,speaker, snow, skate, wake, surf addict. writting #react, #preact, #webcomponents, #angular, #js, #typescript'
+    events: [2016-12-08-webelement-39]
+    image: /images/speakers/martin_hotell-180446_1595567813812_1374451847_31458096_4888846_n_normal.jpg
+    name: 'Martin Hochel'
+    twitter: martin_hotell
+-
     _id: martin-krupa
     about: 'internet, web, ecommerce, usability, UX, UCD, IA, CMS, startup'
     events: [2014-04-17-webelement-5-presov]
@@ -179,7 +186,7 @@
     url: null
 -
     _id: martin-sustrik
-    about: 'Creator of ZeroMQ (<a href="http://zeromq.org" target="_blank">zeromq.org</a>), nanomsg (<a href="http://nanomsg.org" target="_blank">nanomsg.org</a>), libmill (<a href="http://libmill.org" target="_blank">libmill.org</a>) and Ribosome (<a href="http://ribosome.ch" target="_blank">ribosome.ch</a>).'
+    about: 'Creator of ZeroMQ (<a href="http://zeromq.org" target="_blank">zeromq.org</a>), nanomsg (<a href="http://nanomsg.org" target="_blank">nanomsg.org</a>), libdill (<a href="http://libdill.org" target="_blank">libdill.org</a>) and Ribosome (<a href="http://ribosome.ch" target="_blank">ribosome.ch</a>).'
     events: [2014-06-19-webelement-29]
     image: /images/speakers/sustrik-sustrik_normal.png
     name: 'Martin Sústrik'
@@ -201,7 +208,7 @@
     twitter: matejlukac
 -
     _id: matej-nemcek
-    about: 'devops.js @AktivioCRM, autodidact webdev, hackerspace @Progressbarsk, B1tc0in-lov3r, cypherpunk, psychotronic'
+    about: "★ backend.js @saferpass\n★ hackerspace @Progressbarsk\n B1tc0in-lov3r ∆ cypherpunk ±  ¶sychotronic\n🏄 amateur kitesurfer"
     events: [2013-10-17-webelement-24, 2013-07-11-webelement-21-bratislava-matej-nemcek-d3-js-peter-sirka-partial-js]
     image: /images/speakers/yangwao-83f7f811dc71f5dc1954ba0a2ec837e2_normal.jpeg
     name: 'Matej Nemček'
@@ -271,14 +278,14 @@
     url: null
 -
     _id: peter-dendis
-    about: 'I believe that the world can be a better place through technology that solve problems. I am part of @tarantulask @slovak_startup #startup #technology #education'
+    about: 'I believe that the World can be a better place through technology that solves problems.  @DECENTplatform @slovak_startup #startup #technology #blockchain'
     events: [2015-10-06-webelement-16-presov]
     image: /images/speakers/peterdendis-Rt_W-dL3_normal.jpg
     name: 'Peter Dendis'
     twitter: peterdendis
 -
     _id: peter-dulacka
-    about: 'Golang, Ruby and PHP developer • tech enthusiast • cinemaniac'
+    about: 'Golang, PHP and Ruby developer • tech enthusiast • cinemaniac'
     events: [2015-10-08-webelement-35, 2015-02-11-webelement-31, 2013-03-14-webelement-17-ba-peter-dulacka-igor-hlina]
     image: /images/speakers/rootpd-scr_normal.png
     name: 'Peter Dulačka'
@@ -340,6 +347,13 @@
     image: /images/speakers/tegino-tegi_normal.jpg
     name: 'Tomáš Tegelhoff'
     twitter: tegino
+-
+    _id: viliam-elischer
+    about: 'I write code <a href="https://github.com/vire" target="_blank">github.com/vire</a> and love outdoor <a href="https://www.flickr.com/photos/vireliam" target="_blank">flickr.com/photos/vireliam</a>'
+    events: [2016-12-08-webelement-39]
+    image: /images/speakers/vireliam-1Nc82LuY_normal.jpeg
+    name: 'Viliam Elischer'
+    twitter: vireliam
 -
     _id: vladimir-kriska
     about: "brogrammer, geek, blogger, speaker;\r\nLinux, CSS & typography lover;\r\n@keboola, @webelement and @rekurzia"
