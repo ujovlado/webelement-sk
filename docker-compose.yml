@@ -41,10 +41,8 @@ services:
       - "4000:4000"
     command: sh -c 'JEKYLL_ENV=production jekyll build -s ./app'
 
-  app:
-    build: .
-    image: webelement/webelement-web
-    ports:
-      - "4001:80"
+  aws:
+    image: quay.io/rekurzia/aws-cli-docker
     volumes:
-      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./:/code
+    working_dir: /code

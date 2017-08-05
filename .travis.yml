@@ -11,7 +11,6 @@ before_script:
 
 script:
   - ./build.sh
-  - docker run --rm webelement/webelement-web nginx -t
 
 deploy:
   provider: script
