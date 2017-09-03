@@ -16,21 +16,16 @@ redirect_from:
 
 <p>Tento web vznikol spolu so stretnutím WebElement a primárne slúži ako úložisko odprezentovaných tém.</p>
 
-<p>Nápady na vylepšenia alebo nájdené chyby môžete hlásiť:</p>
+<p class="text-center">
+    Nápady na vylepšenia alebo nájdené chyby môžete hlásiť cez
+    <a href="https://github.com/webelement/webelement.sk/issues/new" target="_blank">Github.</a>
+</p>
 
-<ul>
-  <li>
-    <a href="mailto:{{ site.email }}">e-mailom</a>
-    alebo tweetom na <a href="{{ site.links.twitter }}" target="_blank">@webelement</a>
-  </li>
-  <li>
-    prípadne vytvorením issue cez <a href="https://github.com/webelement/webelement.sk/issues/new" target="_blank">Github</a>
-  </li>
-</ul>
-
-<p>
-Ak nás chcete podporiť alebo
-<a href="https://gist.github.com/ujovlado/84a4634c7efb2bdc47bd">zverejniť pracovnú ponuku</a>, píšte na e-mail.
+<p class="text-center">
+    Ak vás zaujíma niečo iné, skúste <a href="{{ site.links.twitter }}" target="_blank">Twitter</a>
+    alebo <a href="https://www.google.com/recaptcha/mailhide/d?k=010oT_m-KaM1cds2YHMXfU2Q==&amp;c=bVh0aVWQNghN7WkcbyMWhS0PV7cNlA2DromPm62fmck="
+             onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d010oT_m-KaM1cds2YHMXfU2Q\x3d\x3d\x26c\x3dbVh0aVWQNghN7WkcbyMWhS0PV7cNlA2DromPm62fmck\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+             title="Zobraziť email">email.</a>
 </p>
 
 </div>
