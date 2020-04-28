@@ -25,5 +25,8 @@
     "sprite": "gulp create-speakers-sprite",
     "cp-resources": "cp -R fontello/build/font/ app/ && cp -R node_modules/bootstrap-sass/assets/stylesheets/ app/_sass && cp fontello/build/css/fontello.css app/css/",
     "build": "yarn run sprite && yarn run cp-resources"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
