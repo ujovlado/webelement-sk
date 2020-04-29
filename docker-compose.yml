@@ -23,6 +23,7 @@ services:
     tty: true
     volumes:
       - ./:/code
+      - ./.bundle:/usr/local/bundle
     working_dir: /code
     ports:
       - "4000:4000"
