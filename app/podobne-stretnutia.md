@@ -77,7 +77,7 @@ class: similar-meetups
 
 <p>
 Robíš programátorské stretnutia a nie si v zozname?
-<a href="https://github.com/webelement/webelement.sk/blob/master/podobne-stretnutia.md">Pridaj sa!</a>
+<a href="https://github.com/ujovlado/webelement-sk/blob/master/podobne-stretnutia.md">Pridaj sa!</a>
 </p>
 
 </div>

@@ -1,25 +1,9 @@
-sudo: required
-
 language: bash
 
 services:
   - docker
 
-before_script:
-  - docker -v
-  - docker-compose -v
-
 script:
-  - ./build.sh
-
-deploy:
-  provider: script
-  script: ./deploy.sh
-  on:
-    branch: master
-  skip_cleanup: true
-
-cache:
-  directories:
-    - bower_components
-    - node_modules
+  - docker-compose run --rm node sh -c 'yarn && yarn build'
+  - docker-compose run --rm ruby sh -c 'bundle install && jekyll build -s ./app -d _build'
+  - ls -1 _build

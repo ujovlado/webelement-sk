@@ -18,7 +18,7 @@ redirect_from:
 
 <p class="text-center">
     Nápady na vylepšenia alebo nájdené chyby môžete hlásiť cez
-    <a href="https://github.com/webelement/webelement.sk/issues/new" target="_blank">Github.</a>
+    <a href="https://github.com/ujovlado/webelement-sk/issues/new" target="_blank">Github.</a>
 </p>
 
 <p class="text-center">

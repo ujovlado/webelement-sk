@@ -1,6 +1,6 @@
 # WebElement
 
-[![Build Status](https://travis-ci.org/webelement/webelement-web.svg?branch=master)](https://travis-ci.org/webelement/webelement-web)
+[![Build Status](https://travis-ci.com/ujovlado/webelement-sk.svg?branch=master)](https://travis-ci.com/ujovlado/webelement-sk)
 
 [WebElement](https://webelement.sk) is regular web developers meetup. It takes place in Bratislava and Prešov.
 
@@ -13,13 +13,9 @@ If you find any issue, please report it.
 
 Site is built using Jekyll.
 
-To start, install Docker Engine and run:
+Install Docker and Docker Compose and then run:
 
 ```console
-./run.sh
+docker-compose run --rm node sh -c 'yarn && yarn build'
+docker-compose run --rm --service-ports ruby sh -c 'bundle install && jekyll serve -s ./app --watch -H 0.0.0.0'
 ```
-
-## License
-
-- MIT. See LICENSE file.
-- Slides content and descriptions are owned by speakers (or their creators).
