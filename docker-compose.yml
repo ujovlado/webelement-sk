@@ -1,48 +1,34 @@
-version: "2"
+version: "3"
 
 services:
 
   php:
-    image: quay.io/webelement/php:latest
+    image: php:7.4
     tty: true
-    stdin_open: true
     volumes:
       - ./:/code
     working_dir: /code
-    command: >
-             sh -c '
-             composer install
-             && ./speakers.php
-             '
+    command: bash
 
   node:
-    image: quay.io/webelement/node:latest
+    image: node:10
     tty: true
-    stdin_open: true
     volumes:
       - ./:/code
     working_dir: /code
-    command: >
-             sh -c '
-             bower install --allow-root
-             && npm set progress=false
-             && npm install -q
-             && gulp create-speakers-sprite
-             '
+    command: bash
 
-  jekyll:
-    image: quay.io/webelement/jekyll:latest
+  ruby:
+    image: ruby:2.7
     tty: true
-    stdin_open: true
     volumes:
       - ./:/code
     working_dir: /code
+    command: bash
+
+  httpd:
+    image: httpd:2.4
+    volumes:
+      - ./_build:/usr/local/apache2/htdocs/
     ports:
-      - "4000:4000"
-    command: sh -c 'JEKYLL_ENV=production jekyll build -s ./app'
-
-  aws:
-    image: quay.io/rekurzia/aws-cli-docker
-    volumes:
-      - ./:/code
-    working_dir: /code
+      - "8080:80"
