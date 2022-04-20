@@ -21,5 +21,10 @@ redirect_from:
     <a href="https://github.com/ujovlado/webelement-sk/issues/new" target="_blank">Github.</a>
 </p>
 
+<p class="text-center">
+    Ak vás zaujíma niečo iné, skúste <a href="{{ site.links.twitter }}" target="_blank">Twitter</a>
+    alebo email kontakt(zavináč)webelement(bodka)sk
+</p>
+
 </div>
 </div>
