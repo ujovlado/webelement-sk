@@ -22,8 +22,7 @@ redirect_from:
 </p>
 
 <p class="text-center">
-    Ak vás zaujíma niečo iné, skúste <a href="{{ site.links.twitter }}" target="_blank">Twitter</a>
-    alebo email kontakt(zavináč)webelement(bodka)sk
+    Ak vás zaujíma niečo iné, skúste <a href="{{ site.links.twitter }}" target="_blank">Twitter</a>.
 </p>
 
 </div>
