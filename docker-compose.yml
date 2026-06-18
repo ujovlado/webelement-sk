@@ -1,7 +1,6 @@
 version: "3"
 
 services:
-
   php:
     image: php:7.4
     tty: true
@@ -11,7 +10,7 @@ services:
     command: bash
 
   node:
-    image: node:10
+    image: node:14
     tty: true
     volumes:
       - ./:/code

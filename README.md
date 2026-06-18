@@ -16,6 +16,21 @@ Site is built using Jekyll.
 Install Docker and Docker Compose and then run:
 
 ```console
-docker-compose run --rm node sh -c 'yarn && yarn build'
-docker-compose run --rm --service-ports ruby sh -c 'bundle install && jekyll serve -s ./app --watch -H 0.0.0.0'
+docker compose run --rm node sh -c 'yarn && yarn build'
+docker compose run --rm --service-ports ruby sh -c 'bundle install && jekyll serve -s ./app --watch -H 0.0.0.0'
 ```
+
+## Build and check output
+
+```console
+docker compose run --rm node sh -c 'yarn && yarn build'
+docker compose run --rm ruby sh -c 'bundle install && jekyll build -s ./app -d _build'
+docker compose run --rm --service-ports httpd
+```
+
+## Vercel
+
+Does not work now.
+
+- Build for Vercel: `yarn run build && jekyll build -s ./app -d _build`
+- Output dir: `_build`
