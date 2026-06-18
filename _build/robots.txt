@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /images/ad/
+Disallow: /images/grid.png
+
+Sitemap: https://webelement.sk/sitemap.xml

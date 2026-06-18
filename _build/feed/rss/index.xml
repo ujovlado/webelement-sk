@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WebElement</title>
+    <description>Stretnutie web developerov v Bratislave a Prešove, prednášky, prezentácie</description>
+    <link>https://webelement.sk/</link>
+    <atom:link href="https://webelement.sk/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 18 Jun 2026 12:38:04 +0200</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2026 12:38:04 +0200</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+    
+      <item>
+        <title>WebElement #39: Martin Hochel - Angular 1 with ngMetadata; Viliam Elischer - R^3 aka Benefits of RxJS in a React/Redux application</title>
+        <description>&lt;h2 id=&quot;martin-hochel---angular-1-with-ngmetadata&quot;&gt;Martin Hochel - Angular 1 with ngMetadata&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/sgSjd3l6uKc?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/open?id=0B2KT6SRe8z5peDRsUE9PZXh4MTQ&quot; target=&quot;_blank&quot;&gt;https://drive.google.com/open?id=0B2KT6…&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Github repozitár &lt;code&gt;ng-metadata&lt;/code&gt;: &lt;a href=&quot;https://github.com/ngParty/ng-metadata&quot; target=&quot;_blank&quot;&gt;https://github.com/ngParty/ng-metadata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;viliam-elischer---r3-aka-benefits-of-rxjs-in-a-reactredux-application&quot;&gt;Viliam Elischer - R^3 aka Benefits of RxJS in a React/Redux application&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/u12JFIbFm0s?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/open?id=0B2KT6SRe8z5peDRsUE9PZXh4MTQ&quot; target=&quot;_blank&quot;&gt;https://drive.google.com/open?id=0B2KT6…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 08 Dec 2016 00:00:00 +0100</pubDate>
+        <link>https://webelement.sk/event/webelement-39/</link>
+        <guid isPermaLink="true">https://webelement.sk/event/webelement-39/</guid>
+        
+        
+      </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <item>
+        <title>WebElement #38: Tomáš Tegelhoff - Swift Server-side</title>
+        <description>&lt;h2 id=&quot;tom-tegelhoff---swift-server-side&quot;&gt;Tomáš Tegelhoff - Swift Server-side&lt;/h2&gt;
+
+&lt;p&gt;Swift is a general-purpose, multi-paradigm, compiled programming language created for iOS,
+OS X, watchOS, tvOS and Linux. We will talk about how is Swift used on Server-side using
+frameworks such as Perfect.orq or IBM Kitura.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 May 2016 00:00:00 +0200</pubDate>
+        <link>https://webelement.sk/event/webelement-38/</link>
+        <guid isPermaLink="true">https://webelement.sk/event/webelement-38/</guid>
+        
+        
+      </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <item>
+        <title>WebElement #37: Martin Strýček - Lambda architecture applied at Exponea; Tomáš Sirný - Spark for web developers</title>
+        <description>&lt;h2 id=&quot;martin-strek---lambda-architecture-applied-at-exponea&quot;&gt;Martin Strýček - Lambda architecture applied at Exponea&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/qLVTmOGw7To?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/MartinStrycek/architecture-applied-at-exponea&quot; target=&quot;_blank&quot;&gt;http://www.slideshare.net/MartinStrycek…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tom-sirn---spark-for-web-developers&quot;&gt;Tomáš Sirný - Spark for web developers&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/5a7HRP9VTYg?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/0B2QLNr9u3YPUNEV5Z2hnVEZnOVk/view&quot; target=&quot;_blank&quot;&gt;https://drive.google.com/file/d/0B2QLNr…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 10 Mar 2016 00:00:00 +0100</pubDate>
+        <link>https://webelement.sk/event/webelement-37/</link>
+        <guid isPermaLink="true">https://webelement.sk/event/webelement-37/</guid>
+        
+        
+      </item>
+    
+    
+    
+      <item>
+        <title>WebElement #36: Igor Hlina - Dokku; Adam Štipák - Docker Compose; Matej Čapkovič- Kubernetes</title>
+        <description>&lt;h2 id=&quot;igor-hlina---dokku&quot;&gt;Igor Hlina - Dokku&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/IxkppcEaSmA?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://presentations.srigi.sk/webelement16.02/&quot; target=&quot;_blank&quot;&gt;http://presentations.srigi.sk/webelemen…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;adam-tipk---docker-compose&quot;&gt;Adam Štipák - Docker Compose&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/kxFqLBl7Pww?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/AdamStipak/from-docker-run-to-docker-compose-webelement-36&quot; target=&quot;_blank&quot;&gt;http://www.slideshare.net/AdamStipak/fr…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;matej-apkovi---kubernetes&quot;&gt;Matej Čapkovič - Kubernetes&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/YHcphlsOgS0?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1GeGoU3A_8W2XHj4kb-mg59c6bx1pZ9wrFRGjieCG8TA&quot; target=&quot;_blank&quot;&gt;https://docs.google.com/presentation/d/…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 11 Feb 2016 00:00:00 +0100</pubDate>
+        <link>https://webelement.sk/event/webelement-36/</link>
+        <guid isPermaLink="true">https://webelement.sk/event/webelement-36/</guid>
+        
+        
+      </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <item>
+        <title>WebElement #35: Peter Dulačka - Testovanie (nielen) v PHP; Vladimír Kriška - CSS Flexbox</title>
+        <description>&lt;h2 id=&quot;peter-dulaka---testovanie-nielen-v-php&quot;&gt;Peter Dulačka - Testovanie (nielen) v PHP&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/BYTT_-5_cDQ?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;live slajdy nájdete na &lt;a href=&quot;http://testing.rootpd.com&quot; target=&quot;_blank&quot;&gt;http://testing.rootpd.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;vladimr-krika---css-flexbox&quot;&gt;Vladimír Kriška - CSS Flexbox&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/x1z3VAyI36w?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://speakerdeck.com/ujovlado/css-flexbox-webelement-number-35&quot; target=&quot;_blank&quot;&gt;https://speakerdeck.com/ujovlado/css-fl…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 08 Oct 2015 00:00:00 +0200</pubDate>
+        <link>https://webelement.sk/event/webelement-35/</link>
+        <guid isPermaLink="true">https://webelement.sk/event/webelement-35/</guid>
+        
+        
+      </item>
+    
+    
+    
+      <item>
+        <title>WebElement #16 Prešov: Peter Dendis - Ako na Crowdfunding; Kristína Šebejová - Ta Take Town</title>
+        <description>&lt;p&gt;Peter Dendis - Ako na Crowdfunding&lt;/p&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/QNLv7NCFVhM?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 06 Oct 2015 00:00:00 +0200</pubDate>
+        <link>https://webelement.sk/event/webelement-16-presov/</link>
+        <guid isPermaLink="true">https://webelement.sk/event/webelement-16-presov/</guid>
+        
+        
+      </item>
+    
+    
+    
+    
+    
+      <item>
+        <title>WebElement Banská Bystrica: Igor Hlina - ESLint; Adam Štipák - Improve your workflow; Vladimír Kriška - Simplify your dev life with Docker</title>
+        <description>&lt;h2 id=&quot;igor-hlina---eslint&quot;&gt;Igor Hlina - ESLint&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/_IJuJgIGnoQ?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1yJJx5aapnPpclR3TaGXc2pKzJWA5Irs85b5zUQ62BjU&quot; target=&quot;_blank&quot;&gt;https://docs.google.com/presentation/d/…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;adam-tipk---improve-your-workflow&quot;&gt;Adam Štipák - Improve your workflow&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/bGmp-KiZXm4?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/AdamStipak/improve-your-workflow&quot; target=&quot;_blank&quot;&gt;http://www.slideshare.net/AdamStipak/im…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;vladimr-krika---simplify-your-dev-life-with-docker&quot;&gt;Vladimír Kriška - Simplify your dev life with Docker&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/11NzLT18jWY?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://speakerdeck.com/ujovlado/simplify-your-dev-life-with-docker-webelement-banska-bystrica&quot; target=&quot;_blank&quot;&gt;https://speakerdeck.com/ujovlado/simpli…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 20 Aug 2015 00:00:00 +0200</pubDate>
+        <link>https://webelement.sk/event/webelement-bb/</link>
+        <guid isPermaLink="true">https://webelement.sk/event/webelement-bb/</guid>
+        
+        
+      </item>
+    
+    
+    
+    
+    
+      <item>
+        <title>WebElement #34 @ VisualDNA CEE: Michal Maxo Maxian - Ansible, Dávid Ďurika - MereorJS, Vladimír Kriška - Docker (lightning talk)</title>
+        <description>&lt;h2 id=&quot;michal-maxian---ansible&quot;&gt;Michal Maxian - Ansible&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/Bbm9K0hgJDw?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/maxian1/ansible-webelement-2015&quot; target=&quot;_blank&quot;&gt;http://www.slideshare.net/maxian1/ansib…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dvid-urika---meteorjs&quot;&gt;Dávid Ďurika - MeteorJS&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/5bpXKV0aNs8?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1vrc-QlpjWvfGMqFs6vWI2xEcbypA8EzSoKiN7HmeVOE&quot; target=&quot;_blank&quot;&gt;https://docs.google.com/presentation/d/…&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;vladimr-krika---docker-lightning-talk&quot;&gt;Vladimír Kriška - Docker (lightning talk)&lt;/h2&gt;
+
+&lt;div class=&quot;embed&quot;&gt;
+    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+        &lt;iframe class=&quot;embed-responsive-item&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/hrPUlg-t47g?rel=0&quot;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 14 May 2015 00:00:00 +0200</pubDate>
+        <link>https://webelement.sk/event/webelement-34/</link>
+        <guid isPermaLink="true">https://webelement.sk/event/webelement-34/</guid>
+        
+        
+      </item>
+    
+    
+  </channel>
+</rss>
