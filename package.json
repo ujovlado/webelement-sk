@@ -16,6 +16,6 @@
     "build": "yarn run sprite && yarn run cp-resources"
   },
   "engines": {
-    "node": "14.x"
+    "node": "22.x"
   }
 }
